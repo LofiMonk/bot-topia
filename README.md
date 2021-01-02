@@ -1,1 +1,1 @@
-This is an addon for Minecraft Bedrock.
+This is an addon for Minecraft Bedrock... more to come
