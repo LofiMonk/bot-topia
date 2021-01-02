@@ -1,0 +1,111 @@
+//bridge-file-version: #35
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "lfm:bot_crafter",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:shulker"
+		},
+		"component_groups": {
+			"trade": {
+				"minecraft:trade_table": {
+					"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+					"new_screen": true,
+					"table": "trading/bot_crafter.json"
+				},
+				"minecraft:persistent": {}
+			},
+			"do_despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"bot_crafter",
+					"inanimate"
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:behavior.trade_with_player": {},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/bot_crafter.json"
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"hurt_item": 0,
+						"interact_text": "Pick Up",
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "is_sneaking",
+										"subject": "player"
+									}
+								]
+							},
+							"event": "lfm:do_despawn",
+							"target": "self"
+						},
+						"play_sounds": "pop",
+						"swing": true,
+						"use_item": false,
+						"spawn_items": {
+							"table": "loot_tables/entities/bot_crafter.json"
+						}
+					}
+				]
+			},
+			"minecraft:ambient_sound_interval": {
+				"range": 45,
+				"value": 20
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"trade"
+					]
+				}
+			},
+			"lfm:do_despawn": {
+				"sequence": [
+					{
+						"remove": {
+							"component_groups": [
+								"trade"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"do_despawn"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "lfm:redstone_flake"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:foil": true,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "normal",
+				"can_always_eat": true
+			}
+		}
+	}
+}

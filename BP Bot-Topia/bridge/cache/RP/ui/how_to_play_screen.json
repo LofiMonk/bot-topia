@@ -1,0 +1,6353 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\ui\\how_to_play_screen.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "251b2247_d566_4e77_a9de_96ef7c4f422b",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "how_to_play",
+				"key": "namespace"
+			},
+			{
+				"key": "how_to_play_screen@how_to_play_common.screen_base",
+				"is_minified": true,
+				"children": {
+					"$selector_stack_panel": "how_to_play.selector_stack_panel",
+					"$section_content_panels": "how_to_play.section_content_panels",
+					"$header_safezone_control": "common_store.store_top_bar_filler",
+					"$header_bar_control": "common_store.store_top_bar",
+					"$is_full_screen_layout": true
+				}
+			},
+			{
+				"open": {
+					"namespace": "how_to_play",
+					"how_to_play_screen@how_to_play_common.screen_base": {
+						"$selector_stack_panel": "how_to_play.selector_stack_panel",
+						"$section_content_panels": "how_to_play.section_content_panels",
+						"$header_safezone_control": "common_store.store_top_bar_filler",
+						"$header_bar_control": "common_store.store_top_bar",
+						"$is_full_screen_layout": true
+					},
+					"selector_stack_panel": {
+						"type": "stack_panel",
+						"anchor_from": "top_left",
+						"anchor_to": "top_left",
+						"orientation": "vertical",
+						"$default_selector_toggle_index": 2,
+						"controls": [
+							{
+								"how_to_play_selector_pane": {
+									"type": "stack_panel",
+									"controls": [
+										{
+											"padding_0": {
+												"type": "panel",
+												"size": [
+													0,
+													6
+												]
+											}
+										},
+										{
+											"welcome_category@how_to_play_common.topic_category": {
+												"$category": "bot-topia"
+											}
+										},
+										{
+											"welcome_button@how_to_play.welcome_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+												"$toggle_group_forced_index": 1
+											}
+										},
+										{
+											"padding_1@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										},
+										{
+											"gettingStarted_category@how_to_play_common.topic_category": {
+												"$category": "gettingStarted"
+											}
+										},
+										{
+											"botCrafter_button@how_to_play.botCrafter_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"bot_button@how_to_play.bot_button": {
+												"$toggle_group_forced_index": 1
+											}
+										},
+										{
+											"botChip_button@how_to_play.botChip_button": {
+												"$toggle_group_forced_index": 2
+											}
+										},
+										{
+											"botLegs_button@how_to_play.botLegs_button": {
+												"$toggle_group_forced_index": 3
+											}
+										},
+										{
+											"farmBot_button@how_to_play.farmBot_button": {
+												"$toggle_group_forced_index": 4
+											}
+										},
+										{
+											"harvestBot_button@how_to_play.harvestBot_button": {
+												"$toggle_group_forced_index": 5
+											}
+										},
+										{
+											"hopperBot_button@how_to_play.hopperBot_button": {
+												"$toggle_group_forced_index": 6
+											}
+										},
+										{
+											"guardBot_button@how_to_play.guardBot_button": {
+												"$toggle_group_forced_index": 7
+											}
+										},
+										{
+											"padding_2@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										},
+										{
+											"misc_category@how_to_play_common.topic_category": {
+												"$category": "misc"
+											}
+										},
+										{
+											"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"padding_3@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										},
+										{
+											"whatsNew_category@how_to_play_common.topic_category": {
+												"$category": "whatsNew"
+											}
+										}
+									]
+								}
+							}
+						]
+					},
+					"section_content_panels": {
+						"type": "stack_panel",
+						"anchor_from": "top_left",
+						"anchor_to": "top_left",
+						"size": [
+							"100% - 5px",
+							"100%c + 5px"
+						],
+						"offset": [
+							2,
+							0
+						],
+						"controls": [
+							{
+								"general_tips_sections": {
+									"type": "stack_panel",
+									"controls": [
+										{
+											"section_contents_header@how_to_play_common.section_contents_header": {}
+										},
+										{
+											"welcome_section@how_to_play.welcome_section": {}
+										},
+										{
+											"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+										},
+										{
+											"botCrafter_section@how_to_play.botCrafter_section": {}
+										},
+										{
+											"bot_section@how_to_play.bot_section": {}
+										},
+										{
+											"botChip_section@how_to_play.botChip_section": {}
+										},
+										{
+											"botLegs_section@how_to_play.botLegs_section": {}
+										},
+										{
+											"farmBot_section@how_to_play.farmBot_section": {}
+										},
+										{
+											"harvestBot_section@how_to_play.harvestBot_section": {}
+										},
+										{
+											"hopperBot_section@how_to_play.hopperBot_section": {}
+										},
+										{
+											"guardBot_section@how_to_play.guardBot_section": {}
+										},
+										{
+											"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+										},
+										{
+											"section_contents_footer@how_to_play_common.section_contents_footer": {}
+										}
+									]
+								}
+							}
+						]
+					},
+					"welcome_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "welcome"
+					},
+					"welcome_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "welcome_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "welcome.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcome.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/1"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcome.text01"
+								}
+							}
+						]
+					},
+					"welcomeTwo_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "welcomeTwo"
+					},
+					"welcomeTwo_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "welcomeTwo_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "welcomeTwo.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/2"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcomeTwo.text00"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcomeTwo.text01"
+								}
+							}
+						]
+					},
+					"botCrafter_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "botCrafter"
+					},
+					"botCrafter_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "botCrafter_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "botCrafter.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/3"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botCrafter.text00"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"image_1@how_to_play_common.image": {
+									"texture": "textures/help/4"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botCrafter.text01"
+								}
+							}
+						]
+					},
+					"bot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "bot"
+					},
+					"bot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "bot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "bot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text03"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/2"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"header_1@how_to_play_common.header": {
+									"$text": "bot.header.title01"
+								}
+							},
+							{
+								"padding_4@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_2@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text01"
+								}
+							},
+							{
+								"padding_5@how_to_play_common.padding": {}
+							},
+							{
+								"image_1@how_to_play_common.image": {
+									"texture": "textures/help/5"
+								}
+							},
+							{
+								"padding_6@how_to_play_common.padding": {}
+							},
+							{
+								"header_2@how_to_play_common.header": {
+									"$text": "bot.header.title02"
+								}
+							},
+							{
+								"padding_7@how_to_play_common.padding": {}
+							},
+							{
+								"image_2@how_to_play_common.image": {
+									"texture": "textures/help/6"
+								}
+							},
+							{
+								"padding_8@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_3@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text02"
+								}
+							}
+						]
+					},
+					"botChip_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "botChip"
+					},
+					"botChip_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "botChip_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "botChip.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/7"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"header_1@how_to_play_common.header": {
+									"$text": "botChip.header.title01"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text01"
+								}
+							},
+							{
+								"padding_4@how_to_play_common.padding": {}
+							},
+							{
+								"header_2@how_to_play_common.header": {
+									"$text": "botChip.header.title02"
+								}
+							},
+							{
+								"padding_5@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_3@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text02"
+								}
+							},
+							{
+								"padding_6@how_to_play_common.padding": {}
+							},
+							{
+								"header_3@how_to_play_common.header": {
+									"$text": "botChip.header.title03"
+								}
+							},
+							{
+								"padding_7@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_4@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text03"
+								}
+							},
+							{
+								"padding_8@how_to_play_common.padding": {}
+							},
+							{
+								"header_4@how_to_play_common.header": {
+									"$text": "botChip.header.title04"
+								}
+							},
+							{
+								"padding_9@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_5@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text04"
+								}
+							},
+							{
+								"padding_10@how_to_play_common.padding": {}
+							},
+							{
+								"header_5@how_to_play_common.header": {
+									"$text": "botChip.header.title05"
+								}
+							},
+							{
+								"padding_11@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_6@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text05"
+								}
+							}
+						]
+					},
+					"botLegs_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "botLegs"
+					},
+					"botLegs_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "botLegs_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "botLegs.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botLegs.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/8"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botLegs.text01"
+								}
+							}
+						]
+					},
+					"farmBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "farmBot"
+					},
+					"farmBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "farmBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "farmBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/9"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.farmBot.text00"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.farmBot.text01"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_2@how_to_play_common.paragraph": {
+									"$text": "bot_topia.farmBot.text02"
+								}
+							}
+						]
+					},
+					"harvestBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "harvestBot"
+					},
+					"harvestBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "harvestBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "harvestBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.harvestBot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/10"
+								}
+							}
+						]
+					},
+					"hopperBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "hopperBot"
+					},
+					"hopperBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "hopperBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "hopperBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.hopperBot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/11"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.hopperBot.text01"
+								}
+							}
+						]
+					},
+					"guardBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "guardBot"
+					},
+					"guardBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "guardBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "guardBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.guardBot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/12"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.guardBot.text01"
+								}
+							}
+						]
+					},
+					"redstoneFlake_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "redstoneFlake"
+					},
+					"redstoneFlake_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "redstoneFlake_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "redstoneFlake.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/13"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.redstoneFlake.text00"
+								}
+							}
+						]
+					}
+				},
+				"key": "selector_stack_panel",
+				"children": [
+					{
+						"data": "stack_panel",
+						"key": "type"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_from"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_to"
+					},
+					{
+						"data": "vertical",
+						"key": "orientation"
+					},
+					{
+						"data": "2",
+						"key": "$default_selector_toggle_index"
+					},
+					{
+						"open": {
+							"type": "stack_panel",
+							"anchor_from": "top_left",
+							"anchor_to": "top_left",
+							"orientation": "vertical",
+							"$default_selector_toggle_index": 2,
+							"controls": [
+								{
+									"how_to_play_selector_pane": {
+										"type": "stack_panel",
+										"controls": [
+											{
+												"padding_0": {
+													"type": "panel",
+													"size": [
+														0,
+														6
+													]
+												}
+											},
+											{
+												"welcome_category@how_to_play_common.topic_category": {
+													"$category": "bot-topia"
+												}
+											},
+											{
+												"welcome_button@how_to_play.welcome_button": {
+													"$toggle_group_forced_index": 0
+												}
+											},
+											{
+												"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+													"$toggle_group_forced_index": 1
+												}
+											},
+											{
+												"padding_1@how_to_play_common.padding": {
+													"size": [
+														0,
+														10
+													]
+												}
+											},
+											{
+												"gettingStarted_category@how_to_play_common.topic_category": {
+													"$category": "gettingStarted"
+												}
+											},
+											{
+												"botCrafter_button@how_to_play.botCrafter_button": {
+													"$toggle_group_forced_index": 0
+												}
+											},
+											{
+												"bot_button@how_to_play.bot_button": {
+													"$toggle_group_forced_index": 1
+												}
+											},
+											{
+												"botChip_button@how_to_play.botChip_button": {
+													"$toggle_group_forced_index": 2
+												}
+											},
+											{
+												"botLegs_button@how_to_play.botLegs_button": {
+													"$toggle_group_forced_index": 3
+												}
+											},
+											{
+												"farmBot_button@how_to_play.farmBot_button": {
+													"$toggle_group_forced_index": 4
+												}
+											},
+											{
+												"harvestBot_button@how_to_play.harvestBot_button": {
+													"$toggle_group_forced_index": 5
+												}
+											},
+											{
+												"hopperBot_button@how_to_play.hopperBot_button": {
+													"$toggle_group_forced_index": 6
+												}
+											},
+											{
+												"guardBot_button@how_to_play.guardBot_button": {
+													"$toggle_group_forced_index": 7
+												}
+											},
+											{
+												"padding_2@how_to_play_common.padding": {
+													"size": [
+														0,
+														10
+													]
+												}
+											},
+											{
+												"misc_category@how_to_play_common.topic_category": {
+													"$category": "misc"
+												}
+											},
+											{
+												"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+													"$toggle_group_forced_index": 0
+												}
+											},
+											{
+												"padding_3@how_to_play_common.padding": {
+													"size": [
+														0,
+														10
+													]
+												}
+											},
+											{
+												"whatsNew_category@how_to_play_common.topic_category": {
+													"$category": "whatsNew"
+												}
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"how_to_play_selector_pane": {
+											"type": "stack_panel",
+											"controls": [
+												{
+													"padding_0": {
+														"type": "panel",
+														"size": [
+															0,
+															6
+														]
+													}
+												},
+												{
+													"welcome_category@how_to_play_common.topic_category": {
+														"$category": "bot-topia"
+													}
+												},
+												{
+													"welcome_button@how_to_play.welcome_button": {
+														"$toggle_group_forced_index": 0
+													}
+												},
+												{
+													"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+														"$toggle_group_forced_index": 1
+													}
+												},
+												{
+													"padding_1@how_to_play_common.padding": {
+														"size": [
+															0,
+															10
+														]
+													}
+												},
+												{
+													"gettingStarted_category@how_to_play_common.topic_category": {
+														"$category": "gettingStarted"
+													}
+												},
+												{
+													"botCrafter_button@how_to_play.botCrafter_button": {
+														"$toggle_group_forced_index": 0
+													}
+												},
+												{
+													"bot_button@how_to_play.bot_button": {
+														"$toggle_group_forced_index": 1
+													}
+												},
+												{
+													"botChip_button@how_to_play.botChip_button": {
+														"$toggle_group_forced_index": 2
+													}
+												},
+												{
+													"botLegs_button@how_to_play.botLegs_button": {
+														"$toggle_group_forced_index": 3
+													}
+												},
+												{
+													"farmBot_button@how_to_play.farmBot_button": {
+														"$toggle_group_forced_index": 4
+													}
+												},
+												{
+													"harvestBot_button@how_to_play.harvestBot_button": {
+														"$toggle_group_forced_index": 5
+													}
+												},
+												{
+													"hopperBot_button@how_to_play.hopperBot_button": {
+														"$toggle_group_forced_index": 6
+													}
+												},
+												{
+													"guardBot_button@how_to_play.guardBot_button": {
+														"$toggle_group_forced_index": 7
+													}
+												},
+												{
+													"padding_2@how_to_play_common.padding": {
+														"size": [
+															0,
+															10
+														]
+													}
+												},
+												{
+													"misc_category@how_to_play_common.topic_category": {
+														"$category": "misc"
+													}
+												},
+												{
+													"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+														"$toggle_group_forced_index": 0
+													}
+												},
+												{
+													"padding_3@how_to_play_common.padding": {
+														"size": [
+															0,
+															10
+														]
+													}
+												},
+												{
+													"whatsNew_category@how_to_play_common.topic_category": {
+														"$category": "whatsNew"
+													}
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"how_to_play_selector_pane": {
+												"type": "stack_panel",
+												"controls": [
+													{
+														"padding_0": {
+															"type": "panel",
+															"size": [
+																0,
+																6
+															]
+														}
+													},
+													{
+														"welcome_category@how_to_play_common.topic_category": {
+															"$category": "bot-topia"
+														}
+													},
+													{
+														"welcome_button@how_to_play.welcome_button": {
+															"$toggle_group_forced_index": 0
+														}
+													},
+													{
+														"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+															"$toggle_group_forced_index": 1
+														}
+													},
+													{
+														"padding_1@how_to_play_common.padding": {
+															"size": [
+																0,
+																10
+															]
+														}
+													},
+													{
+														"gettingStarted_category@how_to_play_common.topic_category": {
+															"$category": "gettingStarted"
+														}
+													},
+													{
+														"botCrafter_button@how_to_play.botCrafter_button": {
+															"$toggle_group_forced_index": 0
+														}
+													},
+													{
+														"bot_button@how_to_play.bot_button": {
+															"$toggle_group_forced_index": 1
+														}
+													},
+													{
+														"botChip_button@how_to_play.botChip_button": {
+															"$toggle_group_forced_index": 2
+														}
+													},
+													{
+														"botLegs_button@how_to_play.botLegs_button": {
+															"$toggle_group_forced_index": 3
+														}
+													},
+													{
+														"farmBot_button@how_to_play.farmBot_button": {
+															"$toggle_group_forced_index": 4
+														}
+													},
+													{
+														"harvestBot_button@how_to_play.harvestBot_button": {
+															"$toggle_group_forced_index": 5
+														}
+													},
+													{
+														"hopperBot_button@how_to_play.hopperBot_button": {
+															"$toggle_group_forced_index": 6
+														}
+													},
+													{
+														"guardBot_button@how_to_play.guardBot_button": {
+															"$toggle_group_forced_index": 7
+														}
+													},
+													{
+														"padding_2@how_to_play_common.padding": {
+															"size": [
+																0,
+																10
+															]
+														}
+													},
+													{
+														"misc_category@how_to_play_common.topic_category": {
+															"$category": "misc"
+														}
+													},
+													{
+														"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+															"$toggle_group_forced_index": 0
+														}
+													},
+													{
+														"padding_3@how_to_play_common.padding": {
+															"size": [
+																0,
+																10
+															]
+														}
+													},
+													{
+														"whatsNew_category@how_to_play_common.topic_category": {
+															"$category": "whatsNew"
+														}
+													}
+												]
+											}
+										},
+										"key": "how_to_play_selector_pane",
+										"children": [
+											{
+												"data": "stack_panel",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "stack_panel",
+													"controls": [
+														{
+															"padding_0": {
+																"type": "panel",
+																"size": [
+																	0,
+																	6
+																]
+															}
+														},
+														{
+															"welcome_category@how_to_play_common.topic_category": {
+																"$category": "bot-topia"
+															}
+														},
+														{
+															"welcome_button@how_to_play.welcome_button": {
+																"$toggle_group_forced_index": 0
+															}
+														},
+														{
+															"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																"$toggle_group_forced_index": 1
+															}
+														},
+														{
+															"padding_1@how_to_play_common.padding": {
+																"size": [
+																	0,
+																	10
+																]
+															}
+														},
+														{
+															"gettingStarted_category@how_to_play_common.topic_category": {
+																"$category": "gettingStarted"
+															}
+														},
+														{
+															"botCrafter_button@how_to_play.botCrafter_button": {
+																"$toggle_group_forced_index": 0
+															}
+														},
+														{
+															"bot_button@how_to_play.bot_button": {
+																"$toggle_group_forced_index": 1
+															}
+														},
+														{
+															"botChip_button@how_to_play.botChip_button": {
+																"$toggle_group_forced_index": 2
+															}
+														},
+														{
+															"botLegs_button@how_to_play.botLegs_button": {
+																"$toggle_group_forced_index": 3
+															}
+														},
+														{
+															"farmBot_button@how_to_play.farmBot_button": {
+																"$toggle_group_forced_index": 4
+															}
+														},
+														{
+															"harvestBot_button@how_to_play.harvestBot_button": {
+																"$toggle_group_forced_index": 5
+															}
+														},
+														{
+															"hopperBot_button@how_to_play.hopperBot_button": {
+																"$toggle_group_forced_index": 6
+															}
+														},
+														{
+															"guardBot_button@how_to_play.guardBot_button": {
+																"$toggle_group_forced_index": 7
+															}
+														},
+														{
+															"padding_2@how_to_play_common.padding": {
+																"size": [
+																	0,
+																	10
+																]
+															}
+														},
+														{
+															"misc_category@how_to_play_common.topic_category": {
+																"$category": "misc"
+															}
+														},
+														{
+															"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																"$toggle_group_forced_index": 0
+															}
+														},
+														{
+															"padding_3@how_to_play_common.padding": {
+																"size": [
+																	0,
+																	10
+																]
+															}
+														},
+														{
+															"whatsNew_category@how_to_play_common.topic_category": {
+																"$category": "whatsNew"
+															}
+														}
+													]
+												},
+												"key": "controls",
+												"children": [
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"key": "padding_0",
+																"children": [
+																	{
+																		"open": {
+																			"type": "panel",
+																			"size": [
+																				0,
+																				6
+																			]
+																		},
+																		"data": "panel",
+																		"key": "type"
+																	},
+																	{
+																		"open": {
+																			"type": "panel",
+																			"size": [
+																				0,
+																				6
+																			]
+																		},
+																		"key": "size",
+																		"is_minified": true,
+																		"children": [
+																			0,
+																			6
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"welcome_category@how_to_play_common.topic_category": {
+																		"$category": "bot-topia"
+																	}
+																},
+																"key": "welcome_category@how_to_play_common.topic_category",
+																"is_minified": true,
+																"children": {
+																	"$category": "bot-topia"
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"welcome_button@how_to_play.welcome_button": {
+																		"$toggle_group_forced_index": 0
+																	}
+																},
+																"key": "welcome_button@how_to_play.welcome_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 0
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																		"$toggle_group_forced_index": 1
+																	}
+																},
+																"key": "welcomeTwo_button@how_to_play.welcomeTwo_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 1
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"padding_1@how_to_play_common.padding": {
+																		"size": [
+																			0,
+																			10
+																		]
+																	}
+																},
+																"key": "padding_1@how_to_play_common.padding",
+																"is_minified": true,
+																"children": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"gettingStarted_category@how_to_play_common.topic_category": {
+																		"$category": "gettingStarted"
+																	}
+																},
+																"key": "gettingStarted_category@how_to_play_common.topic_category",
+																"is_minified": true,
+																"children": {
+																	"$category": "gettingStarted"
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"botCrafter_button@how_to_play.botCrafter_button": {
+																		"$toggle_group_forced_index": 0
+																	}
+																},
+																"key": "botCrafter_button@how_to_play.botCrafter_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 0
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"bot_button@how_to_play.bot_button": {
+																		"$toggle_group_forced_index": 1
+																	}
+																},
+																"key": "bot_button@how_to_play.bot_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 1
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"botChip_button@how_to_play.botChip_button": {
+																		"$toggle_group_forced_index": 2
+																	}
+																},
+																"key": "botChip_button@how_to_play.botChip_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 2
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"botLegs_button@how_to_play.botLegs_button": {
+																		"$toggle_group_forced_index": 3
+																	}
+																},
+																"key": "botLegs_button@how_to_play.botLegs_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 3
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"farmBot_button@how_to_play.farmBot_button": {
+																		"$toggle_group_forced_index": 4
+																	}
+																},
+																"key": "farmBot_button@how_to_play.farmBot_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 4
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"harvestBot_button@how_to_play.harvestBot_button": {
+																		"$toggle_group_forced_index": 5
+																	}
+																},
+																"key": "harvestBot_button@how_to_play.harvestBot_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 5
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"hopperBot_button@how_to_play.hopperBot_button": {
+																		"$toggle_group_forced_index": 6
+																	}
+																},
+																"key": "hopperBot_button@how_to_play.hopperBot_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 6
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"guardBot_button@how_to_play.guardBot_button": {
+																		"$toggle_group_forced_index": 7
+																	}
+																},
+																"key": "guardBot_button@how_to_play.guardBot_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 7
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"padding_2@how_to_play_common.padding": {
+																		"size": [
+																			0,
+																			10
+																		]
+																	}
+																},
+																"key": "padding_2@how_to_play_common.padding",
+																"is_minified": true,
+																"children": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"misc_category@how_to_play_common.topic_category": {
+																		"$category": "misc"
+																	}
+																},
+																"key": "misc_category@how_to_play_common.topic_category",
+																"is_minified": true,
+																"children": {
+																	"$category": "misc"
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																		"$toggle_group_forced_index": 0
+																	}
+																},
+																"key": "redstoneFlake_button@how_to_play.redstoneFlake_button",
+																"is_minified": true,
+																"children": {
+																	"$toggle_group_forced_index": 0
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"padding_3@how_to_play_common.padding": {
+																		"size": [
+																			0,
+																			10
+																		]
+																	}
+																},
+																"key": "padding_3@how_to_play_common.padding",
+																"is_minified": true,
+																"children": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"padding_0": {
+																	"type": "panel",
+																	"size": [
+																		0,
+																		6
+																	]
+																}
+															},
+															{
+																"welcome_category@how_to_play_common.topic_category": {
+																	"$category": "bot-topia"
+																}
+															},
+															{
+																"welcome_button@how_to_play.welcome_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"padding_1@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"gettingStarted_category@how_to_play_common.topic_category": {
+																	"$category": "gettingStarted"
+																}
+															},
+															{
+																"botCrafter_button@how_to_play.botCrafter_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"bot_button@how_to_play.bot_button": {
+																	"$toggle_group_forced_index": 1
+																}
+															},
+															{
+																"botChip_button@how_to_play.botChip_button": {
+																	"$toggle_group_forced_index": 2
+																}
+															},
+															{
+																"botLegs_button@how_to_play.botLegs_button": {
+																	"$toggle_group_forced_index": 3
+																}
+															},
+															{
+																"farmBot_button@how_to_play.farmBot_button": {
+																	"$toggle_group_forced_index": 4
+																}
+															},
+															{
+																"harvestBot_button@how_to_play.harvestBot_button": {
+																	"$toggle_group_forced_index": 5
+																}
+															},
+															{
+																"hopperBot_button@how_to_play.hopperBot_button": {
+																	"$toggle_group_forced_index": 6
+																}
+															},
+															{
+																"guardBot_button@how_to_play.guardBot_button": {
+																	"$toggle_group_forced_index": 7
+																}
+															},
+															{
+																"padding_2@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"misc_category@how_to_play_common.topic_category": {
+																	"$category": "misc"
+																}
+															},
+															{
+																"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+																	"$toggle_group_forced_index": 0
+																}
+															},
+															{
+																"padding_3@how_to_play_common.padding": {
+																	"size": [
+																		0,
+																		10
+																	]
+																}
+															},
+															{
+																"whatsNew_category@how_to_play_common.topic_category": {
+																	"$category": "whatsNew"
+																}
+															}
+														],
+														"children": [
+															{
+																"open": {
+																	"whatsNew_category@how_to_play_common.topic_category": {
+																		"$category": "whatsNew"
+																	}
+																},
+																"key": "whatsNew_category@how_to_play_common.topic_category",
+																"is_minified": true,
+																"children": {
+																	"$category": "whatsNew"
+																}
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"namespace": "how_to_play",
+					"how_to_play_screen@how_to_play_common.screen_base": {
+						"$selector_stack_panel": "how_to_play.selector_stack_panel",
+						"$section_content_panels": "how_to_play.section_content_panels",
+						"$header_safezone_control": "common_store.store_top_bar_filler",
+						"$header_bar_control": "common_store.store_top_bar",
+						"$is_full_screen_layout": true
+					},
+					"selector_stack_panel": {
+						"type": "stack_panel",
+						"anchor_from": "top_left",
+						"anchor_to": "top_left",
+						"orientation": "vertical",
+						"$default_selector_toggle_index": 2,
+						"controls": [
+							{
+								"how_to_play_selector_pane": {
+									"type": "stack_panel",
+									"controls": [
+										{
+											"padding_0": {
+												"type": "panel",
+												"size": [
+													0,
+													6
+												]
+											}
+										},
+										{
+											"welcome_category@how_to_play_common.topic_category": {
+												"$category": "bot-topia"
+											}
+										},
+										{
+											"welcome_button@how_to_play.welcome_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"welcomeTwo_button@how_to_play.welcomeTwo_button": {
+												"$toggle_group_forced_index": 1
+											}
+										},
+										{
+											"padding_1@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										},
+										{
+											"gettingStarted_category@how_to_play_common.topic_category": {
+												"$category": "gettingStarted"
+											}
+										},
+										{
+											"botCrafter_button@how_to_play.botCrafter_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"bot_button@how_to_play.bot_button": {
+												"$toggle_group_forced_index": 1
+											}
+										},
+										{
+											"botChip_button@how_to_play.botChip_button": {
+												"$toggle_group_forced_index": 2
+											}
+										},
+										{
+											"botLegs_button@how_to_play.botLegs_button": {
+												"$toggle_group_forced_index": 3
+											}
+										},
+										{
+											"farmBot_button@how_to_play.farmBot_button": {
+												"$toggle_group_forced_index": 4
+											}
+										},
+										{
+											"harvestBot_button@how_to_play.harvestBot_button": {
+												"$toggle_group_forced_index": 5
+											}
+										},
+										{
+											"hopperBot_button@how_to_play.hopperBot_button": {
+												"$toggle_group_forced_index": 6
+											}
+										},
+										{
+											"guardBot_button@how_to_play.guardBot_button": {
+												"$toggle_group_forced_index": 7
+											}
+										},
+										{
+											"padding_2@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										},
+										{
+											"misc_category@how_to_play_common.topic_category": {
+												"$category": "misc"
+											}
+										},
+										{
+											"redstoneFlake_button@how_to_play.redstoneFlake_button": {
+												"$toggle_group_forced_index": 0
+											}
+										},
+										{
+											"padding_3@how_to_play_common.padding": {
+												"size": [
+													0,
+													10
+												]
+											}
+										},
+										{
+											"whatsNew_category@how_to_play_common.topic_category": {
+												"$category": "whatsNew"
+											}
+										}
+									]
+								}
+							}
+						]
+					},
+					"section_content_panels": {
+						"type": "stack_panel",
+						"anchor_from": "top_left",
+						"anchor_to": "top_left",
+						"size": [
+							"100% - 5px",
+							"100%c + 5px"
+						],
+						"offset": [
+							2,
+							0
+						],
+						"controls": [
+							{
+								"general_tips_sections": {
+									"type": "stack_panel",
+									"controls": [
+										{
+											"section_contents_header@how_to_play_common.section_contents_header": {}
+										},
+										{
+											"welcome_section@how_to_play.welcome_section": {}
+										},
+										{
+											"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+										},
+										{
+											"botCrafter_section@how_to_play.botCrafter_section": {}
+										},
+										{
+											"bot_section@how_to_play.bot_section": {}
+										},
+										{
+											"botChip_section@how_to_play.botChip_section": {}
+										},
+										{
+											"botLegs_section@how_to_play.botLegs_section": {}
+										},
+										{
+											"farmBot_section@how_to_play.farmBot_section": {}
+										},
+										{
+											"harvestBot_section@how_to_play.harvestBot_section": {}
+										},
+										{
+											"hopperBot_section@how_to_play.hopperBot_section": {}
+										},
+										{
+											"guardBot_section@how_to_play.guardBot_section": {}
+										},
+										{
+											"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+										},
+										{
+											"section_contents_footer@how_to_play_common.section_contents_footer": {}
+										}
+									]
+								}
+							}
+						]
+					},
+					"welcome_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "welcome"
+					},
+					"welcome_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "welcome_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "welcome.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcome.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/1"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcome.text01"
+								}
+							}
+						]
+					},
+					"welcomeTwo_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "welcomeTwo"
+					},
+					"welcomeTwo_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "welcomeTwo_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "welcomeTwo.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/2"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcomeTwo.text00"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.welcomeTwo.text01"
+								}
+							}
+						]
+					},
+					"botCrafter_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "botCrafter"
+					},
+					"botCrafter_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "botCrafter_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "botCrafter.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/3"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botCrafter.text00"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"image_1@how_to_play_common.image": {
+									"texture": "textures/help/4"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botCrafter.text01"
+								}
+							}
+						]
+					},
+					"bot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "bot"
+					},
+					"bot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "bot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "bot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text03"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/2"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"header_1@how_to_play_common.header": {
+									"$text": "bot.header.title01"
+								}
+							},
+							{
+								"padding_4@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_2@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text01"
+								}
+							},
+							{
+								"padding_5@how_to_play_common.padding": {}
+							},
+							{
+								"image_1@how_to_play_common.image": {
+									"texture": "textures/help/5"
+								}
+							},
+							{
+								"padding_6@how_to_play_common.padding": {}
+							},
+							{
+								"header_2@how_to_play_common.header": {
+									"$text": "bot.header.title02"
+								}
+							},
+							{
+								"padding_7@how_to_play_common.padding": {}
+							},
+							{
+								"image_2@how_to_play_common.image": {
+									"texture": "textures/help/6"
+								}
+							},
+							{
+								"padding_8@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_3@how_to_play_common.paragraph": {
+									"$text": "bot_topia.bot.text02"
+								}
+							}
+						]
+					},
+					"botChip_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "botChip"
+					},
+					"botChip_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "botChip_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "botChip.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/7"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"header_1@how_to_play_common.header": {
+									"$text": "botChip.header.title01"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text01"
+								}
+							},
+							{
+								"padding_4@how_to_play_common.padding": {}
+							},
+							{
+								"header_2@how_to_play_common.header": {
+									"$text": "botChip.header.title02"
+								}
+							},
+							{
+								"padding_5@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_3@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text02"
+								}
+							},
+							{
+								"padding_6@how_to_play_common.padding": {}
+							},
+							{
+								"header_3@how_to_play_common.header": {
+									"$text": "botChip.header.title03"
+								}
+							},
+							{
+								"padding_7@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_4@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text03"
+								}
+							},
+							{
+								"padding_8@how_to_play_common.padding": {}
+							},
+							{
+								"header_4@how_to_play_common.header": {
+									"$text": "botChip.header.title04"
+								}
+							},
+							{
+								"padding_9@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_5@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text04"
+								}
+							},
+							{
+								"padding_10@how_to_play_common.padding": {}
+							},
+							{
+								"header_5@how_to_play_common.header": {
+									"$text": "botChip.header.title05"
+								}
+							},
+							{
+								"padding_11@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_6@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botChip.text05"
+								}
+							}
+						]
+					},
+					"botLegs_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "botLegs"
+					},
+					"botLegs_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "botLegs_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "botLegs.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botLegs.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/8"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.botLegs.text01"
+								}
+							}
+						]
+					},
+					"farmBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "farmBot"
+					},
+					"farmBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "farmBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "farmBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/9"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.farmBot.text00"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.farmBot.text01"
+								}
+							},
+							{
+								"padding_3@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_2@how_to_play_common.paragraph": {
+									"$text": "bot_topia.farmBot.text02"
+								}
+							}
+						]
+					},
+					"harvestBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "harvestBot"
+					},
+					"harvestBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "harvestBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "harvestBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.harvestBot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/10"
+								}
+							}
+						]
+					},
+					"hopperBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "hopperBot"
+					},
+					"hopperBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "hopperBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "hopperBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.hopperBot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/11"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.hopperBot.text01"
+								}
+							}
+						]
+					},
+					"guardBot_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "guardBot"
+					},
+					"guardBot_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "guardBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "guardBot.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.guardBot.text00"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/12"
+								}
+							},
+							{
+								"padding_2@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_1@how_to_play_common.paragraph": {
+									"$text": "bot_topia.guardBot.text01"
+								}
+							}
+						]
+					},
+					"redstoneFlake_button@how_to_play_common.section_toggle_button": {
+						"$section_topic": "redstoneFlake"
+					},
+					"redstoneFlake_section@how_to_play_common.main_sections": {
+						"bindings": [
+							{
+								"binding_type": "view",
+								"source_control_name": "redstoneFlake_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						],
+						"controls": [
+							{
+								"header_0@how_to_play_common.header": {
+									"$text": "redstoneFlake.header.title00"
+								}
+							},
+							{
+								"padding_0@how_to_play_common.padding": {}
+							},
+							{
+								"image_0@how_to_play_common.image": {
+									"texture": "textures/help/13"
+								}
+							},
+							{
+								"padding_1@how_to_play_common.padding": {}
+							},
+							{
+								"paragraph_0@how_to_play_common.paragraph": {
+									"$text": "bot_topia.redstoneFlake.text00"
+								}
+							}
+						]
+					}
+				},
+				"key": "section_content_panels",
+				"children": [
+					{
+						"data": "stack_panel",
+						"key": "type"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_from"
+					},
+					{
+						"data": "top_left",
+						"key": "anchor_to"
+					},
+					{
+						"key": "size",
+						"is_minified": true,
+						"children": [
+							"100% - 5px",
+							"100%c + 5px"
+						]
+					},
+					{
+						"key": "offset",
+						"is_minified": true,
+						"children": [
+							2,
+							0
+						]
+					},
+					{
+						"open": {
+							"type": "stack_panel",
+							"anchor_from": "top_left",
+							"anchor_to": "top_left",
+							"size": [
+								"100% - 5px",
+								"100%c + 5px"
+							],
+							"offset": [
+								2,
+								0
+							],
+							"controls": [
+								{
+									"general_tips_sections": {
+										"type": "stack_panel",
+										"controls": [
+											{
+												"section_contents_header@how_to_play_common.section_contents_header": {}
+											},
+											{
+												"welcome_section@how_to_play.welcome_section": {}
+											},
+											{
+												"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+											},
+											{
+												"botCrafter_section@how_to_play.botCrafter_section": {}
+											},
+											{
+												"bot_section@how_to_play.bot_section": {}
+											},
+											{
+												"botChip_section@how_to_play.botChip_section": {}
+											},
+											{
+												"botLegs_section@how_to_play.botLegs_section": {}
+											},
+											{
+												"farmBot_section@how_to_play.farmBot_section": {}
+											},
+											{
+												"harvestBot_section@how_to_play.harvestBot_section": {}
+											},
+											{
+												"hopperBot_section@how_to_play.hopperBot_section": {}
+											},
+											{
+												"guardBot_section@how_to_play.guardBot_section": {}
+											},
+											{
+												"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+											},
+											{
+												"section_contents_footer@how_to_play_common.section_contents_footer": {}
+											}
+										]
+									}
+								}
+							]
+						},
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"general_tips_sections": {
+											"type": "stack_panel",
+											"controls": [
+												{
+													"section_contents_header@how_to_play_common.section_contents_header": {}
+												},
+												{
+													"welcome_section@how_to_play.welcome_section": {}
+												},
+												{
+													"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+												},
+												{
+													"botCrafter_section@how_to_play.botCrafter_section": {}
+												},
+												{
+													"bot_section@how_to_play.bot_section": {}
+												},
+												{
+													"botChip_section@how_to_play.botChip_section": {}
+												},
+												{
+													"botLegs_section@how_to_play.botLegs_section": {}
+												},
+												{
+													"farmBot_section@how_to_play.farmBot_section": {}
+												},
+												{
+													"harvestBot_section@how_to_play.harvestBot_section": {}
+												},
+												{
+													"hopperBot_section@how_to_play.hopperBot_section": {}
+												},
+												{
+													"guardBot_section@how_to_play.guardBot_section": {}
+												},
+												{
+													"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+												},
+												{
+													"section_contents_footer@how_to_play_common.section_contents_footer": {}
+												}
+											]
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"general_tips_sections": {
+												"type": "stack_panel",
+												"controls": [
+													{
+														"section_contents_header@how_to_play_common.section_contents_header": {}
+													},
+													{
+														"welcome_section@how_to_play.welcome_section": {}
+													},
+													{
+														"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+													},
+													{
+														"botCrafter_section@how_to_play.botCrafter_section": {}
+													},
+													{
+														"bot_section@how_to_play.bot_section": {}
+													},
+													{
+														"botChip_section@how_to_play.botChip_section": {}
+													},
+													{
+														"botLegs_section@how_to_play.botLegs_section": {}
+													},
+													{
+														"farmBot_section@how_to_play.farmBot_section": {}
+													},
+													{
+														"harvestBot_section@how_to_play.harvestBot_section": {}
+													},
+													{
+														"hopperBot_section@how_to_play.hopperBot_section": {}
+													},
+													{
+														"guardBot_section@how_to_play.guardBot_section": {}
+													},
+													{
+														"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+													},
+													{
+														"section_contents_footer@how_to_play_common.section_contents_footer": {}
+													}
+												]
+											}
+										},
+										"key": "general_tips_sections",
+										"children": [
+											{
+												"data": "stack_panel",
+												"key": "type"
+											},
+											{
+												"open": {
+													"type": "stack_panel",
+													"controls": [
+														{
+															"section_contents_header@how_to_play_common.section_contents_header": {}
+														},
+														{
+															"welcome_section@how_to_play.welcome_section": {}
+														},
+														{
+															"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+														},
+														{
+															"botCrafter_section@how_to_play.botCrafter_section": {}
+														},
+														{
+															"bot_section@how_to_play.bot_section": {}
+														},
+														{
+															"botChip_section@how_to_play.botChip_section": {}
+														},
+														{
+															"botLegs_section@how_to_play.botLegs_section": {}
+														},
+														{
+															"farmBot_section@how_to_play.farmBot_section": {}
+														},
+														{
+															"harvestBot_section@how_to_play.harvestBot_section": {}
+														},
+														{
+															"hopperBot_section@how_to_play.hopperBot_section": {}
+														},
+														{
+															"guardBot_section@how_to_play.guardBot_section": {}
+														},
+														{
+															"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+														},
+														{
+															"section_contents_footer@how_to_play_common.section_contents_footer": {}
+														}
+													]
+												},
+												"key": "controls",
+												"children": [
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"section_contents_header@how_to_play_common.section_contents_header": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"welcome_section@how_to_play.welcome_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"botCrafter_section@how_to_play.botCrafter_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"bot_section@how_to_play.bot_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"botChip_section@how_to_play.botChip_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"botLegs_section@how_to_play.botLegs_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"farmBot_section@how_to_play.farmBot_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"harvestBot_section@how_to_play.harvestBot_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"hopperBot_section@how_to_play.hopperBot_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"guardBot_section@how_to_play.guardBot_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+														}
+													},
+													{
+														"open": [
+															{
+																"section_contents_header@how_to_play_common.section_contents_header": {}
+															},
+															{
+																"welcome_section@how_to_play.welcome_section": {}
+															},
+															{
+																"welcomeTwo_section@how_to_play.welcomeTwo_section": {}
+															},
+															{
+																"botCrafter_section@how_to_play.botCrafter_section": {}
+															},
+															{
+																"bot_section@how_to_play.bot_section": {}
+															},
+															{
+																"botChip_section@how_to_play.botChip_section": {}
+															},
+															{
+																"botLegs_section@how_to_play.botLegs_section": {}
+															},
+															{
+																"farmBot_section@how_to_play.farmBot_section": {}
+															},
+															{
+																"harvestBot_section@how_to_play.harvestBot_section": {}
+															},
+															{
+																"hopperBot_section@how_to_play.hopperBot_section": {}
+															},
+															{
+																"guardBot_section@how_to_play.guardBot_section": {}
+															},
+															{
+																"redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+															},
+															{
+																"section_contents_footer@how_to_play_common.section_contents_footer": {}
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"section_contents_footer@how_to_play_common.section_contents_footer": {}
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"key": "welcome_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "welcome"
+				}
+			},
+			{
+				"key": "welcome_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "welcome_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "welcome.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.welcome.text00"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/1"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.welcome.text01"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "welcomeTwo_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "welcomeTwo"
+				}
+			},
+			{
+				"key": "welcomeTwo_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "welcomeTwo_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "welcomeTwo.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/2"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.welcomeTwo.text00"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.welcomeTwo.text01"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "botCrafter_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "botCrafter"
+				}
+			},
+			{
+				"key": "botCrafter_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "botCrafter_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "botCrafter.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/3"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botCrafter.text00"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"image_1@how_to_play_common.image": {
+								"texture": "textures/help/4"
+							}
+						},
+						{
+							"padding_3@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botCrafter.text01"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "bot_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "bot"
+				}
+			},
+			{
+				"key": "bot_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "bot_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "bot.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.bot.text00"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.bot.text03"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/2"
+							}
+						},
+						{
+							"padding_3@how_to_play_common.padding": {}
+						},
+						{
+							"header_1@how_to_play_common.header": {
+								"$text": "bot.header.title01"
+							}
+						},
+						{
+							"padding_4@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_2@how_to_play_common.paragraph": {
+								"$text": "bot_topia.bot.text01"
+							}
+						},
+						{
+							"padding_5@how_to_play_common.padding": {}
+						},
+						{
+							"image_1@how_to_play_common.image": {
+								"texture": "textures/help/5"
+							}
+						},
+						{
+							"padding_6@how_to_play_common.padding": {}
+						},
+						{
+							"header_2@how_to_play_common.header": {
+								"$text": "bot.header.title02"
+							}
+						},
+						{
+							"padding_7@how_to_play_common.padding": {}
+						},
+						{
+							"image_2@how_to_play_common.image": {
+								"texture": "textures/help/6"
+							}
+						},
+						{
+							"padding_8@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_3@how_to_play_common.paragraph": {
+								"$text": "bot_topia.bot.text02"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "botChip_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "botChip"
+				}
+			},
+			{
+				"key": "botChip_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "botChip_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "botChip.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botChip.text00"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/7"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"header_1@how_to_play_common.header": {
+								"$text": "botChip.header.title01"
+							}
+						},
+						{
+							"padding_3@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botChip.text01"
+							}
+						},
+						{
+							"padding_4@how_to_play_common.padding": {}
+						},
+						{
+							"header_2@how_to_play_common.header": {
+								"$text": "botChip.header.title02"
+							}
+						},
+						{
+							"padding_5@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_3@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botChip.text02"
+							}
+						},
+						{
+							"padding_6@how_to_play_common.padding": {}
+						},
+						{
+							"header_3@how_to_play_common.header": {
+								"$text": "botChip.header.title03"
+							}
+						},
+						{
+							"padding_7@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_4@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botChip.text03"
+							}
+						},
+						{
+							"padding_8@how_to_play_common.padding": {}
+						},
+						{
+							"header_4@how_to_play_common.header": {
+								"$text": "botChip.header.title04"
+							}
+						},
+						{
+							"padding_9@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_5@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botChip.text04"
+							}
+						},
+						{
+							"padding_10@how_to_play_common.padding": {}
+						},
+						{
+							"header_5@how_to_play_common.header": {
+								"$text": "botChip.header.title05"
+							}
+						},
+						{
+							"padding_11@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_6@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botChip.text05"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "botLegs_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "botLegs"
+				}
+			},
+			{
+				"key": "botLegs_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "botLegs_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "botLegs.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botLegs.text00"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/8"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.botLegs.text01"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "farmBot_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "farmBot"
+				}
+			},
+			{
+				"key": "farmBot_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "farmBot_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "farmBot.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/9"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.farmBot.text00"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.farmBot.text01"
+							}
+						},
+						{
+							"padding_3@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_2@how_to_play_common.paragraph": {
+								"$text": "bot_topia.farmBot.text02"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "harvestBot_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "harvestBot"
+				}
+			},
+			{
+				"key": "harvestBot_section@how_to_play_common.main_sections",
+				"children": [
+					{
+						"key": "bindings",
+						"is_minified": true,
+						"children": [
+							{
+								"binding_type": "view",
+								"source_control_name": "harvestBot_button_toggle",
+								"source_property_name": "#toggle_state",
+								"target_property_name": "#visible"
+							}
+						]
+					},
+					{
+						"open": {
+							"bindings": [
+								{
+									"binding_type": "view",
+									"source_control_name": "harvestBot_button_toggle",
+									"source_property_name": "#toggle_state",
+									"target_property_name": "#visible"
+								}
+							],
+							"controls": [
+								{
+									"header_0@how_to_play_common.header": {
+										"$text": "harvestBot.header.title00"
+									}
+								},
+								{
+									"padding_0@how_to_play_common.padding": {}
+								},
+								{
+									"paragraph_0@how_to_play_common.paragraph": {
+										"$text": "bot_topia.harvestBot.text00"
+									}
+								},
+								{
+									"padding_1@how_to_play_common.padding": {}
+								},
+								{
+									"image_0@how_to_play_common.image": {
+										"texture": "textures/help/10"
+									}
+								}
+							]
+						},
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"header_0@how_to_play_common.header": {
+											"$text": "harvestBot.header.title00"
+										}
+									},
+									{
+										"padding_0@how_to_play_common.padding": {}
+									},
+									{
+										"paragraph_0@how_to_play_common.paragraph": {
+											"$text": "bot_topia.harvestBot.text00"
+										}
+									},
+									{
+										"padding_1@how_to_play_common.padding": {}
+									},
+									{
+										"image_0@how_to_play_common.image": {
+											"texture": "textures/help/10"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"header_0@how_to_play_common.header": {
+										"$text": "harvestBot.header.title00"
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"header_0@how_to_play_common.header": {
+											"$text": "harvestBot.header.title00"
+										}
+									},
+									{
+										"padding_0@how_to_play_common.padding": {}
+									},
+									{
+										"paragraph_0@how_to_play_common.paragraph": {
+											"$text": "bot_topia.harvestBot.text00"
+										}
+									},
+									{
+										"padding_1@how_to_play_common.padding": {}
+									},
+									{
+										"image_0@how_to_play_common.image": {
+											"texture": "textures/help/10"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"padding_0@how_to_play_common.padding": {}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"paragraph_0@how_to_play_common.paragraph": {
+										"$text": "bot_topia.harvestBot.text00"
+									}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"padding_1@how_to_play_common.padding": {}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"image_0@how_to_play_common.image": {
+										"texture": "textures/help/10"
+									}
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"key": "hopperBot_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "hopperBot"
+				}
+			},
+			{
+				"key": "hopperBot_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "hopperBot_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "hopperBot.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.hopperBot.text00"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/11"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.hopperBot.text01"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "guardBot_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "guardBot"
+				}
+			},
+			{
+				"key": "guardBot_section@how_to_play_common.main_sections",
+				"is_minified": true,
+				"children": {
+					"bindings": [
+						{
+							"binding_type": "view",
+							"source_control_name": "guardBot_button_toggle",
+							"source_property_name": "#toggle_state",
+							"target_property_name": "#visible"
+						}
+					],
+					"controls": [
+						{
+							"header_0@how_to_play_common.header": {
+								"$text": "guardBot.header.title00"
+							}
+						},
+						{
+							"padding_0@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_0@how_to_play_common.paragraph": {
+								"$text": "bot_topia.guardBot.text00"
+							}
+						},
+						{
+							"padding_1@how_to_play_common.padding": {}
+						},
+						{
+							"image_0@how_to_play_common.image": {
+								"texture": "textures/help/12"
+							}
+						},
+						{
+							"padding_2@how_to_play_common.padding": {}
+						},
+						{
+							"paragraph_1@how_to_play_common.paragraph": {
+								"$text": "bot_topia.guardBot.text01"
+							}
+						}
+					]
+				}
+			},
+			{
+				"key": "redstoneFlake_button@how_to_play_common.section_toggle_button",
+				"is_minified": true,
+				"children": {
+					"$section_topic": "redstoneFlake"
+				}
+			},
+			{
+				"key": "redstoneFlake_section@how_to_play_common.main_sections",
+				"children": [
+					{
+						"key": "bindings",
+						"children": [
+							{
+								"open": [
+									{
+										"binding_type": "view",
+										"source_control_name": "redstoneFlake_button_toggle",
+										"source_property_name": "#toggle_state",
+										"target_property_name": "#visible"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"binding_type": "view",
+									"source_control_name": "redstoneFlake_button_toggle",
+									"source_property_name": "#toggle_state",
+									"target_property_name": "#visible"
+								}
+							}
+						]
+					},
+					{
+						"key": "controls",
+						"children": [
+							{
+								"open": [
+									{
+										"header_0@how_to_play_common.header": {
+											"$text": "redstoneFlake.header.title00"
+										}
+									},
+									{
+										"padding_0@how_to_play_common.padding": {}
+									},
+									{
+										"image_0@how_to_play_common.image": {
+											"texture": "textures/help/13"
+										}
+									},
+									{
+										"padding_1@how_to_play_common.padding": {}
+									},
+									{
+										"paragraph_0@how_to_play_common.paragraph": {
+											"$text": "bot_topia.redstoneFlake.text00"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"header_0@how_to_play_common.header": {
+										"$text": "redstoneFlake.header.title00"
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"header_0@how_to_play_common.header": {
+											"$text": "redstoneFlake.header.title00"
+										}
+									},
+									{
+										"padding_0@how_to_play_common.padding": {}
+									},
+									{
+										"image_0@how_to_play_common.image": {
+											"texture": "textures/help/13"
+										}
+									},
+									{
+										"padding_1@how_to_play_common.padding": {}
+									},
+									{
+										"paragraph_0@how_to_play_common.paragraph": {
+											"$text": "bot_topia.redstoneFlake.text00"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"padding_0@how_to_play_common.padding": {}
+								}
+							},
+							{
+								"open": [
+									{
+										"header_0@how_to_play_common.header": {
+											"$text": "redstoneFlake.header.title00"
+										}
+									},
+									{
+										"padding_0@how_to_play_common.padding": {}
+									},
+									{
+										"image_0@how_to_play_common.image": {
+											"texture": "textures/help/13"
+										}
+									},
+									{
+										"padding_1@how_to_play_common.padding": {}
+									},
+									{
+										"paragraph_0@how_to_play_common.paragraph": {
+											"$text": "bot_topia.redstoneFlake.text00"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"image_0@how_to_play_common.image": {
+										"texture": "textures/help/13"
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"header_0@how_to_play_common.header": {
+											"$text": "redstoneFlake.header.title00"
+										}
+									},
+									{
+										"padding_0@how_to_play_common.padding": {}
+									},
+									{
+										"image_0@how_to_play_common.image": {
+											"texture": "textures/help/13"
+										}
+									},
+									{
+										"padding_1@how_to_play_common.padding": {}
+									},
+									{
+										"paragraph_0@how_to_play_common.paragraph": {
+											"$text": "bot_topia.redstoneFlake.text00"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"padding_1@how_to_play_common.padding": {}
+								}
+							},
+							{
+								"is_minified": true,
+								"children": {
+									"paragraph_0@how_to_play_common.paragraph": {
+										"$text": "bot_topia.redstoneFlake.text00"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

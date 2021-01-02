@@ -1,0 +1,955 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\animation_controllers\\bot_walker.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "5e1bf59c_1432_404f_af77_ad0930b94fbb",
+	"file_version": 47,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.bot_walker": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"dig": "query.skin_id == 1"
+										},
+										{
+											"miner_equip": "query.skin_id == 2"
+										},
+										{
+											"miner_light": "query.skin_id == 3"
+										},
+										{
+											"miner_drill": "query.skin_id == 4"
+										}
+									]
+								},
+								"dig": {
+									"transitions": [
+										{
+											"default": "query.skin_id != 1"
+										}
+									],
+									"on_entry": [
+										"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+										"@s lfm:miner_bot_unbreaking_stone",
+										"@s execute_no_commands"
+									]
+								},
+								"miner_equip": {
+									"transitions": [
+										{
+											"default": "query.skin_id != 2"
+										}
+									],
+									"on_entry": [
+										"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+										"@s execute_no_commands"
+									]
+								},
+								"miner_light": {
+									"transitions": [
+										{
+											"default": "query.skin_id != 3"
+										}
+									],
+									"on_entry": [
+										"/execute @s ~~~ setblock ~~~ torch 5",
+										"@s execute_no_commands"
+									]
+								},
+								"miner_drill": {
+									"transitions": [
+										{
+											"default": "query.skin_id != 4"
+										}
+									],
+									"on_entry": [
+										"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+										"/particle minecraft:knockback_roar_particle ~~1~",
+										"@s execute_no_commands"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.bot_walker": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"dig": "query.skin_id == 1"
+											},
+											{
+												"miner_equip": "query.skin_id == 2"
+											},
+											{
+												"miner_light": "query.skin_id == 3"
+											},
+											{
+												"miner_drill": "query.skin_id == 4"
+											}
+										]
+									},
+									"dig": {
+										"transitions": [
+											{
+												"default": "query.skin_id != 1"
+											}
+										],
+										"on_entry": [
+											"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+											"@s lfm:miner_bot_unbreaking_stone",
+											"@s execute_no_commands"
+										]
+									},
+									"miner_equip": {
+										"transitions": [
+											{
+												"default": "query.skin_id != 2"
+											}
+										],
+										"on_entry": [
+											"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+											"@s execute_no_commands"
+										]
+									},
+									"miner_light": {
+										"transitions": [
+											{
+												"default": "query.skin_id != 3"
+											}
+										],
+										"on_entry": [
+											"/execute @s ~~~ setblock ~~~ torch 5",
+											"@s execute_no_commands"
+										]
+									},
+									"miner_drill": {
+										"transitions": [
+											{
+												"default": "query.skin_id != 4"
+											}
+										],
+										"on_entry": [
+											"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+											"/particle minecraft:knockback_roar_particle ~~1~",
+											"@s execute_no_commands"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.bot_walker",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"dig": "query.skin_id == 1"
+												},
+												{
+													"miner_equip": "query.skin_id == 2"
+												},
+												{
+													"miner_light": "query.skin_id == 3"
+												},
+												{
+													"miner_drill": "query.skin_id == 4"
+												}
+											]
+										},
+										"dig": {
+											"transitions": [
+												{
+													"default": "query.skin_id != 1"
+												}
+											],
+											"on_entry": [
+												"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+												"@s lfm:miner_bot_unbreaking_stone",
+												"@s execute_no_commands"
+											]
+										},
+										"miner_equip": {
+											"transitions": [
+												{
+													"default": "query.skin_id != 2"
+												}
+											],
+											"on_entry": [
+												"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+												"@s execute_no_commands"
+											]
+										},
+										"miner_light": {
+											"transitions": [
+												{
+													"default": "query.skin_id != 3"
+												}
+											],
+											"on_entry": [
+												"/execute @s ~~~ setblock ~~~ torch 5",
+												"@s execute_no_commands"
+											]
+										},
+										"miner_drill": {
+											"transitions": [
+												{
+													"default": "query.skin_id != 4"
+												}
+											],
+											"on_entry": [
+												"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+												"/particle minecraft:knockback_roar_particle ~~1~",
+												"@s execute_no_commands"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dig": "query.skin_id == 1"
+													},
+													{
+														"miner_equip": "query.skin_id == 2"
+													},
+													{
+														"miner_light": "query.skin_id == 3"
+													},
+													{
+														"miner_drill": "query.skin_id == 4"
+													}
+												]
+											},
+											"dig": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"@s lfm:miner_bot_unbreaking_stone",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_equip": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 2"
+													}
+												],
+												"on_entry": [
+													"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_light": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 3"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ setblock ~~~ torch 5",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_drill": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 4"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+													"/particle minecraft:knockback_roar_particle ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"dig": "query.skin_id == 1"
+														},
+														{
+															"miner_equip": "query.skin_id == 2"
+														},
+														{
+															"miner_light": "query.skin_id == 3"
+														},
+														{
+															"miner_drill": "query.skin_id == 4"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"dig": "query.skin_id == 1"
+															},
+															{
+																"miner_equip": "query.skin_id == 2"
+															},
+															{
+																"miner_light": "query.skin_id == 3"
+															},
+															{
+																"miner_drill": "query.skin_id == 4"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"dig": "query.skin_id == 1"
+														}
+													},
+													{
+														"open": [
+															{
+																"dig": "query.skin_id == 1"
+															},
+															{
+																"miner_equip": "query.skin_id == 2"
+															},
+															{
+																"miner_light": "query.skin_id == 3"
+															},
+															{
+																"miner_drill": "query.skin_id == 4"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"miner_equip": "query.skin_id == 2"
+														}
+													},
+													{
+														"open": [
+															{
+																"dig": "query.skin_id == 1"
+															},
+															{
+																"miner_equip": "query.skin_id == 2"
+															},
+															{
+																"miner_light": "query.skin_id == 3"
+															},
+															{
+																"miner_drill": "query.skin_id == 4"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"miner_light": "query.skin_id == 3"
+														}
+													},
+													{
+														"open": [
+															{
+																"dig": "query.skin_id == 1"
+															},
+															{
+																"miner_equip": "query.skin_id == 2"
+															},
+															{
+																"miner_light": "query.skin_id == 3"
+															},
+															{
+																"miner_drill": "query.skin_id == 4"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"miner_drill": "query.skin_id == 4"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dig": "query.skin_id == 1"
+													},
+													{
+														"miner_equip": "query.skin_id == 2"
+													},
+													{
+														"miner_light": "query.skin_id == 3"
+													},
+													{
+														"miner_drill": "query.skin_id == 4"
+													}
+												]
+											},
+											"dig": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"@s lfm:miner_bot_unbreaking_stone",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_equip": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 2"
+													}
+												],
+												"on_entry": [
+													"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_light": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 3"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ setblock ~~~ torch 5",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_drill": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 4"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+													"/particle minecraft:knockback_roar_particle ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "dig",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 1"
+														}
+													],
+													"on_entry": [
+														"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"@s lfm:miner_bot_unbreaking_stone",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.skin_id != 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.skin_id != 1"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 1"
+														}
+													],
+													"on_entry": [
+														"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+														"@s lfm:miner_bot_unbreaking_stone",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"@s lfm:miner_bot_unbreaking_stone",
+													"@s execute_no_commands"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dig": "query.skin_id == 1"
+													},
+													{
+														"miner_equip": "query.skin_id == 2"
+													},
+													{
+														"miner_light": "query.skin_id == 3"
+													},
+													{
+														"miner_drill": "query.skin_id == 4"
+													}
+												]
+											},
+											"dig": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"@s lfm:miner_bot_unbreaking_stone",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_equip": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 2"
+													}
+												],
+												"on_entry": [
+													"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_light": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 3"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ setblock ~~~ torch 5",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_drill": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 4"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+													"/particle minecraft:knockback_roar_particle ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "miner_equip",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 2"
+														}
+													],
+													"on_entry": [
+														"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.skin_id != 2"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.skin_id != 2"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 2"
+														}
+													],
+													"on_entry": [
+														"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+													"@s execute_no_commands"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dig": "query.skin_id == 1"
+													},
+													{
+														"miner_equip": "query.skin_id == 2"
+													},
+													{
+														"miner_light": "query.skin_id == 3"
+													},
+													{
+														"miner_drill": "query.skin_id == 4"
+													}
+												]
+											},
+											"dig": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"@s lfm:miner_bot_unbreaking_stone",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_equip": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 2"
+													}
+												],
+												"on_entry": [
+													"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_light": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 3"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ setblock ~~~ torch 5",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_drill": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 4"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+													"/particle minecraft:knockback_roar_particle ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "miner_light",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 3"
+														}
+													],
+													"on_entry": [
+														"/execute @s ~~~ setblock ~~~ torch 5",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.skin_id != 3"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.skin_id != 3"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 3"
+														}
+													],
+													"on_entry": [
+														"/execute @s ~~~ setblock ~~~ torch 5",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/execute @s ~~~ setblock ~~~ torch 5",
+													"@s execute_no_commands"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"dig": "query.skin_id == 1"
+													},
+													{
+														"miner_equip": "query.skin_id == 2"
+													},
+													{
+														"miner_light": "query.skin_id == 3"
+													},
+													{
+														"miner_drill": "query.skin_id == 4"
+													}
+												]
+											},
+											"dig": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ detect ~~-1~ coal_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ iron_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lit_redstone_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ quartz_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ nether_gold_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"/execute @s ~~~ detect ~~-1~ lapis_ore 0 fill ~-1~-1~-1 ~1~2~1 air 0 destroy",
+													"@s lfm:miner_bot_unbreaking_stone",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_equip": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 2"
+													}
+												],
+												"on_entry": [
+													"/replaceitem entity @s slot.weapon.mainhand 1 iron_pickaxe",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_light": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 3"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ setblock ~~~ torch 5",
+													"@s execute_no_commands"
+												]
+											},
+											"miner_drill": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 4"
+													}
+												],
+												"on_entry": [
+													"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+													"/particle minecraft:knockback_roar_particle ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "miner_drill",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 4"
+														}
+													],
+													"on_entry": [
+														"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+														"/particle minecraft:knockback_roar_particle ~~1~",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.skin_id != 4"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.skin_id != 4"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 4"
+														}
+													],
+													"on_entry": [
+														"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+														"/particle minecraft:knockback_roar_particle ~~1~",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+													"/particle minecraft:knockback_roar_particle ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

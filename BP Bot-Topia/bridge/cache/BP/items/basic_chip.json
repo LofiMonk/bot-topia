@@ -1,0 +1,62 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\items\\basic_chip.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "fdc34194_35a7_400f_bee1_ed37f581b065",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:basic_chip"
+						},
+						"components": {
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false,
+							"minecraft:stacked_by_data": true
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:basic_chip"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:basic_chip"
+							},
+							"components": {
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false,
+								"minecraft:stacked_by_data": true
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false,
+							"minecraft:stacked_by_data": true
+						}
+					}
+				]
+			}
+		]
+	}
+}

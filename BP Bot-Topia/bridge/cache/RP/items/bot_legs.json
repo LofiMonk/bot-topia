@@ -1,0 +1,144 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\items\\bot_legs.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "0cd494be_8ee4_4a86_aa35_40cea406c310",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:bot_legs"
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.leggings"
+							},
+							"minecraft:icon": "bot_legs",
+							"minecraft:armor": {
+								"texture_type": "iron"
+							},
+							"minecraft:render_offsets": "leggings",
+							"minecraft:display_name": {
+								"value": "Bot Legs"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_legs"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.leggings"
+								},
+								"minecraft:icon": "bot_legs",
+								"minecraft:armor": {
+									"texture_type": "iron"
+								},
+								"minecraft:render_offsets": "leggings",
+								"minecraft:display_name": {
+									"value": "Bot Legs"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:bot_legs"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_legs"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.leggings"
+								},
+								"minecraft:icon": "bot_legs",
+								"minecraft:armor": {
+									"texture_type": "iron"
+								},
+								"minecraft:render_offsets": "leggings",
+								"minecraft:display_name": {
+									"value": "Bot Legs"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:icon": "bot_legs",
+									"minecraft:armor": {
+										"texture_type": "iron"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:display_name": {
+										"value": "Bot Legs"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.leggings"
+								}
+							},
+							{
+								"data": "bot_legs",
+								"key": "minecraft:icon"
+							},
+							{
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"texture_type": "iron"
+								}
+							},
+							{
+								"data": "leggings",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.leggings"
+									},
+									"minecraft:icon": "bot_legs",
+									"minecraft:armor": {
+										"texture_type": "iron"
+									},
+									"minecraft:render_offsets": "leggings",
+									"minecraft:display_name": {
+										"value": "Bot Legs"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Bot Legs"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

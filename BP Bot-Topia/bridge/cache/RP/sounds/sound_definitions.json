@@ -1,0 +1,612 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\sounds\\sound_definitions.json",
+	"file_type": "sound_definition",
+	"format_version": 1,
+	"file_uuid": "25a12d9c_178f_4e7c_8235_25b98c670a1e",
+	"file_version": 32,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"sound_definitions": {
+						"bot.idle": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/bot/boop1",
+								"sounds/bot/boop2",
+								"sounds/bot/boop3",
+								"sounds/bot/boop4",
+								"sounds/bot/boop5",
+								"sounds/bot/boop6",
+								"sounds/bot/bot_talk"
+							]
+						},
+						"bot.death": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/bot/bot_power_down",
+								"sounds/walker_bot/death"
+							]
+						},
+						"bot.hurt": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/bot/bot_hit",
+								"sounds/bot/shut_down2",
+								"sounds/walker_bot/hurt1"
+							]
+						},
+						"bot.yes": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/bot/bot_agree"
+							]
+						},
+						"bot.talk": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/bot/bot_talk",
+								"sounds/bot/bot_agree",
+								"sounds/bot/bot_disagree",
+								"sounds/bot/bot_scream"
+							]
+						},
+						"crafter.idle": {
+							"category": "neutral",
+							"min_distance": 2,
+							"sounds": [
+								"sounds/bot_crafter/crafter_idle"
+							]
+						},
+						"bot.transform": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/walker_bot/transform1",
+								"sounds/walker_bot/transform2"
+							]
+						},
+						"walker.bot.steps": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/walker_bot/footstep1",
+								"sounds/walker_bot/footstep2",
+								"sounds/walker_bot/footstep3"
+							]
+						},
+						"walker.bot.idle": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/walker_bot/ambient1",
+								"sounds/walker_bot/ambient2",
+								"sounds/walker_bot/ambient3",
+								"sounds/walker_bot/talk1",
+								"sounds/bot/bot_talk",
+								"sounds/bot/bot_agree",
+								"sounds/bot/bot_disagree"
+							]
+						},
+						"walker.bot.hurt": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/walker_bot/hurt2",
+								"sounds/walker_bot/hurt3",
+								"sounds/walker_bot/hurt4",
+								"sounds/walker_bot/hurt5"
+							]
+						}
+					}
+				},
+				"key": "sound_definitions",
+				"children": [
+					{
+						"key": "bot.idle",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/bot/boop1",
+										"sounds/bot/boop2",
+										"sounds/bot/boop3",
+										"sounds/bot/boop4",
+										"sounds/bot/boop5",
+										"sounds/bot/boop6",
+										"sounds/bot/bot_talk"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/bot/boop1",
+									"sounds/bot/boop2",
+									"sounds/bot/boop3",
+									"sounds/bot/boop4",
+									"sounds/bot/boop5",
+									"sounds/bot/boop6",
+									"sounds/bot/bot_talk"
+								]
+							}
+						]
+					},
+					{
+						"key": "bot.death",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/bot/bot_power_down",
+										"sounds/walker_bot/death"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/bot/bot_power_down",
+									"sounds/walker_bot/death"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bot.idle": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/boop1",
+									"sounds/bot/boop2",
+									"sounds/bot/boop3",
+									"sounds/bot/boop4",
+									"sounds/bot/boop5",
+									"sounds/bot/boop6",
+									"sounds/bot/bot_talk"
+								]
+							},
+							"bot.death": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_power_down",
+									"sounds/walker_bot/death"
+								]
+							},
+							"bot.hurt": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_hit",
+									"sounds/bot/shut_down2",
+									"sounds/walker_bot/hurt1"
+								]
+							},
+							"bot.yes": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_agree"
+								]
+							},
+							"bot.talk": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_talk",
+									"sounds/bot/bot_agree",
+									"sounds/bot/bot_disagree",
+									"sounds/bot/bot_scream"
+								]
+							},
+							"crafter.idle": {
+								"category": "neutral",
+								"min_distance": 2,
+								"sounds": [
+									"sounds/bot_crafter/crafter_idle"
+								]
+							},
+							"bot.transform": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/transform1",
+									"sounds/walker_bot/transform2"
+								]
+							},
+							"walker.bot.steps": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/footstep1",
+									"sounds/walker_bot/footstep2",
+									"sounds/walker_bot/footstep3"
+								]
+							},
+							"walker.bot.idle": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/ambient1",
+									"sounds/walker_bot/ambient2",
+									"sounds/walker_bot/ambient3",
+									"sounds/walker_bot/talk1",
+									"sounds/bot/bot_talk",
+									"sounds/bot/bot_agree",
+									"sounds/bot/bot_disagree"
+								]
+							},
+							"walker.bot.hurt": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/hurt2",
+									"sounds/walker_bot/hurt3",
+									"sounds/walker_bot/hurt4",
+									"sounds/walker_bot/hurt5"
+								]
+							}
+						},
+						"key": "bot.hurt",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/bot/bot_hit",
+										"sounds/bot/shut_down2",
+										"sounds/walker_bot/hurt1"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/bot/bot_hit",
+									"sounds/bot/shut_down2",
+									"sounds/walker_bot/hurt1"
+								]
+							}
+						]
+					},
+					{
+						"key": "bot.yes",
+						"is_minified": true,
+						"children": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/bot/bot_agree"
+							]
+						}
+					},
+					{
+						"key": "bot.talk",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/bot/bot_talk",
+										"sounds/bot/bot_agree",
+										"sounds/bot/bot_disagree",
+										"sounds/bot/bot_scream"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/bot/bot_talk",
+									"sounds/bot/bot_agree",
+									"sounds/bot/bot_disagree",
+									"sounds/bot/bot_scream"
+								]
+							}
+						]
+					},
+					{
+						"key": "crafter.idle",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 2,
+									"sounds": [
+										"sounds/bot_crafter/crafter_idle"
+									]
+								},
+								"data": "2",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 2,
+									"sounds": [
+										"sounds/bot_crafter/crafter_idle"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/bot_crafter/crafter_idle"
+								]
+							}
+						]
+					},
+					{
+						"key": "bot.transform",
+						"is_minified": true,
+						"children": {
+							"category": "neutral",
+							"min_distance": 5,
+							"sounds": [
+								"sounds/walker_bot/transform1",
+								"sounds/walker_bot/transform2"
+							]
+						}
+					},
+					{
+						"key": "walker.bot.steps",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/walker_bot/footstep1",
+										"sounds/walker_bot/footstep2",
+										"sounds/walker_bot/footstep3"
+									]
+								},
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/walker_bot/footstep1",
+										"sounds/walker_bot/footstep2",
+										"sounds/walker_bot/footstep3"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/walker_bot/footstep1",
+									"sounds/walker_bot/footstep2",
+									"sounds/walker_bot/footstep3"
+								]
+							}
+						]
+					},
+					{
+						"key": "walker.bot.idle",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/walker_bot/ambient1",
+										"sounds/walker_bot/ambient2",
+										"sounds/walker_bot/ambient3",
+										"sounds/walker_bot/talk1",
+										"sounds/bot/bot_talk",
+										"sounds/bot/bot_agree",
+										"sounds/bot/bot_disagree"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/walker_bot/ambient1",
+									"sounds/walker_bot/ambient2",
+									"sounds/walker_bot/ambient3",
+									"sounds/walker_bot/talk1",
+									"sounds/bot/bot_talk",
+									"sounds/bot/bot_agree",
+									"sounds/bot/bot_disagree"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bot.idle": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/boop1",
+									"sounds/bot/boop2",
+									"sounds/bot/boop3",
+									"sounds/bot/boop4",
+									"sounds/bot/boop5",
+									"sounds/bot/boop6",
+									"sounds/bot/bot_talk"
+								]
+							},
+							"bot.death": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_power_down",
+									"sounds/walker_bot/death"
+								]
+							},
+							"bot.hurt": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_hit",
+									"sounds/bot/shut_down2",
+									"sounds/walker_bot/hurt1"
+								]
+							},
+							"bot.yes": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_agree"
+								]
+							},
+							"bot.talk": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/bot/bot_talk",
+									"sounds/bot/bot_agree",
+									"sounds/bot/bot_disagree",
+									"sounds/bot/bot_scream"
+								]
+							},
+							"crafter.idle": {
+								"category": "neutral",
+								"min_distance": 2,
+								"sounds": [
+									"sounds/bot_crafter/crafter_idle"
+								]
+							},
+							"bot.transform": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/transform1",
+									"sounds/walker_bot/transform2"
+								]
+							},
+							"walker.bot.steps": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/footstep1",
+									"sounds/walker_bot/footstep2",
+									"sounds/walker_bot/footstep3"
+								]
+							},
+							"walker.bot.idle": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/ambient1",
+									"sounds/walker_bot/ambient2",
+									"sounds/walker_bot/ambient3",
+									"sounds/walker_bot/talk1",
+									"sounds/bot/bot_talk",
+									"sounds/bot/bot_agree",
+									"sounds/bot/bot_disagree"
+								]
+							},
+							"walker.bot.hurt": {
+								"category": "neutral",
+								"min_distance": 5,
+								"sounds": [
+									"sounds/walker_bot/hurt2",
+									"sounds/walker_bot/hurt3",
+									"sounds/walker_bot/hurt4",
+									"sounds/walker_bot/hurt5"
+								]
+							}
+						},
+						"key": "walker.bot.hurt",
+						"children": [
+							{
+								"data": "neutral",
+								"key": "category"
+							},
+							{
+								"data": "5",
+								"key": "min_distance"
+							},
+							{
+								"open": {
+									"category": "neutral",
+									"min_distance": 5,
+									"sounds": [
+										"sounds/walker_bot/hurt2",
+										"sounds/walker_bot/hurt3",
+										"sounds/walker_bot/hurt4",
+										"sounds/walker_bot/hurt5"
+									]
+								},
+								"key": "sounds",
+								"is_minified": true,
+								"children": [
+									"sounds/walker_bot/hurt2",
+									"sounds/walker_bot/hurt3",
+									"sounds/walker_bot/hurt4",
+									"sounds/walker_bot/hurt5"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

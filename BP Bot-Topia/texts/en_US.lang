@@ -1,0 +1,17 @@
+##bridge-file-version: #8
+pack.name=Bot-Topia
+pack.description=Bot-Topia is an addon that allows you to build bots, craft parts and add them to your bot. §e*Mob Greifing must be turned §lON§r§e for this addon to work. If mob greifing is off the bots cannot plant crops, pick up weapons, etc.
+entity.lfm:bot.name=Bot
+item.spawn_egg.entity.lfm:bot.name=Bot
+entity.lfm:bot_crafter.name=Bot Crafter
+item.spawn_egg.entity.lfm:bot_crafter.name=§b§kLoFi§r§fBot Crafter§b§kMonk§r
+entity.lfm:bot_walker.name=Bot Walker
+item.spawn_egg.entity.lfm:bot_walker.name=Bot Walker
+item.lfm:basic_chip.name=Basic Chip
+item.lfm:farm_chip.name=Farm Chip
+item.lfm:harvest_chip.name=Harvest Chip
+item.lfm:hopper_chip.name=Hopper Chip
+item.lfm:bot_legs.name=Bot Legs
+item.lfm:guard_chip.name=Guard Chip
+item.lfm:redstone_flake.name=Redstone Flake
+item.lfm:miner_chip.name=Miner Chip

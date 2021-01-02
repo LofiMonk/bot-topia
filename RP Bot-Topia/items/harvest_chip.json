@@ -1,0 +1,14 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lfm:harvest_chip",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "harvest_chip",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

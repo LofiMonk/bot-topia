@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\items\\miner_chip.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "17e86526_73b1_43ec_9e17_532a8699bdb7",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:miner_chip",
+							"category": "Items"
+						},
+						"components": {
+							"minecraft:icon": "hopper_chip",
+							"minecraft:render_offsets": "miscellaneous"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:miner_chip",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "hopper_chip",
+								"minecraft:render_offsets": "miscellaneous"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:miner_chip",
+							"category": "Items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:miner_chip",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "hopper_chip",
+								"minecraft:render_offsets": "miscellaneous"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "hopper_chip",
+							"minecraft:render_offsets": "miscellaneous"
+						}
+					}
+				]
+			}
+		]
+	}
+}

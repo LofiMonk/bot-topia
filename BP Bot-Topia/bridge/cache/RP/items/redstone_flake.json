@@ -1,0 +1,91 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\items\\redstone_flake.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "b9d63731_7ada_44f2_9310_da58df1f9660",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:redstone_flake",
+							"category": "Item"
+						},
+						"components": {
+							"minecraft:icon": "redstone_flake",
+							"minecraft:use_animation": "eat",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake",
+								"category": "Item"
+							},
+							"components": {
+								"minecraft:icon": "redstone_flake",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:redstone_flake",
+							"category": "Item"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake",
+								"category": "Item"
+							},
+							"components": {
+								"minecraft:icon": "redstone_flake",
+								"minecraft:use_animation": "eat",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "redstone_flake",
+								"key": "minecraft:icon"
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
+							},
+							{
+								"data": "apple",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:icon": "redstone_flake",
+									"minecraft:use_animation": "eat",
+									"minecraft:render_offsets": "apple"
+								},
+								"data": "redstone flake",
+								"key": "minecraft:display_name",
+								"is_active": false
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

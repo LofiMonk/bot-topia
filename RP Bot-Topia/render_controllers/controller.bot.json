@@ -1,0 +1,60 @@
+//bridge-file-version: #26
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.bot": {
+			"arrays": {
+				"geometries": {
+					"Array.geos": [
+						"Geometry.default",
+						"Geometry.topper",
+						"Geometry.hat"
+					]
+				},
+				"textures": {
+					"Array.bots": [
+						"Texture.bot_on",
+						"Texture.bot_off"
+					]
+				}
+			},
+			"geometry": "Array.geos[query.variant]",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.bots[query.is_baby]"
+			]
+		},
+		"controller.render.jobs": {
+			"arrays": {
+				"textures": {
+					"Array.jobs": [
+						"Texture.unskilled",
+						"Texture.farm_bot",
+						"Texture.share_bot",
+						"Texture.hopper_bot"
+					]
+				},
+				"geometries": {
+					"Array.geos": [
+						"Geometry.default",
+						"Geometry.topper",
+						"Geometry.hat"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.jobs[query.skin_id]"
+			],
+			"geometry": "Array.geos[query.variant]"
+		}
+	}
+}

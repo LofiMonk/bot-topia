@@ -1,0 +1,24 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lfm:bot_crafter",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/bot_crafter/bot_crafter"
+			},
+			"geometry": {
+				"default": "geometry.bot_crafter"
+			},
+			"render_controllers": [
+				"controller.render.bot_crafter"
+			],
+			"spawn_egg": {
+				"texture": "bot_crafter"
+			}
+		}
+	}
+}

@@ -1,0 +1,309 @@
+{
+	"entity": {
+		"BP/entities/bot.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:on_tame",
+				"lfm:farm",
+				"lfm:harvest",
+				"lfm:hop",
+				"lfm:pick_up",
+				"lfm:hopper_despawn",
+				"become_bot_walker",
+				"lfm:harvest_bot_gather_mode",
+				"lfm:harvest_bot_deliver_mode"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lfm:bot"
+			],
+			"animation_references": [],
+			"families": [
+				"mob",
+				"bot",
+				"mob",
+				"farm_bot",
+				"bot",
+				"mob",
+				"harvest_bot",
+				"bot",
+				"mob",
+				"hopper_bot",
+				"bot",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/bot_crafter.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"lfm:do_despawn"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lfm:bot_crafter"
+			],
+			"animation_references": [],
+			"families": [
+				"bot_crafter",
+				"inanimate"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/bot_walker.json": {
+			"events": [
+				"minecraft:entity_transformed",
+				"minecraft:entity_spawned",
+				"lfm:default_actions",
+				"lfm:become_guard",
+				"lfm:ranged_mode",
+				"lfm:melee_mode",
+				"lfm:become_miner",
+				"execute_no_commands",
+				"lfm:miner_bot_dig",
+				"lfm:miner_bot_unbreaking_stone",
+				"lfm:miner_bot_break_stone",
+				"lfm:miner_bot_drill",
+				"lfm:miner_bot_do_work",
+				"lfm:miner_bot_stay",
+				"lfm:miner_bot_follow"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lfm:bot_walker"
+			],
+			"animation_references": [
+				"bot_walker"
+			],
+			"families": [
+				"bot",
+				"walker_bot",
+				"mob",
+				"guard_bot",
+				"walker_bot",
+				"bot",
+				"mob",
+				"miner_bot",
+				"walker_bot",
+				"bot",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"client_entity": {
+		"RP/pia/entity/bot_crafter.json": {
+			"identifiers": [
+				"lfm:bot_crafter"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/bot.json": {
+			"identifiers": [
+				"lfm:bot"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"bot_off",
+				"bot_on",
+				"unskilled",
+				"farm_bot",
+				"share_bot",
+				"hopper_bot"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default",
+				"topper",
+				"hat"
+			],
+			"geometry_identifiers": [
+				"default",
+				"topper",
+				"hat"
+			]
+		},
+		"RP/entity/bot_walker.json": {
+			"identifiers": [
+				"lfm:bot_walker"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"look_at_target",
+				"walk",
+				"bristle_flow"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"bot_off",
+				"bot_on",
+				"guard_bot",
+				"bot_hurt"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/bot_crafter.json": {
+			"identifiers": [
+				"lfm:bot_crafter"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/pia/render_controllers/controller.bot_crafter.json": {
+			"ids": [
+				"controller.render.bot_crafter"
+			]
+		},
+		"RP/render_controllers/controller.bot.json": {
+			"ids": [
+				"controller.render.bot",
+				"controller.render.jobs"
+			]
+		},
+		"RP/render_controllers/controller.bot_walker.json": {
+			"ids": [
+				"controller.render.bot_walker"
+			]
+		}
+	},
+	"sound_definition": {
+		"RP/pia/sounds/sound_definitions.json": {
+			"ids": [
+				"bot.idle",
+				"bot.death",
+				"bot.hurt",
+				"bot.yes",
+				"bot.talk",
+				"crafter.idle"
+			]
+		},
+		"RP/sounds/sound_definitions.json": {
+			"ids": [
+				"bot.idle",
+				"bot.death",
+				"bot.hurt",
+				"bot.yes",
+				"bot.talk",
+				"crafter.idle",
+				"bot.transform",
+				"walker.bot.steps",
+				"walker.bot.idle",
+				"walker.bot.hurt"
+			]
+		}
+	},
+	"rp_animation_controller": {},
+	"rp_animation": {},
+	"item": {
+		"BP/items/bot_legs.json": {
+			"identifiers": [
+				"lfm:bot_legs"
+			],
+			"custom_commands": []
+		},
+		"BP/items/guard_chip.json": {
+			"identifiers": [
+				"lfm:guard_chip"
+			],
+			"custom_commands": []
+		},
+		"BP/items/redstone_flake.json": {
+			"identifiers": [
+				"lfm:redstone_flake"
+			],
+			"custom_commands": []
+		},
+		"BP/items/miner_chip.json": {
+			"identifiers": [
+				"lfm:miner_chip"
+			],
+			"custom_commands": []
+		},
+		"BP/items/basic_chip.json": {
+			"identifiers": [
+				"lfm:basic_chip"
+			],
+			"custom_commands": []
+		},
+		"BP/items/farm_chip.json": {
+			"identifiers": [
+				"lfm:farm_chip"
+			],
+			"custom_commands": []
+		},
+		"BP/items/harvest_chip.json": {
+			"identifiers": [
+				"lfm:harvest_chip"
+			],
+			"custom_commands": []
+		},
+		"BP/items/hopper_chip.json": {
+			"identifiers": [
+				"lfm:hopper_chip"
+			],
+			"custom_commands": []
+		}
+	},
+	"recipe": {
+		"BP/recipes/recipe.redstone_flake.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	},
+	"function": {
+		"5e1bf59c_1432_404f_af77_ad0930b94fbb": {}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/bot_walker.json": {
+			"ids": [
+				"controller.animation.bot_walker"
+			],
+			"custom_commands": []
+		}
+	}
+}

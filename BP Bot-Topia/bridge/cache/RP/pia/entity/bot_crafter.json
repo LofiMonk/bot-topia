@@ -1,0 +1,161 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP LFM's Bot-Topia\\entity\\bot_crafter.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "9c203fd4_ce47_4e35_b3ca_9e276af5b4e1",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lfm:bot_crafter",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"default": "textures/entity/bot_crafter"
+							},
+							"geometry": {
+								"default": "geometry.bot_crafter"
+							},
+							"render_controllers": [
+								"controller.render.bot_crafter"
+							],
+							"spawn_egg": {
+								"texture": "bot_crafter"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"default": "textures/entity/bot_crafter"
+								},
+								"geometry": {
+									"default": "geometry.bot_crafter"
+								},
+								"render_controllers": [
+									"controller.render.bot_crafter"
+								],
+								"spawn_egg": {
+									"texture": "bot_crafter"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "lfm:bot_crafter",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lfm:bot_crafter",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/bot_crafter"
+									},
+									"geometry": {
+										"default": "geometry.bot_crafter"
+									},
+									"render_controllers": [
+										"controller.render.bot_crafter"
+									],
+									"spawn_egg": {
+										"texture": "bot_crafter"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/bot_crafter"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.bot_crafter"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lfm:bot_crafter",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/bot_crafter"
+									},
+									"geometry": {
+										"default": "geometry.bot_crafter"
+									},
+									"render_controllers": [
+										"controller.render.bot_crafter"
+									],
+									"spawn_egg": {
+										"texture": "bot_crafter"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.bot_crafter"
+								]
+							},
+							{
+								"open": {
+									"identifier": "lfm:bot_crafter",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"default": "textures/entity/bot_crafter"
+									},
+									"geometry": {
+										"default": "geometry.bot_crafter"
+									},
+									"render_controllers": [
+										"controller.render.bot_crafter"
+									],
+									"spawn_egg": {
+										"texture": "bot_crafter"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "bot_crafter"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

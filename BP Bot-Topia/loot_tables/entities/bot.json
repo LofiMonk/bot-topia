@@ -1,0 +1,69 @@
+//bridge-file-version: #14
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:spawn_egg",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_actor_id",
+							"id": "lfm:bot"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 2
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "lfm:farm_chip",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 3
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "lfm:harvest_chip",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 4
+				}
+			],
+			"entries": [
+				{
+					"type": "item",
+					"name": "lfm:hopper_chip",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,200 @@
+//bridge-file-version: #16
+{
+	"tiers": [
+		{
+			"trades": [
+				{
+					"wants": [
+						{
+							"item": "minecraft:redstone",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:redstone_flake",
+							"quantity": 9
+						}
+					],
+					"trader_exp": 0,
+					"max_uses": -1,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:redstone_torch",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:observer",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "minecraft:spawn_egg",
+							"quantity": 1,
+							"functions": [
+								{
+									"function": "set_actor_id",
+									"id": "lfm:bot"
+								}
+							]
+						}
+					],
+					"trader_exp": 0,
+					"max_uses": -1,
+					"reward_exp": false
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:ender_pearl",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:comparator",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"max_uses": -1,
+					"trader_exp": 0
+				},
+				{
+					"wants": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:hopper",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:hopper_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"max_uses": -1,
+					"trader_exp": 0
+				},
+				{
+					"wants": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:composter",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:harvest_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"trader_exp": 0,
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:iron_hoe",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:farm_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"trader_exp": 0,
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:iron_leggings",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:bot_legs",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"max_uses": -1,
+					"trader_exp": 0
+				},
+				{
+					"wants": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:iron_sword",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:guard_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"max_uses": -1,
+					"trader_exp": 0
+				},
+				{
+					"wants": [
+						{
+							"item": "lfm:basic_chip",
+							"quantity": 1
+						},
+						{
+							"item": "minecraft:iron_pickaxe",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:miner_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"trader_exp": 0,
+					"max_uses": -1
+				}
+			]
+		}
+	]
+}

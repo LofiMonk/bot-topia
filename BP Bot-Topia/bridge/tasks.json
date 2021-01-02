@@ -1,0 +1,9 @@
+[
+	{
+		"title": "First task",
+		"description": "finish writing about the guard bot",
+		"assignedTo": "lofi ",
+		"isDone": true,
+		"isPinned": false
+	}
+]

@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP LFM's Bot-Topia\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "9e240d85_c4a7_45b9_ae47_5521b564141f",
+	"file_version": 18,
+	"cache_content": "pack.name=RP Bot-Topia\r\npack.description=Resource Pack for Bot-Topia\r\nentity.lfm:bot.name=Bot\r\nitem.spawn_egg.entity.lfm:bot.name=Bot\r\nentity.lfm:bot_crafter.name=Bot Crafter\r\nitem.spawn_egg.entity.lfm:bot_crafter.name=§b§kLoFi§r§fBot Crafter§b§kMonk\r\nitem.lfm:basic_chip.name=Basic Chip\r\nitem.lfm:farm_chip.name=Farm Chip\r\nitem.lfm:harvest_chip.name=Harvest Chip\r\nitem.lfm:hopper_chip.name=Hopper Chip\r\n"
+}

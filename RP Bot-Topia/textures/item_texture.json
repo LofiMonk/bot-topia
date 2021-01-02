@@ -1,0 +1,34 @@
+//bridge-file-version: #14
+{
+	"resource_pack_name": "lfm",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bot": {
+			"textures": "textures/items/bot_egg"
+		},
+		"basic_chip": {
+			"textures": "textures/items/basic_chip"
+		},
+		"farm_chip": {
+			"textures": "textures/items/farm_chip"
+		},
+		"hopper_chip": {
+			"textures": "textures/items/hopper_chip"
+		},
+		"harvest_chip": {
+			"textures": "textures/items/harvest_chip"
+		},
+		"bot_crafter": {
+			"textures": "textures/items/bot_crafter"
+		},
+		"bot_legs": {
+			"textures": "textures/items/bot_legs"
+		},
+		"guard_chip": {
+			"textures": "textures/items/guard_chip"
+		},
+		"redstone_flake": {
+			"textures": "textures/items/redstone_flake"
+		}
+	}
+}

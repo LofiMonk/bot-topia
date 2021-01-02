@@ -1,0 +1,186 @@
+{
+	"BP/entities/bot.json": {
+		"data": {}
+	},
+	"BP/entities/bot_crafter.json": {
+		"data": {}
+	},
+	"RP/pia/entity/bot_crafter.json": {
+		"data": {}
+	},
+	"RP/pia/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/trading/bot_crafter.json": {
+		"data": {}
+	},
+	"RP/pia/render_controllers/controller.bot_crafter.json": {
+		"data": {}
+	},
+	"RP/pia/sounds/sound_definitions.json": {
+		"data": {}
+	},
+	"RP/pia/sounds.json": {
+		"data": {}
+	},
+	"BP/loot_tables/bot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/bot_crafter.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/bot.json": {
+		"data": {}
+	},
+	"BP/recipes/recipe.bot_crafter.json": {
+		"data": {}
+	},
+	"RP/sounds.json": {
+		"data": {}
+	},
+	"RP/sounds/sound_definitions.json": {
+		"data": {}
+	},
+	"RP/entity/bot.json": {
+		"data": {}
+	},
+	"RP/entity/bot_walker.json": {
+		"data": {}
+	},
+	"RP/render_controllers/controller.bot.json": {
+		"data": {}
+	},
+	"RP/items/bot_legs.json": {
+		"data": {}
+	},
+	"BP/items/bot_legs.json": {
+		"data": {}
+	},
+	"RP/entity/bot_crafter.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/items/guard_chip.json": {
+		"data": {}
+	},
+	"RP/items/guard_chip.json": {
+		"data": {}
+	},
+	"BP/loot_tables/bot_walker.json": {
+		"data": {}
+	},
+	"BP/entities/bot_walker.json": {
+		"data": {}
+	},
+	"BP/items/redstone_flake.json": {
+		"data": {}
+	},
+	"RP/items/redstone_flake.json": {
+		"data": {}
+	},
+	"BP/recipes/recipe.redstone_flake.json": {
+		"data": {}
+	},
+	"RP/render_controllers/controller.bot_walker.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"RP/ui/how_to_play_screen.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/bot_walker.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bot_walker.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"956bfcc3_2361_4cd1_b813_c6dfab1c849d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"fdc34194_35a7_400f_bee1_ed37f581b065": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"cd38f3fa_c1e4_4394_8f92_27076426e968": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f464ca05_2b62_4f32_b1a2_927aebb6567f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3a5f8b49_3afb_40bb_87df_a7c78b3720e0": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"af766bf6_29f2_457a_90e2_9b73db39c0ee": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/miner_chip.json": {
+		"data": {}
+	},
+	"RP/items/miner_chip.json": {
+		"data": {}
+	},
+	"BP/items/basic_chip.json": {
+		"data": {}
+	},
+	"BP/items/farm_chip.json": {
+		"data": {}
+	},
+	"BP/items/harvest_chip.json": {
+		"data": {}
+	},
+	"BP/items/hopper_chip.json": {
+		"data": {}
+	}
+}

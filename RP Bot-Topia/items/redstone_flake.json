@@ -1,0 +1,15 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "lfm:redstone_flake",
+			"category": "Item"
+		},
+		"components": {
+			"minecraft:icon": "redstone_flake",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

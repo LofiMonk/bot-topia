@@ -1,0 +1,14 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lfm:guard_chip",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "guard_chip",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}
