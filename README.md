@@ -4,11 +4,14 @@ current version is 1.0.6
 
 ## Downloads
 
-Get the pack here.
+Get the pack here.<br/>
+
 [Bot-Topia addon](https://github.com/drewcifer/bot-topia/raw/main/Bot-Topia.mcaddon)
 
-or download and install them individually
-[Bot-Topia Behaviour pack](https://github.com/drewcifer/bot-topia/raw/main/BP%20Bot-Topia.mcpack)
+or download and install them individually<br/>
+
+[Bot-Topia Behaviour pack](https://github.com/drewcifer/bot-topia/raw/main/BP%20Bot-Topia.mcpack)<br/>
+
 [Bot-Topia Resource Pack](https://github.com/drewcifer/bot-topia/raw/main/RP%20Bot-Topia.mcpack)
 
 
