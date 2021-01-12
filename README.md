@@ -1,8 +1,9 @@
-#Bot-Topia
+# Bot-Topia
 
 current version is 1.0.6
 
-##Downloads
+## Downloads
+
 Get the pack here.
 [Bot-Topia addon](https://github.com/drewcifer/bot-topia/raw/main/Bot-Topia.mcaddon)
 
@@ -11,7 +12,8 @@ or download and install them individually
 [Bot-Topia Resource Pack](https://github.com/drewcifer/bot-topia/raw/main/RP%20Bot-Topia.mcpack)
 
 
-##Special Thanks
+## Special Thanks
+
 Dr.Sonic, otakonz
 for finding the issue and fixing it.
 
