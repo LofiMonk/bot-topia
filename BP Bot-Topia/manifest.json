@@ -1,40 +1,23 @@
-//bridge-file-version: #4
 {
-	"format_version": 2,
-	"header": {
-		"name": "pack.name",
-		"description": "pack.description",
-		"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
-		"version": [
-			1,
-			0,
-			5
-		],
-		"min_engine_version": [
-			1,
-			13,
-			0
-		]
-	},
-	"modules": [
-		{
-			"type": "data",
-			"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
-			"version": [
-				1,
-				0,
-				5
-			]
-		}
-	],
-	"dependencies": [
-		{
-			"version": [
-				1,
-				0,
-				5
-			],
-			"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "name": "Bot Topia",
+    "description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+    "uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+    "version": [1, 0, 6],
+    "min_engine_version": [1, 13, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
+      "version": [1, 0, 6]
+    }
+  ],
+  "dependencies": [
+    {
+      "version": [1, 0, 6],
+      "uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
+    }
+  ]
 }

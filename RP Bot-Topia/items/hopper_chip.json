@@ -1,10 +1,10 @@
 //bridge-file-version: #4
 {
-	"format_version": "1.16.100",
+	"format_version": 1.1,
 	"minecraft:item": {
 		"description": {
 			"identifier": "lfm:hopper_chip",
-			"category": "Items"
+			"category": "Item"
 		},
 		"components": {
 			"minecraft:icon": "hopper_chip",

@@ -1,10 +1,10 @@
 //bridge-file-version: #2
 {
-	"format_version": "1.16.100",
+	"format_version": 1.1,
 	"minecraft:item": {
 		"description": {
 			"identifier": "lfm:farm_chip",
-			"category": "Items"
+			"category": "Item"
 		},
 		"components": {
 			"minecraft:icon": "farm_chip",
