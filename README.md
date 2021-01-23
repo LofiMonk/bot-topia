@@ -11,4 +11,4 @@ Check the [release](https://github.com/drewcifer/bot-topia/releases/latest) page
 Dr.Sonic, otakonz
 for finding the issue and fixing it.
 
-This is an addon for Minecraft Bedrock made with .Bridge ... more to come
+This is an addon for Minecraft Bedrock made with .Bridge
