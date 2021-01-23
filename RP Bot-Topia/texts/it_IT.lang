@@ -1,0 +1,146 @@
+pack.name=RP Bot-Topia
+pack.description=Resource Pack per Bot-Topia Bot-Topia è un addon che ti permette di costruire bot, creare parti e aggiungerle al tuo bot. §E * Mob Greifing deve essere attivato §lON§r§e affinché questo componente aggiuntivo funzioni. Se l'avidità mob è disattivata, i robot non possono piantare raccolti, raccogliere armi, ecc.
+
+entity.lfm:bot.name=Bot
+item.spawn_egg.entity.lfm:bot.name=Bot
+entity.lfm:bot_crafter.name=Bot Crafter
+item.spawn_egg.entity.lfm:bot_crafter.name=Bot Crafter
+entity.lfm:bot_walker.name=Bot Walker
+item.spawn_egg.entity.lfm:bot_walker.name=Bot Walker
+item.lfm:basic_chip.name=Chip di base
+item.lfm:farm_chip.name=Farm Chip
+item.lfm:harvest_chip.name=Harvest Chip
+item.lfm:hopper_chip.name=Chip della tramoggia
+item.lfm:bot_legs.name=Bot Legs
+item.lfm:guard_chip.name=Chip di guardia
+item.lfm:redstone_flake.name=Redstone Flake
+item.lfm:miner_chip.name=Miner Chip
+
+
+action.hint.exit.lfm:bot_walker=sgattaiolare per uscire
+
+tips.game.63=Puoi attivare i bot alimentandoli con polvere di pietra rossa.
+tips.game.64=§B I fiocchi di pietra rossa§r sono più economici per nutrire i robot rispetto alla polvere di pietra rossa.
+tips.game.65=Installa §bBot Legs§r su un bot prima di assegnargli un §bGuard Chip§r.
+tips.game.66=I robot senza gambe non possono saltare, quindi a volte è più facile usare un guinzaglio per spostarli.
+
+menu.howToPlay=§BBot-Topia
+menu.howToPlay.generalMessage=§E * Mob Greifing deve essere attivato §lON§r§e affinché questo componente aggiuntivo funzioni. Se l'avidità mob è disattivata, i robot non possono piantare raccolti, raccogliere armi, ecc.
+
+
+howtoplay.category.whatsNew=§ACosa c'è di nuovo
+
+howtoplay.whatsNew.title=Bot-Topia: Novità
+howtoplay.whatsnew= Nuovo
+whatsNew.header.title00=§BCosa c'è di nuovo V1.0.4
+bot_topia.whatsNew.text00=Aggiunto un nuovo Miner Bot!
+bot_topia.whatsNew.text01=Per rimanere aggiornato su Bot-Topia, controlla la pagina di rilascio ufficiale. §BMCPEDL.com / bot-topia
+
+howtoplay.category.bot-topia=§A Benvenuti in Bot-Topia
+
+howtoplay.welcome.title=Bot-Topia: che cos'è Bot-Topia?
+howtoplay.welcome=Cos'è Bot-Topia?
+
+welcome.header.title00=§BBot-Topia
+bot_topia.welcome.text00=               Benvenuto! Bot-Topia è un addon che ti consente di creare bot, creare parti e aggiungerle al tuo bot. Puoi persino creare Chip Bot per programmare i tuoi robot in modo che facciano lavori per te. Questa guida ti aiuterà con tutte le tue esigenze di bot. Questo è il mio primo componente aggiuntivo ed è un work in progress. Controllare MCPEDL.com per gli aggiornamenti. Godere!
+bot_topia.welcome.text01=§E * Mob Greifing deve essere attivato §lON§r§e affinché questo componente aggiuntivo funzioni. Se l'avidità mob è disattivata, i robot non possono piantare raccolti, raccogliere armi, ecc.
+
+howtoplay.welcomeTwo.title=Bot-Topia: cosa sono i bot?
+howtoplay.welcomeTwo=Cosa sono i bot?
+
+welcomeTwo.header.title00=§BBots
+bot_topia.welcomeTwo.text00=            Questo è un bot. Possono essere creati in un §bBot Crafter§r. I bot amano la pietra rossa. Ti seguiranno se tieni in mano la polvere di pietra rossa oi fiocchi di pietra rossa §rendi la mano. §EPuoi anche dar loro da mangiare polvere di pietra rossa o fiocchi per curarli se sono danneggiati.§r Nutrirli in un certo senso li carica. Ottengono un piccolo aumento di velocità quando mangiano. I robot senza gambe non possono saltare, quindi a volte è più facile usare un guinzaglio per spostarli.
+bot_topia.welcomeTwo.text01=Puoi aprire l'inventario della maggior parte dei bot interagendo con loro quando non hai in mano altri oggetti correlati ai bot. Puoi mettere le cose nel loro inventario e tirarle fuori. §EPer ulteriori informazioni, consultare la sezione sui bot introduttivi.
+
+
+howtoplay.category.gettingStarted=§APer iniziare
+
+howtoplay.botCrafter.title=Bot-Topia: Bot Crafter
+howtoplay.botCrafter=Bot Crafter
+
+botCrafter.header.title00=§BBot Crafter
+bot_topia.botCrafter.text00=            Per rendere le cose facili, tutte le ricette in questo addon possono essere fatte usando §bBot Crafter§r ed è il punto di partenza per questo addon. L'ordine delle ricette è anche un'indicazione della progressione nel processo di creazione del bot. Quindi, per iniziare, apri un banco di lavorazione e getta questi ingredienti per crearne uno.
+bot_topia.botCrafter.text01=            Puoi posizionare §bBot Crafter§r come qualsiasi altro blocco nel gioco. Ma il modo più semplice per raccoglierlo è fare clic su di esso. Dovrebbe saltare da terra per te. È abbastanza facile da qui, ma ti guiderò attraverso come costruire e utilizzare i bot nei passaggi successivi.
+
+howtoplay.bot.title=Bot-Topia: Bot
+howtoplay.bot=Bot
+
+bot.header.title00=§BBot
+bot_topia.bot.text00=            Questo è un bot. Possono essere creati in un §bBot Crafter§r. I bot amano la pietra rossa. Ti seguiranno se tieni in mano la polvere di pietra rossa oi fiocchi di pietra rossa §rendi la mano. §EPuoi anche dar loro da mangiare polvere di pietra rossa o fiocchi per curarli se sono danneggiati.§r Nutrirli in un certo senso li carica. Ottengono un piccolo aumento di velocità quando mangiano. I robot senza gambe non possono saltare, quindi a volte è più facile usare un guinzaglio per spostarli.
+bot_topia.bot.text03=           Puoi aprire l'inventario della maggior parte dei bot interagendo con loro quando non hai in mano altri oggetti correlati ai bot. Puoi mettere le cose nel loro inventario e tirarle fuori.
+
+bot.header.title01=§B Creazione del tuo bot
+bot_topia.bot.text01=       Gli ingredienti per creare un robot sono una torcia di pietra rossa e un comparatore. Usa un §bBot Crafter§r per creare un bot.
+
+bot.header.title02=§BAccendere il tuo Bot
+bot_topia.bot.text02=           Noterai che quando metti giù il tuo bot per la prima volta sarà spento. Per accendere il bot, dagli un pezzo di polvere di pietra rossa. Ora che il tuo bot è acceso, probabilmente vorrai dargli un lavoro come l'agricoltura, ad esempio. Per dare un lavoro al tuo bot dovrai usare §bBot Crafter§r per creare §bBot Chips§r. Dai al tuo bot un §bBot Chip§r per programmarlo per fare un lavoro. La sezione successiva tratterà i diversi tipi di chip e processi di bot.
+
+howtoplay.botChip.title=Bot Chip
+
+
+botChip.header.title00=           I Bot Chips sono il modo in cui programmi il tuo bot per svolgere i lavori. Tutti i Bot Chips sono realizzati utilizzando §bBot Crafter§r. Dopo aver acceso il bot con la polvere di pietra rossa, puoi installarvi un chip bot. Alcuni chip richiedono diversi aggiornamenti del bot. Il chip guard, ad esempio, richiede che il tuo bot abbia §bBot Legs§r installato prima di poter installare §bGuard Chip§r.
+
+
+botChip.header.title01=           Il Basic Chip è la base per tutti gli altri Bot Chip. È l'unico chip che non interagisce con i bot, almeno non da solo. Combina altri materiali con un chip base per creare i diversi chip bot.
+
+
+botChip.header.title02=Combina una zappa di ferro e un chip di base per creare un chip della fattoria. Dai un chip della fattoria a un bot per installare il chip. Una volta installato il chip, avrai un §bFarm Bot§r.
+
+
+botChip.header.title03=Combina un Composter e un Basic Chip per creare un Harvest Chip. Dai il Chip Harvest a un Bot per installare il chip. Una volta installato il chip, avrai un §bHarvest Bot§r.
+
+
+botChip.header.title04=Combina una tramoggia e un chip di base per creare un chip della tramoggia. Dai l'Hopper Chip a un Bot per installare il chip. Una volta installato il chip, avrai un §bHopper Bot§r.
+
+
+botChip.header.title05=Combina una spada di ferro e un chip di base per creare un chip di guardia. Per installare un Guard Chip, il bot deve avere prima installato §bBot Legs§r. Dai il Guard Chip a un §bWalker Bot§r per installare il chip. Una volta installato il chip, avrai un §bGuard Bot§r.
+
+
+
+howtoplay.botLegs.title=Bot Legs
+
+
+botLegs.header.title00=           Bot Legs è un aggiornamento del tuo bot che ... dà al bot gambe.
+bot_topia.botLegs.text00=         Interagisci con il tuo bot tenendo premuti i Bot Legs per installarli e creare un §bWalker Bot.
+
+
+howtoplay.farmBot.title=Farm Bot
+howtoplay.farmBot=§BFarm Bot
+farmBot.header.title00=           I Farm Bots possono piantare e raccogliere raccolti per te. Fino a quando un po 'di terra e lascia cadere alcuni semi sul terreno, o ancora meglio apri l'inventario dei robot facendo clic sul bot e posiziona il raccolto o il seme che desideri coltivare all'interno del suo inventario. Il bot dovrebbe immediatamente iniziare a rompere e piantare i raccolti. I Farm Bots non pianteranno zucche e meloni ma li raccoglieranno per te se pianti i semi.
+bot_topia.farmBot.text00=I Farm Bots possono fare molto lavoro ma hanno bisogno di aiuto. Quando un Farm Bot ha abbastanza raccolti, li darà a un §bHarvest Bot§r per essere collocato nel tuo sistema di archiviazione preferito. Dai a un bot un §bFarm Chip§r per creare un Farm bot.
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=Harvest Bot
+howtoplay.harvestBot=§BHarvest Bot
+harvestBot.header.title00=            I bot del raccolto cercheranno terreni agricoli da pattugliare e attenderanno che §bFarm Bots§r li caricherà con i raccolti. Di tanto in tanto il bot Harvest cercherà una tramoggia nel terreno su cui può sedersi per scaricare il carico. Ricorda che questi robot non possono saltare, quindi posiziona una tramoggia di oggetti nel terreno in modo che possano rotolare sopra di essa. Da lì basta puntare la tramoggia verso il magazzino che preferisci. Dai un §bHarvest Chip§r a un bot per creare un Harvest Bot.
+
+
+howtoplay.hopperBot.title=Hopper Bot
+howtoplay.hopperBot=§BHopper Bot
+hopperBot.header.title00=         Un Hopper Bot raccoglierà tutto ciò che incrocia il suo percorso. Si muovono alla ricerca di oggetti da raccogliere e di tanto in tanto cercano una tramoggia su cui sedersi e scaricare il suo contenuto.
+bot_topia.hopperBot.text00=         Dai un §bHopper Chip§r a un bot per creare un Hopper Bot. Questi ragazzi corrono in giro come bambini idioti. Assicurati di chiudere la loro area. Raccolgono tutto ... Se manca qualcosa controlla le loro tasche.
+
+
+howtoplay.guardBot.title=Bot di guardia
+howtoplay.guardBot=§BGuard Bot
+guardBot.header.title00=          I guard bot seguiranno i giocatori anche se non hanno in mano redstone o §bredstone flakes§r. Se vuoi che un guard bot smetta di seguirti, fai clic sul guard bot per farlo sedere. Il bot Guard manterrà la sua posizione. I Guard Bots attaccheranno tutti i nemici vicini o qualsiasi mob che attacca loro o il giocatore. I Guard Bots prenderanno di mira anche qualsiasi mob che attacchi. Puoi far cadere le armi a terra e il Guard Bot le raccoglierà e lo equipaggerà. Puoi dargli una spada o un arco. Potenzieranno l'arma che hanno in mano se ne è disponibile una migliore da raccogliere. Questo funziona anche per l'armatura, non puoi vedere l'armatura che indossano.
+bot_topia.guardBot.text00=          Puoi guidare i Guard Bots in battaglia senza bisogno di sella. Puoi controllare la direzione dei Guard Bots tenendo un arco in mano. Mentre sei in sella a un bot Guard puoi accedere al suo inventario. Dai un §bGuard Chip§r a un §bWalker Bot§r per creare un Guard bot.
+bot_topia.guardBot.text01=Bot-Topia: Miner Bot
+
+howtoplay.minerBot.title=§BMiner Bot
+howtoplay.minerBot=          I robot minatori sono principalmente utili per la speleologia. Ti seguiranno anche se non hai in mano pietra rossa o § scaglie di pietra rossa§r. I robot minatori non faranno tutto il lavoro per te, ma ti aiuteranno. Ti seguiranno raccogliendo blocchi lasciati dalle miniere e scavando minerali. Posizioneranno le torce se si trovano in un'area buia.
+minerBot.header.title00=          Quando si guida un Miner bot i controlli sono gli stessi di un cavallo. Cavalcare un Miner Bot lo metterà in modalità drill. Entra in un muro per perforarlo. È qui che avere più di uno è una buona idea. Uno può posizionare le torce mentre l'altro è in modalità trapano. I Miner Bots non estraggono smeraldi, diamanti o pietre nere dorate. Questo per evitare che cadano nella lava. Anche se i Miner Bots possono camminare nella lava, non è una buona idea cavalcarli attraverso la lava. Godere!
+
+bot_topia.minerBot.text01=§AMisc.
+
+howtoplay.category.misc=Bot-Topia: Redstone Flake
+
+howtoplay.redstoneFlake.title=§BRedstone Flake
+howtoplay.redstoneFlake=         I fiocchi di pietra rossa sono un modo più economico per nutrire i tuoi robot. Ottieni 9 pezzi di Redstone Flake per 1 pezzo di Redstone Dust. I fiocchi di Redstone possono essere realizzati nel Bot Crafter.
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+

@@ -1,0 +1,146 @@
+pack.name=RP Bot-Topia
+pack.description=Pakiet zasobów dla Bot-Topia Bot-Topia to dodatek, który pozwala budować boty, wytwarzać części i dodawać je do bota. §E * Mob Greifing musi zostać zmieniony na §lON§r§e, aby ten dodatek działał. Jeśli mob greifing jest wyłączony, boty nie mogą sadzić roślin, podnosić broni itp.
+
+entity.lfm:bot.name=Nerw
+item.spawn_egg.entity.lfm:bot.name=Nerw
+entity.lfm:bot_crafter.name=Bot Crafter
+item.spawn_egg.entity.lfm:bot_crafter.name=Bot Crafter
+entity.lfm:bot_walker.name=Bot Walker
+item.spawn_egg.entity.lfm:bot_walker.name=Bot Walker
+item.lfm:basic_chip.name=Podstawowy chip
+item.lfm:farm_chip.name=Farm Chip
+item.lfm:harvest_chip.name=Harvest Chip
+item.lfm:hopper_chip.name=Hopper Chip
+item.lfm:bot_legs.name=Bot Legs
+item.lfm:guard_chip.name=Guard Chip
+item.lfm:redstone_flake.name=Płatek Redstone
+item.lfm:miner_chip.name=Miner Chip
+
+
+action.hint.exit.lfm:bot_walker=skradać się, aby wyjść
+
+tips.game.63=Możesz włączyć boty, karmiąc je pyłem z czerwonego kamienia.
+tips.game.64=§BPłatki czerwonego kamienia§r są tańsze w karmieniu robotów niż pył z czerwonego kamienia.
+tips.game.65=Zainstaluj §bBot Legs§r na bocie przed nadaniem mu §bGuard Chip§r.
+tips.game.66=Boty bez nóg nie mogą skakać, więc czasami łatwiej jest użyć smyczy, aby je przesunąć.
+
+menu.howToPlay=§BBot-Topia
+menu.howToPlay.generalMessage=§E * Mob Greifing musi zostać zmieniony na §lON§r§e, aby ten dodatek działał. Jeśli mob greifing jest wyłączony, boty nie mogą sadzić roślin, podnosić broni itp.
+
+
+howtoplay.category.whatsNew=§AWhats New
+
+howtoplay.whatsNew.title=Bot-Topia: co nowego
+howtoplay.whatsnew= Nowy
+whatsNew.header.title00=§BCo nowego w wersji 1.0.4
+bot_topia.whatsNew.text00=Dodano nowego bota górnika!
+bot_topia.whatsNew.text01=Aby być na bieżąco z Bot-Topią, sprawdź oficjalną stronę wydania. §BMCPEDL.com / bot-topia
+
+howtoplay.category.bot-topia=§AWitamy w Bot-Topia
+
+howtoplay.welcome.title=Bot-Topia: Co to jest Bot-Topia?
+howtoplay.welcome=Co to jest Bot-Topia?
+
+welcome.header.title00=§BBot-Topia
+bot_topia.welcome.text00=               Witamy! Bot-Topia to dodatek, który pozwala budować boty, wytwarzać części i dodawać je do bota. Możesz nawet stworzyć bot Chips, aby zaprogramować swoje boty do wykonywania zadań za Ciebie. Ten przewodnik pomoże ci we wszystkich potrzebach bota. To jest mój pierwszy dodatek i jest w toku. Sprawdź aktualizacje MCPEDL.com. Cieszyć się!
+bot_topia.welcome.text01=§E * Mob Greifing musi zostać zmieniony na §lON§r§e, aby ten dodatek działał. Jeśli mob greifing jest wyłączony, boty nie mogą sadzić roślin, podnosić broni itp.
+
+howtoplay.welcomeTwo.title=Bot-Topia: Co to są boty?
+howtoplay.welcomeTwo=Co to są boty?
+
+welcomeTwo.header.title00=§BBots
+bot_topia.welcomeTwo.text00=            To jest bot. Można je stworzyć w §bBot Crafter§r. Bots Love Redstone. Podążą za tobą, jeśli będziesz trzymał w dłoni pył z czerwonego kamienia lub § płatki z czerwonego kamienia §. §EMożesz również nakarmić je pyłem lub płatkami czerwonego kamienia, aby je uleczyć, jeśli są uszkodzone.§r Karmienie ich w pewnym sensie ładuje je. Podczas jedzenia uzyskują niewielki wzrost prędkości. Boty bez nóg nie mogą skakać, więc czasami łatwiej jest użyć smyczy, aby je przesunąć.
+bot_topia.welcomeTwo.text01=Możesz otworzyć ekwipunek większości botów, wchodząc z nimi w interakcję, gdy nie masz w ręce innych przedmiotów związanych z botami. Możesz umieścić rzeczy w ich ekwipunku i wyjąć je. §E Aby uzyskać więcej informacji, zapoznaj się z sekcją dotyczącą botów wprowadzających.
+
+
+howtoplay.category.gettingStarted=§ARozpoczęcie pracy
+
+howtoplay.botCrafter.title=Bot-Topia: Bot Crafter
+howtoplay.botCrafter=Bot Crafter
+
+botCrafter.header.title00=§BBot Crafter
+bot_topia.botCrafter.text00=            Aby było łatwiej, wszystkie przepisy w tym dodatku można tworzyć za pomocą §bBot Crafter§r i jest to punkt wyjścia dla tego dodatku. Kolejność recept jest również wskazaniem postępu w procesie tworzenia botów. Aby zacząć, otwórz ławkę rzemieślniczą i wrzuć do niej te składniki, aby ją wytworzyć.
+bot_topia.botCrafter.text01=            Możesz umieścić §bBot Crafter§r tak jak każdy inny blok w grze. Ale najłatwiejszym sposobem na podniesienie go jest podstępne kliknięcie. Powinien wyskoczyć z ziemi dla Ciebie. Stąd jest to całkiem proste, ale w kolejnych krokach przeprowadzę Cię przez proces tworzenia i używania botów.
+
+howtoplay.bot.title=Bot-Topia: Bot
+howtoplay.bot=Nerw
+
+bot.header.title00=§BBot
+bot_topia.bot.text00=            To jest bot. Można je stworzyć w §bBot Crafter§r. Bots Love Redstone. Podążą za tobą, jeśli będziesz trzymał w dłoni pył z czerwonego kamienia lub § płatki z czerwonego kamienia §. §EMożesz również nakarmić je pyłem lub płatkami czerwonego kamienia, aby je uleczyć, jeśli są uszkodzone.§r Karmienie ich w pewnym sensie ładuje je. Podczas jedzenia uzyskują niewielki wzrost prędkości. Boty bez nóg nie mogą skakać, więc czasami łatwiej jest użyć smyczy, aby je przesunąć.
+bot_topia.bot.text03=           Możesz otworzyć ekwipunek większości botów, wchodząc z nimi w interakcję, gdy nie masz w ręce innych przedmiotów związanych z botami. Możesz umieścić rzeczy w ich ekwipunku i wyjąć je.
+
+bot.header.title01=§B Tworzenie bota
+bot_topia.bot.text01=       Składniki do stworzenia bota to pochodnia z czerwonego kamienia i komparator. Użyj §bBot Crafter§r, aby stworzyć bota.
+
+bot.header.title02=§B Włączanie bota
+bot_topia.bot.text02=           Zauważysz, że kiedy po raz pierwszy odłożysz bota, będzie on wyłączony. Aby włączyć bota, nakarm go kawałkiem pyłu z czerwonego kamienia. Teraz, gdy twój bot jest włączony, prawdopodobnie będziesz chciał dać mu pracę, na przykład rolniczą. Aby dać robotowi pracę, będziesz musiał użyć §bBot Crafter§r, aby wykonać §bBot Chips§r. Daj swojemu botowi §bBot Chip§r, aby zaprogramował go do wykonania pracy. W następnej sekcji omówimy różne typy żetonów botów i zadań.
+
+howtoplay.botChip.title=Bot Chip
+
+
+botChip.header.title00=           Bot Chips to sposób, w jaki programujesz swojego bota do wykonywania zadań. Wszystkie żetony botów są wytwarzane za pomocą §bBot Crafter§r. Po włączeniu bota pyłem z czerwonego kamienia możesz zainstalować w nim Bot Chip. Niektóre chipy wymagają różnych ulepszeń botów. Na przykład chip ochronny wymaga, aby twój bot miał zainstalowane §bBot Legs§r, zanim będziesz mógł zainstalować §bGuard Chip§r.
+
+
+botChip.header.title01=           Podstawowy chip jest podstawą dla wszystkich innych żetonów botów. To jedyny chip, który nie wchodzi w interakcje z botami, przynajmniej nie samodzielnie. Połącz inne materiały z podstawowym chipem, aby stworzyć różne żetony robota.
+
+
+botChip.header.title02=Połącz żelazną motykę i podstawowy chip, aby stworzyć żeton farmy. Daj robotowi żeton farmy, aby go zainstalować. Po zainstalowaniu chipa otrzymasz §bFarm Bot§r.
+
+
+botChip.header.title03=Połącz kompostownik i podstawowy chip, aby stworzyć żeton zbiorów. Daj żeton żniwa botowi, aby zainstalować chip. Po zainstalowaniu chipa otrzymasz §bHarvest Bot§r.
+
+
+botChip.header.title04=Połącz zasobnik i podstawowy chip, aby stworzyć zasobnik. Daj chip Hoppera botowi, aby zainstalować chip. Po zainstalowaniu chipa otrzymasz §bHopper Bot§r.
+
+
+botChip.header.title05=Połącz Żelazny Miecz i Podstawowy Chip, aby utworzyć Chip Strażnika. Aby zainstalować Guard Chip, bot musi najpierw mieć zainstalowany §bBot Legs§r. Przekaż chip ochrony §bWalker Bot§r, aby zainstalować chip. Po zainstalowaniu chipa otrzymasz §bGuard Bot§r.
+
+
+
+howtoplay.botLegs.title=Bot Legs
+
+
+botLegs.header.title00=           Bot Legs to ulepszenie twojego bota, które ... daje botowi nogi.
+bot_topia.botLegs.text00=         Wejdź w interakcję ze swoim botem, trzymając Bot Legs, aby je zainstalować i stworzyć §bWalker Bot.
+
+
+howtoplay.farmBot.title=Farm Bot
+howtoplay.farmBot=§BFarm Bot
+farmBot.header.title00=           Farm Bots może sadzić i zbierać plony dla Ciebie. Upuść trochę ziemi i upuść nasiona na ziemię, a nawet lepiej otwórz ekwipunek botów, klikając bota i umieść uprawę lub nasiona, które chcesz wyhodować w jego ekwipunku. Bot powinien natychmiast zacząć łamać i sadzić plony. Farm Bots nie sadzą dyni i melonów, ale będą je zbierać, jeśli posadzisz nasiona.
+bot_topia.farmBot.text00=Farm Boty mogą wykonać dużo pracy, ale potrzebują pomocy. Kiedy robot rolniczy ma wystarczającą ilość plonów, przekaże je §bHarvest Bot§r w celu umieszczenia ich w wybranym systemie przechowywania. Daj botowi §bFarm Chip§r, aby stworzyć bota Farm.
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=Harvest Bot
+howtoplay.harvestBot=§BHarvest Bot
+harvestBot.header.title00=            Boty żniwne będą szukać pól uprawnych do patrolowania i czekać, aż §bBoty rolnicze§r załadują je uprawami. Od czasu do czasu robot Harvest będzie szukał w ziemi leja, na którym mógłby usiąść, aby wyładować swój ładunek. Pamiętaj, że te boty nie mogą skakać, więc umieść pojemnik na przedmioty w ziemi, aby mogły się po nim toczyć. Stamtąd wystarczy skierować lej do wybranego magazynu. Daj §bHarvest Chip§r botowi, aby stworzyć bota żniwnego.
+
+
+howtoplay.hopperBot.title=Hopper Bot
+howtoplay.hopperBot=§BHopper Bot
+hopperBot.header.title00=         Hopper Bot podniesie wszystko, co stanie na jego drodze. Poruszają się po okolicy, szukając przedmiotów do odebrania i od czasu do czasu szukają leja, na którym można usiąść i wyładować jego zawartość.
+bot_topia.hopperBot.text00=         Daj §bHopper Chip§r botowi, aby stworzyć bota Hoppera. Ci faceci biegają jak idioty dzieci. Pamiętaj, aby zamknąć ich obszar. Zbierają wszystko ... Jeśli czegoś brakuje, sprawdź ich kieszenie.
+
+
+howtoplay.guardBot.title=Guard Bot
+howtoplay.guardBot=§BGuard Bot
+guardBot.header.title00=          Boty strażnicze będą podążać za graczami, nawet jeśli nie trzymają czerwonego kamienia lub §bredstone flakes§r. Jeśli chcesz, aby robot strażniczy przestał podążać za tobą, kliknij na bota strażnika, aby usiadł. Bot Guard będzie trzymał się ziemi. Boty strażnicze zaatakują pobliskich wrogów lub mob, który zaatakuje ich lub gracza. Guard Bots będzie również atakować każdego moba, którego atakujesz. Możesz upuścić broń na ziemię, a Guard Bot podniesie ją i wyposaży. Możesz dać mu miecz lub łuk. Ulepszą trzymaną broń, jeśli będzie dostępna dla nich lepsza. Działa to również w przypadku zbroi, po prostu nie możesz zobaczyć zbroi, którą mają na sobie.
+bot_topia.guardBot.text00=          Możesz jeździć Guard Bots do bitwy bez konieczności posiadania siodła. Możesz kontrolować kierunek Guard Bots, trzymając łuk w dłoni. Podczas jazdy na bocie Guard możesz uzyskać dostęp do jego ekwipunku. Daj §bGuard Chip§r §bWalker Bot§r, aby stworzyć bota Guard.
+bot_topia.guardBot.text01=Bot-Topia: Górnik Bot
+
+howtoplay.minerBot.title=§BMiner Bot
+howtoplay.minerBot=          Boty górników są najczęściej przydatne do speleologii. Będą podążać za tobą, nawet jeśli nie masz w ręku czerwonego kamienia lub § płatków z czerwonego kamienia§r. Boty górników nie wykonają za Ciebie całej pracy, ale pomogą. Będą podążać za tobą, zbierając bloki upuszczone podczas kopania i kopiąc rudy. Złożą pochodnie, jeśli znajdują się w ciemnym miejscu.
+minerBot.header.title00=          Podczas jazdy na bocie górniku sterowanie jest takie samo, jak na koniu. Jazda na Robocie Górniku przełączy go w tryb ćwiczeń. Wejdź do ściany, aby ją przewiercić. W tym przypadku posiadanie więcej niż jednego jest dobrym pomysłem. Jeden może umieścić latarki, podczas gdy drugi jest w trybie wiertarki. Miner Bots nie będą wydobywać szmaragdów, diamentów ani czarnego kamienia gildii. Ma to zapobiec wpadnięciu ich do lawy. Mimo że Miner Boty mogą chodzić po lawie, nie jest dobrym pomysłem jeżdżenie nimi przez lawę. Cieszyć się!
+
+bot_topia.minerBot.text01=§AMisc.
+
+howtoplay.category.misc=Bot-Topia: Redstone Flake
+
+howtoplay.redstoneFlake.title=§B Płatek czerwonego kamienia
+howtoplay.redstoneFlake=         Płatki Redstone to tańszy sposób na karmienie botów. Dostajesz 9 kawałków Redstone Flake za 1 kawałek Redstone Dust. Płatki Redstone można wykonać w Bot Crafter.
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+

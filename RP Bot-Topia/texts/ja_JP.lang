@@ -1,0 +1,146 @@
+pack.name=RPボット-トピア
+pack.description=Bot-TopiaのリソースパックBot-Topiaは、ボットを作成し、パーツを作成して、ボットに追加できるアドオンです。このアドオンを機能させるには、§e* MobGreifingを§lON§r§eに切り替える必要があります。暴徒のグリーフィングがオフの場合、ボットは作物を植えたり、武器を拾ったりすることはできません。
+
+entity.lfm:bot.name=ボット
+item.spawn_egg.entity.lfm:bot.name=ボット
+entity.lfm:bot_crafter.name=ボットクラフター
+item.spawn_egg.entity.lfm:bot_crafter.name=ボットクラフター
+entity.lfm:bot_walker.name=ボットウォーカー
+item.spawn_egg.entity.lfm:bot_walker.name=ボットウォーカー
+item.lfm:basic_chip.name=ベーシックチップ
+item.lfm:farm_chip.name=ファームチップ
+item.lfm:harvest_chip.name=ハーベストチップ
+item.lfm:hopper_chip.name=ホッパーチップ
+item.lfm:bot_legs.name=ボットレッグ
+item.lfm:guard_chip.name=ガードチップ
+item.lfm:redstone_flake.name=レッドストーンフレーク
+item.lfm:miner_chip.name=マイナーチップ
+
+
+action.hint.exit.lfm:bot_walker=終了するためにこっそり
+
+tips.game.63=ボットにレッドストーンダストを与えることで、ボットをオンにすることができます。
+tips.game.64=§bRedstoneFlakes§rは、レッドストーンダストよりもボットに餌を与える方が安価です。
+tips.game.65=§bGuardChip§rを与える前に、ボットに§bBotLegs§rをインストールします。
+tips.game.66=脚のないボットはジャンプできないため、リードを使用してボットを移動する方が簡単な場合があります。
+
+menu.howToPlay=§bBot-Topia
+menu.howToPlay.generalMessage=このアドオンを機能させるには、§e* MobGreifingを§lON§r§eに切り替える必要があります。暴徒のグリーフィングがオフの場合、ボットは作物を植えたり、武器を拾ったりすることはできません。
+
+
+howtoplay.category.whatsNew=§aWhatsNew
+
+howtoplay.whatsNew.title=ボットトピア：新機能
+howtoplay.whatsnew= 新着
+whatsNew.header.title00=§b新機能V1.0.4
+bot_topia.whatsNew.text00=新しいマイナーボットが追加されました！
+bot_topia.whatsNew.text01=Bot-Topiaの最新情報を入手するには、公式リリースページを確認してください。 §bMCPEDL.com/ bot-topia
+
+howtoplay.category.bot-topia=§aボットトピアへようこそ
+
+howtoplay.welcome.title=ボットトピア：ボットトピアとは何ですか？
+howtoplay.welcome=ボットトピアとは何ですか？
+
+welcome.header.title00=§bBot-Topia
+bot_topia.welcome.text00=               ようこそ！ Bot-Topiaは、ボットを作成し、パーツを作成してボットに追加できるアドオンです。ボットチップを作成して、ボットが仕事をするようにプログラムすることもできます。このガイドは、ボットのすべてのニーズに対応します。これは私の最初のアドオンであり、進行中の作業です。 MCPEDL.comで更新を確認してください。楽しい！
+bot_topia.welcome.text01=このアドオンを機能させるには、§e* MobGreifingを§lON§r§eに切り替える必要があります。暴徒のグリーフィングがオフの場合、ボットは作物を植えたり、武器を拾ったりすることはできません。
+
+howtoplay.welcomeTwo.title=ボット-トピア：ボットとは何ですか？
+howtoplay.welcomeTwo=ボットとは何ですか？
+
+welcomeTwo.header.title00=§bBots
+bot_topia.welcomeTwo.text00=            これはボットです。それらは§bBotCrafter§rで作成できます。ボットはレッドストーンが大好きです。あなたがレッドストーンダストまたは§ブレッドストーンフレーク§を手に持っている場合、彼らはあなたに従います。 §eまた、レッドストーンのほこりやフレークを与えて、損傷した場合にそれらを癒すことができます。§rそれらを与えると、一種のチャージが発生します。彼らが食べるとき、彼らは少しスピードブーストを得る。脚のないボットはジャンプできないため、リードを使用してボットを移動する方が簡単な場合があります。
+bot_topia.welcomeTwo.text01=他のボット関連アイテムが手元にない場合は、ボットと対話することで、ほとんどのボットのインベントリを開くことができます。あなたは物事を彼らの在庫に入れて、物事を取り出すことができます。 §e詳細については、ボットの開始セクションを確認してください。
+
+
+howtoplay.category.gettingStarted=§aはじめに
+
+howtoplay.botCrafter.title=ボット-トピア：ボットクラフター
+howtoplay.botCrafter=ボットクラフター
+
+botCrafter.header.title00=§bBotクラフター
+bot_topia.botCrafter.text00=            物事を簡単にするために、このアドオンのすべてのレシピは§bBotCrafter§rを使用して作成できます。これがこのアドオンの開始点です。レシピの順序は、ボット構築プロセスの進行状況も示しています。それで、始めるために、クラフトベンチを開けて、1つを作るためにそれにこれらの材料を投げてください。
+bot_topia.botCrafter.text01=            §bBotCrafter§rは、ゲーム内の他のブロックと同じように配置できます。しかし、それを拾う最も簡単な方法は、それをクリックすることです。それはあなたのために地面からすぐに飛び出すはずです。ここからは非常に簡単ですが、次のステップでボットを構築して使用する方法について説明します。
+
+howtoplay.bot.title=ボット-トピア：ボット
+howtoplay.bot=ボット
+
+bot.header.title00=§bBot
+bot_topia.bot.text00=            これはボットです。それらは§bBotCrafter§rで作成できます。ボットはレッドストーンが大好きです。あなたがレッドストーンダストまたは§ブレッドストーンフレーク§を手に持っている場合、彼らはあなたに従います。 §eまた、レッドストーンのほこりやフレークを与えて、損傷した場合にそれらを癒すことができます。§rそれらを与えると、一種のチャージが発生します。彼らが食べるとき、彼らは少しスピードブーストを得る。脚のないボットはジャンプできないため、リードを使用してボットを移動する方が簡単な場合があります。
+bot_topia.bot.text03=           他のボット関連アイテムが手元にない場合は、ボットと対話することで、ほとんどのボットのインベントリを開くことができます。あなたは物事を彼らの在庫に入れて、物事を取り出すことができます。
+
+bot.header.title01=§bボットの作成
+bot_topia.bot.text01=       ボットを作成するための材料は、レッドストーントーチとコンパレータです。 §bBotCrafter§rを使用してボットを作成します。
+
+bot.header.title02=§bボットをオンにする
+bot_topia.bot.text02=           ボットを最初に置いたとき、ボットがオフになっていることに気付くでしょう。ボットをオンにするには、レッドストーンのほこりを与えます。ボットが稼働しているので、たとえば農業のような仕事をボットに与えたいと思うでしょう。ボットに仕事を与えるには、§bBotCrafter§rを使用して§bBotChips§rを作成する必要があります。ボットに§bBotChip§rを与えて、ジョブを実行するようにプログラムします。次のセクションでは、さまざまな種類のボットチップとジョブについて説明します。
+
+howtoplay.botChip.title=ボットチップ
+
+
+botChip.header.title00=           ボットチップは、ボットが仕事をするようにプログラムする方法です。すべてのボットチップは、§bBotCrafter§rを使用して作成されています。レッドストーンダストでボットの電源を入れたら、ボットチップを取り付けることができます。一部のチップでは、異なるボットのアップグレードが必要です。たとえば、ガードチップでは、§bGuardChip§rをインストールする前に、ボットに§bBotLegs§rをインストールする必要があります。
+
+
+botChip.header.title01=           ベーシックチップは、他のすべてのボットチップのベースです。これは、少なくともそれ自体では、ボットと相互作用しない唯一のチップです。他の材料をベーシックチップと組み合わせて、さまざまなボットチップを作成します。
+
+
+botChip.header.title02=アイアンホーとベーシックチップを組み合わせてファームチップを作ります。ファームチップをボットに渡して、チップをインストールします。チップをインストールすると、§bFarmBot§rが作成されます。
+
+
+botChip.header.title03=堆肥と基本チップを組み合わせて収穫チップを作ります。ハーベストチップをボットに渡して、チップを取り付けます。チップがインストールされると、§bHarvestBot§rが作成されます。
+
+
+botChip.header.title04=ホッパーとベーシックチップを組み合わせてホッパーチップを作ります。ホッパーチップをボットに渡して、チップを取り付けます。チップがインストールされると、§bHopperBot§rが作成されます。
+
+
+botChip.header.title05=アイアンソードとベーシックチップを組み合わせてガードチップを作ります。ガードチップをインストールするには、ボットに最初に§bBotLegs§rをインストールする必要があります。ガードチップを§bWalkerボット§rに渡してチップを取り付けます。チップをインストールすると、§bGuardBot§rが作成されます。
+
+
+
+howtoplay.botLegs.title=ボットレッグ
+
+
+botLegs.header.title00=           ボットレッグは、ボットのアップグレードであり、ボットレッグを提供します。
+bot_topia.botLegs.text00=         ボットレッグを保持しながらボットと対話してボットをインストールし、§bWalkerボットを作成します。
+
+
+howtoplay.farmBot.title=ファームボット
+howtoplay.farmBot=§bFarmボット
+farmBot.header.title00=           ファームボットはあなたのために作物を植えて収穫することができます。土が出るまで地面に種を落とします。または、ボットをクリックしてボットのインベントリを開き、成長させたい作物や種子をインベントリ内に配置します。ボットはすぐに作物を壊して植え始める必要があります。ファームボットはカボチャやメロンを植えませんが、種を植えると収穫されます。
+bot_topia.farmBot.text00=ファームボットは多くの作業を行うことができますが、助けが必要です。ファームボットに十分な作物がある場合、選択したストレージシステムに配置するためにそれらを§bHarvestBot§rに渡します。ボットに§bFarmChip§rを与えて、ファームボットを作成します。
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=ハーベストボット
+howtoplay.harvestBot=§bHarvestボット
+harvestBot.header.title00=            収穫ボットは、パトロールする農地を検索し、§bFarmBots§rが農地に作物を積み込むのを待ちます。ハーベストボットは時々、貨物を降ろすために座ることができる地面のホッパーを探します。これらのボットはジャンプできないので、アイテムホッパーを地面に置いて、その上を転がるようにしてください。そこから、ホッパーを選択したストレージに向けるだけです。 §bHarvestChip§rをボットに渡して、HarvestBotを作成します。
+
+
+howtoplay.hopperBot.title=ホッパーボット
+howtoplay.hopperBot=§bHopperボット
+hopperBot.header.title00=         ホッパーボットは、そのパスを横切るものをすべてピックアップします。彼らは拾うアイテムを探して動き回り、時々彼らは座ってその中身を降ろすためのホッパーを探します。
+bot_topia.hopperBot.text00=         §bHopperChip§rをボットに渡して、ホッパーボットを作成します。これらの人は馬鹿な赤ちゃんのように走り回っています。必ずそのエリアを閉鎖してください。彼らはすべてを拾います...何かが足りない場合は、ポケットをチェックしてください。
+
+
+howtoplay.guardBot.title=ガードボット
+howtoplay.guardBot=§bGuardボット
+guardBot.header.title00=          ガードボットは、レッドストーンまたは§ブレッドストーンフレーク§rを保持していない場合でも、プレーヤーを追跡します。ガードボットの追跡を停止する場合は、ガードボットをクリックして配置します。 Guardボットはその地面を保持します。ガードボットは、近くの敵、または敵やプレイヤーを攻撃する暴徒を攻撃します。ガードボットは、攻撃するすべてのMobもターゲットにします。武器を地面に落とすと、ガードボットが武器を拾い上げて装備します。あなたはそれに剣または弓を与えることができます。彼らが手に入れることができるより良い武器があれば、彼らは彼らが持っている武器をアップグレードします。これは鎧にも有効です、あなたは彼らが着ている鎧を見ることができません。
+bot_topia.guardBot.text00=          サドルを必要とせずにガードボットに乗って戦闘に参加できます。弓を手に持つことで、ガードボットの方向を制御できます。 Guardボットに乗っている間、そのインベントリにアクセスできます。 §bGuardChip§rを§bWalkerBot§rに渡して、Guardボットを作成します。
+bot_topia.guardBot.text01=ボット-トピア：マイナーボット
+
+howtoplay.minerBot.title=§bMinerボット
+howtoplay.minerBot=          マイナーボットは主に洞窟探検に役立ちます。あなたがレッドストーンまたは§ブレッドストーンフレーク§rを持っていなくても、彼らはあなたに従います。マイナーボットはあなたのためにすべての仕事をするわけではありませんが、彼らは助けになります。彼らは、鉱石の採掘と掘り起こしから落とされたブロックを集めてあなたを追いかけます。彼らが暗いエリアにいる場合、彼らは松明を置きます。
+minerBot.header.title00=          マイナーボットに乗るときのコントロールは、馬に乗るのと同じです。マイナーボットに乗ると、ドリルモードになります。壁に足を踏み入れてドリルで穴を開けます。これは、複数持つことをお勧めする場所です。一方は、もう一方がドリルモードのときにトーチを配置できます。マイナーボットは、エメラルド、ダイヤモンド、ギルドブラックストーンを採掘しません。これは、溶岩に落とされるのを防ぐためです。マイナーボットは溶岩の中を歩くことができますが、溶岩を通り抜けるのは良い考えではありません。楽しい！
+
+bot_topia.minerBot.text01=§aMisc。
+
+howtoplay.category.misc=ボット-トピア：レッドストーンフレーク
+
+howtoplay.redstoneFlake.title=§bレッドストーンフレーク
+howtoplay.redstoneFlake=         レッドストーンフレークは、ボットに餌を与えるためのより安価な方法です。レッドストーンダスト1個に対してレッドストーンフレーク9個を手に入れます。レッドストーンフレークはボットクラフターで作成できます。
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+

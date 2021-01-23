@@ -1,0 +1,146 @@
+pack.name=RP Bot-Topia
+pack.description=Resource Pack pro Bot-Topia Bot-Topia je doplněk, který umožňuje stavět roboty, vytvářet součásti a přidávat je do svého robota. §E * Mob Greifing musí být otočen §lON§r§e, aby tento doplněk fungoval. Pokud je mob mob vypnutý, roboti nemohou pěstovat plodiny, sbírat zbraně atd.
+
+entity.lfm:bot.name=Bot
+item.spawn_egg.entity.lfm:bot.name=Bot
+entity.lfm:bot_crafter.name=Bot Crafter
+item.spawn_egg.entity.lfm:bot_crafter.name=Bot Crafter
+entity.lfm:bot_walker.name=Bot Walker
+item.spawn_egg.entity.lfm:bot_walker.name=Bot Walker
+item.lfm:basic_chip.name=Základní čip
+item.lfm:farm_chip.name=Farm Chip
+item.lfm:harvest_chip.name=Sklizeň čipu
+item.lfm:hopper_chip.name=Násypný čip
+item.lfm:bot_legs.name=Bot nohy
+item.lfm:guard_chip.name=Guard Chip
+item.lfm:redstone_flake.name=Redstone Flake
+item.lfm:miner_chip.name=Miner Chip
+
+
+action.hint.exit.lfm:bot_walker=plížit se opustit
+
+tips.game.63=Roboty můžete zapnout tím, že jim dáváte prach redstone.
+tips.game.64=§BRedstone Flakes§r jsou levnější na krmení robotů než prach redstone.
+tips.game.65=Nainstalujte si §bBot Legs§r na robota, než mu dáte §bGuard Chip§r.
+tips.game.66=Boti bez nohou nemohou skákat, takže je někdy snazší použít olovo k jejich pohybu.
+
+menu.howToPlay=§BBot-Topia
+menu.howToPlay.generalMessage=§E * Mob Greifing musí být otočen §lON§r§e, aby tento doplněk fungoval. Pokud je mob mob vypnutý, roboti nemohou pěstovat plodiny, sbírat zbraně atd.
+
+
+howtoplay.category.whatsNew=§ACo je nového
+
+howtoplay.whatsNew.title=Bot-Topia: Co je nového
+howtoplay.whatsnew= Nový
+whatsNew.header.title00=§B Co je nového v1.0.4
+bot_topia.whatsNew.text00=Přidán nový Miner Bot!
+bot_topia.whatsNew.text01=Chcete-li zůstat v obraze s Bot-Topia, podívejte se na oficiální stránku vydání. §BMCPEDL.com / bot-topia
+
+howtoplay.category.bot-topia=§AVítejte v Bot-Topia
+
+howtoplay.welcome.title=Bot-Topia: Co je Bot-Topia?
+howtoplay.welcome=Co je Bot-Topia?
+
+welcome.header.title00=§BBot-Topia
+bot_topia.welcome.text00=               Vítejte! Bot-Topia je doplněk, který vám umožňuje stavět roboty, vytvářet součásti a přidávat je do svého robota. Můžete dokonce vyrobit Bot Chips a naprogramovat své roboty, aby za vás dělali práci. Tato příručka vám pomůže se všemi vašimi potřebami robota. Toto je můj první doplněk a probíhá práce. Podívejte se na aktualizace MCPEDL.com. Užívat si!
+bot_topia.welcome.text01=§E * Mob Greifing musí být otočen §lON§r§e, aby tento doplněk fungoval. Pokud je mob mob vypnutý, roboti nemohou pěstovat plodiny, sbírat zbraně atd.
+
+howtoplay.welcomeTwo.title=Bot-Topia: Co jsou to roboti?
+howtoplay.welcomeTwo=Co jsou to roboti?
+
+welcomeTwo.header.title00=§Bots
+bot_topia.welcomeTwo.text00=            Toto je robot. Mohou být vytvořeny v §bBot Crafter§r. Boti milují Redstone. Budou vás následovat, pokud v ruce držíte prach z červeného kamene nebo vločky §bredstone. §EMůžete je také krmit červeným kamenným prachem nebo vločkami, abyste je uzdravili, pokud jsou poškozené. §R Krmení je nějakým způsobem nabije. Když jedí, dostanou malou rychlost. Boti bez nohou nemohou skákat, takže je někdy snazší použít olovo k jejich pohybu.
+bot_topia.welcomeTwo.text01=Inventář většiny robotů můžete otevřít interakcí s nimi, pokud nemáte v ruce jiné předměty související s roboty. Můžete dát věci do jejich inventáře a vyjmout věci. §EDalší informace najdete v sekci Začínáme s roboty.
+
+
+howtoplay.category.gettingStarted=§AZačínáme
+
+howtoplay.botCrafter.title=Bot-Topia: Bot Crafter
+howtoplay.botCrafter=Bot Crafter
+
+botCrafter.header.title00=§BBot Crafter
+bot_topia.botCrafter.text00=            Abychom to usnadnili, všechny recepty v tomto doplňku lze vytvořit pomocí §bBot Crafter§r a je výchozím bodem pro tento doplněk. Pořadí receptů je také údajem o postupu v procesu vytváření robotů. Chcete-li tedy začít, otevřete řemeslnou lavici a vhoďte do ní tyto ingredience, abyste ji vyrobili.
+bot_topia.botCrafter.text01=            §BBot Crafter§r můžete umístit stejně jako jakýkoli jiný blok ve hře. Nejjednodušší způsob, jak to ale vyzvednout, je proklouznout kliknutím. Mělo by to pro vás vyskočit přímo ze země. Odtud je to docela snadné, ale provedu vás tím, jak postavit a používat roboty v dalších krocích.
+
+howtoplay.bot.title=Bot-Topia: Bot
+howtoplay.bot=Bot
+
+bot.header.title00=§BBot
+bot_topia.bot.text00=            Toto je robot. Mohou být vytvořeny v §bBot Crafter§r. Boti milují Redstone. Budou vás následovat, pokud v ruce držíte prach z červeného kamene nebo vločky §bredstone. §EMůžete je také krmit červeným kamenným prachem nebo vločkami, abyste je uzdravili, pokud jsou poškozené. §R Krmení je nějakým způsobem nabije. Když jedí, dostanou malou rychlost. Boti bez nohou nemohou skákat, takže je někdy snazší použít olovo k jejich pohybu.
+bot_topia.bot.text03=           Inventář většiny robotů můžete otevřít interakcí s nimi, pokud nemáte v ruce jiné předměty související s roboty. Můžete dát věci do jejich inventáře a vyjmout věci.
+
+bot.header.title01=§BCrafting vašeho robota
+bot_topia.bot.text01=       Ingredience k výrobě robota je Redstone baterka a komparátor. K vytvoření robota použijte §bBot Crafter§r.
+
+bot.header.title02=§BZapnutí robota
+bot_topia.bot.text02=           Všimnete si, že když svého robota poprvé odložíte, vypne se. Chcete-li bota zapnout, nakrmte ji kusem červeného kamene. Nyní, když je váš robot zapnutý, budete mu pravděpodobně chtít dát práci, jako je například zemědělství. Abyste svému robotu dali práci, budete muset pomocí §bBot Crafter§r vytvořit §bBot Chips§r. Dejte svému botovi §bBot Chip§r, aby jej naprogramoval na práci. V další části se budeme věnovat různým typům robotických čipů a úlohám.
+
+howtoplay.botChip.title=Bot Chip
+
+
+botChip.header.title00=           Čipy robota vám naprogramují robota tak, aby vykonával práci. Všechny Bot Chips jsou vyráběny pomocí §bBot Crafter§r. Po zapnutí robota prachem Redstone můžete do něj nainstalovat čip Bot. Některé čipy vyžadují různé upgrady robotů. Ochranný čip například vyžaduje, aby měl váš robot před instalací §bGuard Chip§r nainstalován §bBot Legs§r.
+
+
+botChip.header.title01=           Základní čip je základem pro všechny ostatní čipy Bot. Je to jediný čip, který s roboty neinteraguje, alespoň ne na svém vlastním. Zkombinujte další materiály se základním čipem a vytvořte různé Bot Chips.
+
+
+botChip.header.title02=Zkombinujte železnou motyku a základní čip a vytvořte farmářský čip. Dejte farmářskému čipu botovi a nainstalujte čip. Jakmile je čip nainstalován, budete mít §bFarm Bot§r.
+
+
+botChip.header.title03=Zkombinujte kompostér a základní čip a vytvořte sklizeň. Dejte žetonový žeton botovi a nainstalujte čip. Jakmile je čip nainstalován, budete mít §bHarvest Bot§r.
+
+
+botChip.header.title04=Zkombinujte násypku a základní čip a vytvořte násypný čip. Dejte čip násypky robotovi a nainstalujte čip. Jakmile je čip nainstalován, budete mít §bHopper Bot§r.
+
+
+botChip.header.title05=Zkombinujte železný meč a základní žeton a vytvořte strážní žeton. Abyste mohli nainstalovat Guard Chip, musí mít bot nejprve nainstalovaný §bBot Legs§r. Dejte ochranný čip §bWalker Bot§r k instalaci čipu. Jakmile je čip nainstalován, budete mít §bGuard Bot§r.
+
+
+
+howtoplay.botLegs.title=Bot nohy
+
+
+botLegs.header.title00=           Nohy bot jsou upgradem na vašeho robota, který ... dává nohám robota.
+bot_topia.botLegs.text00=         Spolupracujte se svým robotem, zatímco držíte nohy bot, instalujte je a vytvořte si robota §bWalker.
+
+
+howtoplay.farmBot.title=Farm Bot
+howtoplay.farmBot=§BFarm Bot
+farmBot.header.title00=           Farm Bots za vás mohou pěstovat a sklízet plodiny. Vyčistěte trochu špíny a vysypte semena na zem, nebo ještě lépe otevřete inventář robotů kliknutím na robota a umístěte plodinu nebo semeno, které chcete pěstovat, do jeho inventáře. Bot by měl okamžitě začít lámat a pěstovat plodiny. Farm Bots nebudou vysazovat dýně a melouny, ale sklidí je za vás, pokud zasadíte semínka.
+bot_topia.farmBot.text00=Farm Bots mohou dělat spoustu práce, ale potřebují pomoc. Pokud má Farm Bot dostatek plodin, dá je §bHarvest Bot§r, které mají být vloženy do vašeho zvoleného úložného systému. Dejte robotovi §bFarm Chip§r a vytvořte farmářského robota.
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=Sklizeň Bot
+howtoplay.harvestBot=§BHarvest Bot
+harvestBot.header.title00=            Sklízecí roboti budou hledat zemědělskou půdu k hlídkování a čekat, až jim §bFarm Bots§r naloží úrodu. Harvest bot čas od času vyhledá násypku v zemi, na kterou může sedět a vyložit svůj náklad. Nezapomeňte, že tito roboti nemohou skákat, takže nastavte zásobník na předměty do země, aby se na něj mohli valit. Odtud nasměrujte násypku do svého úložiště. Dejte robotovi §bHarvest Chip§r a udělejte Harvest Bot.
+
+
+howtoplay.hopperBot.title=Násypka Bot
+howtoplay.hopperBot=§BHopper Bot
+hopperBot.header.title00=         Hopper Bot sebere vše, co mu zkříží cestu. Pohybují se kolem a hledají předměty, které by mohli vyzvednout, a čas od času hledají násypku, na které by seděli, a vyložili její obsah.
+bot_topia.hopperBot.text00=         Dejte robotovi §bHopper Chip§r a udělejte si Hopper Bot. Tito kluci pobíhají jako idiotská miminka. Nezapomeňte uzavřít jejich oblast. Seberou všechno ... Pokud něco chybí, zkontrolujte jejich kapsy.
+
+
+howtoplay.guardBot.title=Guard Bot
+howtoplay.guardBot=§BGuard Bot
+guardBot.header.title00=          Strážní roboti budou hráče sledovat, i když nedrží Redstone nebo §bredstone flakes§r. Pokud chcete, aby vás strážný robot přestal sledovat, plížte se kliknutím na strážného robota, aby seděl. Strážný robot to udrží. Guard Bots zaútočí na všechny blízké nepřátele nebo na jakýkoli dav, který zaútočí na ně nebo na hráče. Guard Bots se také zaměří na jakýkoli dav, na který zaútočíte. Můžete odhodit zbraně na zem a Guard Bot je vyzvedne a vybaví. Můžete mu dát meč nebo luk. Vylepšují zbraň, kterou drží, pokud je pro ně k dispozici lepší k vyzvednutí. To funguje také pro brnění, prostě nevidíte brnění, které nosí.
+bot_topia.guardBot.text00=          S Guard Bots můžete vyrazit do bitvy bez nutnosti sedla. Směr strážních robotů můžete ovládat držením luku v ruce. Při jízdě na robotovi Guard můžete přistupovat k jeho inventáři. Dejte §bGuard Chip§r §bWalker Bot§r a vytvořte strážného robota.
+bot_topia.guardBot.text01=Bot-Topia: Miner Bot
+
+howtoplay.minerBot.title=§BMiner Bot
+howtoplay.minerBot=          Minerské roboty jsou většinou užitečné pro jeskynní účely. Budou vás sledovat, i když nedržíte vločky redstone nebo §bredstone§r. Minerové roboti za vás neodvedou veškerou práci, ale pomohou. Budou vás sledovat kolem sbírání bloků spadlých z těžby a vykopávání rud. Pokud jsou v tmavé oblasti, umístí pochodně.
+minerBot.header.title00=          Při jízdě na hornickém botovi jsou ovládací prvky stejné jako při jízdě na koni. Jízda na Miner Bot jej přepne do režimu vrtání. Vejděte do zdi a protáhněte ji. To je místo, kde mít více než jeden je dobrý nápad. Jeden může umístit pochodně, zatímco druhý je v režimu vrtání. Miner Bots nebudou těžit smaragdy, diamanty ani cechovní kámen. To jim má zabránit v pádu do lávy. Přestože Miner Bots mohou chodit v lávě, není dobrý nápad je projíždět lávou. Užívat si!
+
+bot_topia.minerBot.text01=§AMisc.
+
+howtoplay.category.misc=Bot-Topia: Redstone Flake
+
+howtoplay.redstoneFlake.title=§BRedstone Flake
+howtoplay.redstoneFlake=         Vločky Redstone jsou levnější způsob, jak nakrmit roboty. Získáte 9 kusů Redstone Flake za 1 kus Redstone Dust. Vločky Redstone lze vyrobit v Bot Crafter.
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+

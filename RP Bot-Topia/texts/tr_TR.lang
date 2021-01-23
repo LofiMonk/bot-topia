@@ -1,0 +1,146 @@
+pack.name=RP Bot Topia
+pack.description=Bot-Topia için Kaynak Paketi Bot-Topia, botlar oluşturmanıza, parçalar üretmenize ve bunları botunuza eklemenize izin veren bir eklentidir. §E * Mob Greifing'in bu eklentinin çalışması için §lON§r§e çevrilmesi gerekir. Çete greifingi kapalıysa botlar ekin ekemez, silah alamaz, vb.
+
+entity.lfm:bot.name=Bot
+item.spawn_egg.entity.lfm:bot.name=Bot
+entity.lfm:bot_crafter.name=Bot Crafter
+item.spawn_egg.entity.lfm:bot_crafter.name=Bot Crafter
+entity.lfm:bot_walker.name=Bot Walker
+item.spawn_egg.entity.lfm:bot_walker.name=Bot Walker
+item.lfm:basic_chip.name=Temel Çip
+item.lfm:farm_chip.name=Çiftlik Çipi
+item.lfm:harvest_chip.name=Hasat Çipi
+item.lfm:hopper_chip.name=Hazne Çipi
+item.lfm:bot_legs.name=Bot Ayakları
+item.lfm:guard_chip.name=Muhafız Çipi
+item.lfm:redstone_flake.name=Redstone Flake
+item.lfm:miner_chip.name=Madenci Çipi
+
+
+action.hint.exit.lfm:bot_walker=çıkmak için gizlice
+
+tips.game.63=Botları redstone tozu besleyerek açabilirsiniz.
+tips.game.64=§BRedstone Flakes§r, redstone tozuna göre botları beslemek için daha ucuzdur.
+tips.game.65=§BGuard Chip§r vermeden önce bir bota §bBot Legs§r yükleyin.
+tips.game.66=Bacakları olmayan botlar zıplayamaz, bu nedenle bazen onları hareket ettirmek için bir kurşun kullanmak daha kolaydır.
+
+menu.howToPlay=§BBot-Topia
+menu.howToPlay.generalMessage=§E * Mob Greifing'in bu eklentinin çalışması için §lON§r§e çevrilmesi gerekir. Çete greifingi kapalıysa botlar ekin ekemez, silah alamaz, vb.
+
+
+howtoplay.category.whatsNew=§AWhats Yeni
+
+howtoplay.whatsNew.title=Bot-Topia: Yenilikler
+howtoplay.whatsnew= Yeni
+whatsNew.header.title00=§BYenilikler V1.0.4
+bot_topia.whatsNew.text00=Yeni bir Madenci Robotu eklendi!
+bot_topia.whatsNew.text01=Bot-Topia ile güncel kalmak için resmi sürüm sayfasına göz atın. §BMCPEDL.com / bot-topia
+
+howtoplay.category.bot-topia=§A Bot-Topia'ya Hoş Geldiniz
+
+howtoplay.welcome.title=Bot-Topia: Bot-Topia nedir?
+howtoplay.welcome=Bot-Topia nedir?
+
+welcome.header.title00=§BBot-Topia
+bot_topia.welcome.text00=               Hoşgeldiniz! Bot-Topia, botlar oluşturmanıza, parçalar üretmenize ve bunları botunuza eklemenize izin veren bir eklentidir. Botlarınızı sizin için işler yapacak şekilde programlamak için Bot Chips bile oluşturabilirsiniz. Bu kılavuz, tüm bot ihtiyaçlarınızda size yardımcı olacaktır. Bu benim ilk eklentim ve devam eden bir çalışmadır. Güncellemeler için MCPEDL.com'u kontrol edin. Zevk almak!
+bot_topia.welcome.text01=§E * Mob Greifing'in bu eklentinin çalışması için §lON§r§e çevrilmesi gerekir. Çete greifingi kapalıysa botlar ekin ekemez, silah alamaz, vb.
+
+howtoplay.welcomeTwo.title=Bot-Topia: Bot nedir?
+howtoplay.welcomeTwo=Bot nedir?
+
+welcomeTwo.header.title00=§BBot'lar
+bot_topia.welcomeTwo.text00=            Bu bir bot. Bir §bBot Crafter§r içinde üretilebilirler. Botlar redstone'u sever. Elinizde kırmızı taş tozu veya kaba taş pulları tutarsanız sizi takip edecekler. §EHasar görürlerse iyileştirmek için onlara kırmızı taş tozu veya pulları da besleyebilirsiniz. Yemek yediklerinde hızları biraz artar. Bacakları olmayan botlar zıplayamaz, bu nedenle bazen onları hareket ettirmek için bir kurşun kullanmak daha kolaydır.
+bot_topia.welcomeTwo.text01=Elinizde botla ilgili başka öğeler yoksa, çoğu botun envanterini onlarla etkileşime girerek açabilirsiniz. Eşyaları envanterlerine koyabilir ve çıkarabilirsin. §EDaha fazla bilgi için, başlangıç ​​botu bölümüne bakın.
+
+
+howtoplay.category.gettingStarted=§A Başlarken
+
+howtoplay.botCrafter.title=Bot-Topia: Bot Crafter
+howtoplay.botCrafter=Bot Crafter
+
+botCrafter.header.title00=§BBot Crafter
+bot_topia.botCrafter.text00=            İşleri kolaylaştırmak için bu eklentideki tüm tarifler §bBot Crafter§r kullanılarak yapılabilir ve bu eklenti için başlangıç ​​noktasıdır. Tariflerin sırası da bot oluşturma sürecindeki ilerlemenin bir göstergesidir. Öyleyse başlamak için bir zanaat tezgahı açın ve bu malzemeleri bir tane yapmak için içine atın.
+bot_topia.botCrafter.text01=            §BBot Crafter§r'ı oyundaki diğer bloklar gibi yerleştirebilirsiniz. Ancak onu almanın en kolay yolu üzerine tıklamaktır. Sizin için yerden fırlamalıdır. Buradan oldukça kolay ama sonraki adımlarda botların nasıl oluşturulacağı ve kullanılacağı konusunda size yol göstereceğim.
+
+howtoplay.bot.title=Bot-Topia: Bot
+howtoplay.bot=Bot
+
+bot.header.title00=§BBot
+bot_topia.bot.text00=            Bu bir bot. Bir §bBot Crafter§r içinde üretilebilirler. Botlar redstone'u sever. Elinizde kırmızı taş tozu veya kaba taş pulları tutarsanız sizi takip edecekler. §EHasar görürlerse iyileştirmek için onlara kırmızı taş tozu veya pulları da besleyebilirsiniz. Yemek yediklerinde hızları biraz artar. Bacakları olmayan botlar zıplayamaz, bu nedenle bazen onları hareket ettirmek için bir kurşun kullanmak daha kolaydır.
+bot_topia.bot.text03=           Elinizde botla ilgili başka öğeler yoksa, çoğu botun envanterini onlarla etkileşime girerek açabilirsiniz. Eşyaları envanterlerine koyabilir ve çıkarabilirsin.
+
+bot.header.title01=§BBot botunuzu oluşturma
+bot_topia.bot.text01=       Bir bot üretmenin bileşenleri, bir redstone meşale ve bir karşılaştırıcıdır. Bir bot üretmek için bir §bBot Crafter§r kullanın.
+
+bot.header.title02=§B Botunuzu Açma
+bot_topia.bot.text02=           Botunuzu ilk yere koyduğunuzda kapandığını fark edeceksiniz. Botu açmak için bir parça redstone tozu besleyin. Artık botunuz açık olduğuna göre, muhtemelen ona örneğin çiftçilik gibi bir iş vermek isteyeceksiniz. Botunuza bir iş vermek için §bBot Chips§r yapmak için §bBot Crafter§r kullanmanız gerekir. Botunuza bir iş yapması için programlaması için bir §bBot Chip§r verin. Bir sonraki bölümde farklı bot çipleri ve işleri ele alınacaktır.
+
+howtoplay.botChip.title=Bot Çip
+
+
+botChip.header.title00=           Bot Chips, botunuzu işleri yapması için nasıl programladığınızdır. Tüm Bot Chipsleri §bBot Crafter§r kullanılarak yapılır. Botunuzu redstone tozu ile açtıktan sonra, içine bir Bot Chip takabilirsiniz. Bazı çipler farklı bot yükseltmeleri gerektirir. Örneğin koruma çipi, §bGuard Chip§r'yi kurmadan önce botunuzda §bBot Legs§r'nin kurulu olmasını gerektirir.
+
+
+botChip.header.title01=           Temel Çip, diğer tüm Bot Çiplerinin temelidir. Botlarla etkileşime girmeyen tek çip bu, en azından kendi başına değil. Farklı Robot Çipleri yapmak için diğer malzemeleri bir Temel Çip ile birleştirin.
+
+
+botChip.header.title02=Bir Çiftlik Çipi yapmak için bir Demir Çapa ve bir Temel Çipi birleştirin. Çipi takması için Bot'a bir Çiftlik Çipi verin. Çip yüklendikten sonra bir §bFarm Bot§r'ye sahip olacaksınız.
+
+
+botChip.header.title03=Hasat Çipi yapmak için Komposter ve Temel Çipi birleştirin. Çipi takması için Hasat Çipini bir Bot'a verin. Çip yüklendikten sonra bir §bHarvest Bot§r'ye sahip olacaksınız.
+
+
+botChip.header.title04=Bir Hazne Çipi yapmak için bir Hazne ve bir Temel Çipi birleştirin. Çipi takması için Hazne Çipini bir Bot'a verin. Çip yüklendikten sonra bir §bHopper Bot§r'ye sahip olacaksınız.
+
+
+botChip.header.title05=Bir Demir Kılıç ve Temel Çipi birleştirerek Muhafız Çipi yapın. Bir Koruma Çipi takmak için, botta ilk olarak §bBot Legs§r kurulu olmalıdır. Çipi takması için Guard Chip'i bir §bWalker Bot§r'ye verin. Çip yüklendikten sonra bir §bGuard Bot§r'ye sahip olacaksınız.
+
+
+
+howtoplay.botLegs.title=Bot Ayakları
+
+
+botLegs.header.title00=           Bot Bacakları, botunuzun bacaklarını veren ... botunuzun bir yükseltmesidir.
+bot_topia.botLegs.text00=         Bunları kurmak ve bir §bWalker Botu yapmak için Bot Bacaklarını tutarken botunuzla etkileşime geçin.
+
+
+howtoplay.farmBot.title=Çiftlik Botu
+howtoplay.farmBot=§BFarm Bot
+farmBot.header.title00=           Çiftlik Botları sizin için ekin ekebilir ve hasat edebilir. Toprağa biraz kir ve tohum atana kadar veya daha iyisi bota tıklayarak bot envanterini açın ve yetiştirmek istediğiniz mahsulü veya tohumu envanterinin içine yerleştirin. Bot derhal mahsulleri kırmaya ve ekmeye başlamalıdır. Çiftlik Botları, balkabağı ve kavun ekmez, ancak tohumları ekerseniz onları sizin için hasat ederler.
+bot_topia.farmBot.text00=Çiftlik Robotları pek çok iş yapabilir ancak yardıma ihtiyaçları vardır. Bir Çiftlik Botunun yeterli mahsulü olduğunda, onları tercih ettiğiniz depolama sistemine yerleştirilmeleri için bir §bHarvest Bot§r verir. Bir çiftlik botu yapmak için bir bota §bFarm Chip§r verin.
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=Hasat Botu
+howtoplay.harvestBot=§BHarvest Bot
+harvestBot.header.title00=            Hasat botları devriye gezecek tarım arazileri arayacak ve §bÇiftlik Botlarının onları mahsullerle yüklemesini bekleyecek. Harvest botu zaman zaman kargosunu boşaltmak için oturabileceği yerde bir hazne arayacaktır. Unutmayın, bu botlar zıplayamazlar, bu yüzden tepesinde yuvarlanabilmeleri için yere bir eşya hunisi koyun. Buradan, hazneyi seçtiğiniz depoya yönlendirin. Hasat Botu yapmak için bir bota §bHarvest Chip§r verin.
+
+
+howtoplay.hopperBot.title=Hazne Botu
+howtoplay.hopperBot=§BHopper Bot
+hopperBot.header.title00=         Bir Hopper Bot, yolundan geçen her şeyi alır. Alacakları eşyaları ararken dolaşırlar ve zaman zaman üzerine oturup içeriğini boşaltmak için bir hazne ararlar.
+bot_topia.hopperBot.text00=         Hopper Bot yapmak için bota bir §bHopper Chip§r verin. Bu adamlar salak bebekler gibi dolaşıyorlar. Alanlarını kapattığınızdan emin olun. Her şeyi alıyorlar ... Eksik bir şey çıkarsa ceplerini kontrol edin.
+
+
+howtoplay.guardBot.title=Bekçi Bot
+howtoplay.guardBot=§BGuard Bot
+guardBot.header.title00=          Koruyucu botlar, redstone veya bredstone pulları tutmasalar bile oyuncuları takip edecek. Bir Güvenlik Botunun sizi takip etmeyi bırakmasını istiyorsanız, onu oturtmak için koruma botuna tıklayın. Muhafız bot yere tutunacak. Muhafız Botlar, yakındaki herhangi bir düşmana veya onlara veya oyuncuya saldıran herhangi bir mafya saldıracak. Guard Bot'lar ayrıca saldırdığınız herhangi bir çeteyi hedef alır. Silahları yere bırakabilirsiniz ve Guard Bot onları alıp donatacaktır. Ona kılıç ya da yay verebilirsin. Ellerinde tuttukları silahı, alabilecekleri daha iyi bir silah varsa yükseltecekler. Bu aynı zamanda zırh için de işe yarar, giydikleri zırhı göremezsiniz.
+bot_topia.guardBot.text00=          Eyer gerekmeden Muhafız Robotları savaşa binebilirsiniz. Elinizde bir yay tutarak Guard Bot'ların yönünü kontrol edebilirsiniz. Güvenlik botu sürerken envanterine erişebilirsiniz. Guard bot yapmak için bir §bWalker Bot§r'ye bir §bGuard Chip§r verin.
+bot_topia.guardBot.text01=Bot-Topia: Madenci Botu
+
+howtoplay.minerBot.title=§BMiner Botu
+howtoplay.minerBot=          Madenci botları çoğunlukla mağaracılık için kullanışlıdır. Redstone veya bredstone pullar tutmasanız bile sizi takip edecekler. Madenci botları tüm işi sizin için yapmayacak, ancak yardımcı olacaklar. Madencilikten düşen blokları toplamak ve cevherleri kazmak için sizi takip edecekler. Karanlık bir alanda iseler meşaleleri yere koyarlar.
+minerBot.header.title00=          Bir Madenci botu sürerken kontroller ata binmekle aynıdır. Bir Madenci Botuna binmek onu matkap moduna geçirir. Delmek için bir duvara doğru yürüyün. Birden fazla kişiye sahip olmanın iyi bir fikir olduğu yer burasıdır. Biri matkap modundayken diğeri torçları yerleştirebilir. Madenci Robotları zümrüt, elmas veya lonca kara taş madenciliği yapmayacaktır. Bu, lavların içine düşmelerini önlemek içindir. Madenci Robotları lav içinde yürüyebilse de, onları lavda sürmek iyi bir fikir değildir. Zevk almak!
+
+bot_topia.minerBot.text01=§AMisc.
+
+howtoplay.category.misc=Bot-Topia: Redstone Flake
+
+howtoplay.redstoneFlake.title=§BRedstone Flake
+howtoplay.redstoneFlake=         Redstone pulları, sizi botları beslemenin daha ucuz bir yoludur. 1 parça Redstone Tozu karşılığında 9 parça Redstone Flake elde edersiniz. Bot Crafter'da redstone pulları yapılabilir.
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+

@@ -1,0 +1,146 @@
+pack.name=RP 봇 토피아
+pack.description=Bot-Topia 용 리소스 팩 Bot-Topia는 봇을 빌드하고 부품을 제작하고 봇에 추가 할 수있는 애드온입니다. 이 애드온이 작동하려면 §e * Mob Greifing을 §lON§r§e로 설정해야합니다. 몹 greifing이 꺼져 있으면 봇은 작물을 심거나 무기를 집을 수 없습니다.
+
+entity.lfm:bot.name=봇
+item.spawn_egg.entity.lfm:bot.name=봇
+entity.lfm:bot_crafter.name=봇 크래프터
+item.spawn_egg.entity.lfm:bot_crafter.name=봇 크래프터
+entity.lfm:bot_walker.name=봇 워커
+item.spawn_egg.entity.lfm:bot_walker.name=봇 워커
+item.lfm:basic_chip.name=기본 칩
+item.lfm:farm_chip.name=농장 칩
+item.lfm:harvest_chip.name=수확 칩
+item.lfm:hopper_chip.name=호퍼 칩
+item.lfm:bot_legs.name=봇 다리
+item.lfm:guard_chip.name=가드 칩
+item.lfm:redstone_flake.name=레드 스톤 플레이크
+item.lfm:miner_chip.name=광부 칩
+
+
+action.hint.exit.lfm:bot_walker=몰래 빠져 나가다
+
+tips.game.63=레드 스톤 가루를 먹이면 봇을 켤 수 있습니다.
+tips.game.64=§b 레드 스톤 플레이크 §r는 레드 스톤 가루보다 봇을 먹이는 데 더 저렴합니다.
+tips.game.65=§b 가드 칩 §r을주기 전에 §b 봇 다리 §r를 봇에 설치합니다.
+tips.game.66=다리가없는 봇은 점프 할 수 없으므로 때로는 리드를 사용하여 이동하기가 더 쉽습니다.
+
+menu.howToPlay=§bBot-Topia
+menu.howToPlay.generalMessage=이 애드온이 작동하려면 §e * Mob Greifing을 §lON§r§e로 설정해야합니다. 몹 greifing이 꺼져 있으면 봇은 작물을 심거나 무기를 집을 수 없습니다.
+
+
+howtoplay.category.whatsNew=§a 새로운 기능
+
+howtoplay.whatsNew.title=Bot-Topia : 새로운 기능
+howtoplay.whatsnew= 새로운
+whatsNew.header.title00=§b 새로운 기능 V1.0.4
+bot_topia.whatsNew.text00=새로운 광부 봇이 추가되었습니다!
+bot_topia.whatsNew.text01=Bot-Topia에 대한 최신 정보를 얻으려면 공식 릴리스 페이지를 확인하십시오. §bMCPEDL.com / bot-topia
+
+howtoplay.category.bot-topia=§aBot-Topia에 오신 것을 환영합니다
+
+howtoplay.welcome.title=Bot-Topia : Bot-Topia는 무엇입니까?
+howtoplay.welcome=Bot-Topia는 무엇입니까?
+
+welcome.header.title00=§bBot-Topia
+bot_topia.welcome.text00=               어서 오십시오! Bot-Topia는 봇을 빌드하고 부품을 제작하고 봇에 추가 할 수있는 애드온입니다. 봇 칩을 만들어 봇이 작업을 수행하도록 프로그래밍 할 수도 있습니다. 이 가이드는 모든 봇 요구 사항에 도움이됩니다. 이것은 나의 첫 번째 애드온이며 진행중인 작업입니다. MCPEDL.com에서 업데이트를 확인하십시오. 즐겨!
+bot_topia.welcome.text01=이 애드온이 작동하려면 §e * Mob Greifing을 §lON§r§e로 설정해야합니다. 몹 greifing이 꺼져 있으면 봇은 작물을 심거나 무기를 집을 수 없습니다.
+
+howtoplay.welcomeTwo.title=Bot-Topia : 봇이란 무엇입니까?
+howtoplay.welcomeTwo=봇이란 무엇입니까?
+
+welcomeTwo.header.title00=§b 봇
+bot_topia.welcomeTwo.text00=            이것은 봇입니다. §bBot Crafter§r에서 제작할 수 있습니다. 봇은 레드 스톤을 좋아합니다. 레드 스톤 가루를 쥐거나 § 브레드 스톤 플레이크 § 손을 헹구면 그들은 당신을 따라갈 것입니다. §e 또한 레드 스톤 가루 나 플레이크를 먹여 손상을 입었을 때 치유 할 수 있습니다 .§r 먹이를 주면 일종의 충전이됩니다. 그들은 먹을 때 약간의 속도 향상을 얻습니다. 다리가없는 봇은 점프 할 수 없으므로 때로는 리드를 사용하여 이동하기가 더 쉽습니다.
+bot_topia.welcomeTwo.text01=손에 다른 봇 관련 아이템이 없을 때 상호 작용하여 대부분의 봇의 인벤토리를 열 수 있습니다. 물건을 인벤토리에 넣고 꺼낼 수 있습니다. §e 자세한 내용은 시작하기 봇 섹션을 확인하십시오.
+
+
+howtoplay.category.gettingStarted=§a 시작하기
+
+howtoplay.botCrafter.title=Bot-Topia : 봇 크래프터
+howtoplay.botCrafter=봇 크래프터
+
+botCrafter.header.title00=§b 봇 크래프터
+bot_topia.botCrafter.text00=            일을 쉽게하기 위해이 애드온의 모든 레시피는 §bBot Crafter§r를 사용하여 만들 수 있으며 이것이이 애드온의 시작점입니다. 레시피의 순서는 봇 구축 프로세스의 진행 상황을 나타냅니다. 시작하려면 제작 벤치를 열고이 재료를 던져서 제작하세요.
+bot_topia.botCrafter.text01=            게임의 다른 블록과 마찬가지로 §bBot Crafter§r를 배치 할 수 있습니다. 그러나 그것을 집는 가장 쉬운 방법은 그것을 몰래 클릭하는 것입니다. 그것은 당신을 위해 땅에서 바로 튀어 나와야합니다. 여기서부터는 매우 쉽지만 다음 단계에서 봇을 빌드하고 사용하는 방법을 안내해 드리겠습니다.
+
+howtoplay.bot.title=Bot-Topia : 봇
+howtoplay.bot=봇
+
+bot.header.title00=§bBot
+bot_topia.bot.text00=            이것은 봇입니다. §bBot Crafter§r에서 제작할 수 있습니다. 봇은 레드 스톤을 좋아합니다. 레드 스톤 가루를 쥐거나 § 브레드 스톤 플레이크 § 손을 헹구면 그들은 당신을 따라갈 것입니다. §e 또한 레드 스톤 가루 나 플레이크를 먹여 손상을 입었을 때 치유 할 수 있습니다 .§r 먹이를 주면 일종의 충전이됩니다. 그들은 먹을 때 약간의 속도 향상을 얻습니다. 다리가없는 봇은 점프 할 수 없으므로 때로는 리드를 사용하여 이동하기가 더 쉽습니다.
+bot_topia.bot.text03=           손에 다른 봇 관련 아이템이 없을 때 상호 작용하여 대부분의 봇의 인벤토리를 열 수 있습니다. 물건을 인벤토리에 넣고 꺼낼 수 있습니다.
+
+bot.header.title01=§b 봇 제작
+bot_topia.bot.text01=       봇을 만드는 데 필요한 재료는 레드 스톤 횃불과 비교기입니다. §bBot Crafter§r를 사용하여 봇을 만드세요.
+
+bot.header.title02=§b 봇 켜기
+bot_topia.bot.text02=           처음에 봇을 내려 놓으면 꺼질 것입니다. 봇을 켜려면 레드 스톤 가루를 먹이세요. 이제 봇이 켜져 있으므로 예를 들어 농업과 같은 작업을 수행하고 싶을 것입니다. 봇에게 일자리를 제공하려면 §bBot Crafter§r를 사용하여 §bBot Chips§r을 만들어야합니다. 봇에게 §bBot Chip§r을 제공하여 작업을 수행하도록 프로그래밍하십시오. 다음 섹션에서는 서로 다른 유형의 봇 칩 및 작업을 다룹니다.
+
+howtoplay.botChip.title=봇 칩
+
+
+botChip.header.title00=           봇 칩은 작업을 수행하도록 봇을 프로그래밍하는 방법입니다. 모든 봇 칩은 §bBot Crafter§r를 사용하여 만들어집니다. 레드 스톤 가루로 봇을 켜면 봇 칩을 설치할 수 있습니다. 일부 칩에는 다른 봇 업그레이드가 필요합니다. 예를 들어 가드 칩을 사용하려면 §b 가드 칩 §r을 설치하기 전에 §b 봇 다리 §r가 설치되어 있어야합니다.
+
+
+botChip.header.title01=           기본 칩은 다른 모든 봇 칩의 기반입니다. 적어도 자체적으로는 아니지만 봇과 상호 작용하지 않는 유일한 칩입니다. 다른 재료를 기본 칩과 결합하여 다른 봇 칩을 만드십시오.
+
+
+botChip.header.title02=철 괭이와 기본 칩을 결합하여 농장 칩을 만드십시오. 칩을 설치하려면 봇에게 농장 칩을주세요. 칩이 설치되면 §bFarm Bot§r이 생깁니다.
+
+
+botChip.header.title03=Composter와 Basic Chip을 결합하여 Harvest Chip을 만드십시오. Harvest Chip을 봇에게 제공하여 칩을 설치합니다. 칩이 설치되면 §bHarvest Bot§r을 갖게됩니다.
+
+
+botChip.header.title04=호퍼와 기본 칩을 결합하여 호퍼 칩을 만듭니다. 호퍼 칩을 봇에게 전달하여 칩을 설치합니다. 칩이 설치되면 §bHopper Bot§r이 생깁니다.
+
+
+botChip.header.title05=아이언 소드와 기본 칩을 결합하여 가드 칩을 만드십시오. Guard Chip을 설치하려면 봇에 §bBot Legs§r이 먼저 설치되어 있어야합니다. 가드 칩을 §b 워커 봇 §r에게 제공하여 칩을 설치합니다. 칩이 설치되면 §bGuard Bot§r이 생깁니다.
+
+
+
+howtoplay.botLegs.title=봇 다리
+
+
+botLegs.header.title00=           봇 다리는 봇 다리를 제공하는 봇의 업그레이드입니다.
+bot_topia.botLegs.text00=         봇 다리를 잡고 봇과 상호 작용하여 설치하고 §b 워커 봇을 만드세요.
+
+
+howtoplay.farmBot.title=농장 봇
+howtoplay.farmBot=§b 농장 봇
+farmBot.header.title00=           Farm Bots는 작물을 심고 수확 할 수 있습니다. 흙을 뿌리고 씨앗을 땅에 떨어 뜨리거나 봇을 클릭하여 봇 인벤토리를 열고 재배하려는 작물이나 씨앗을 인벤토리 안에 넣으십시오. 봇은 즉시 작물을 부수고 심기 시작해야합니다. Farm Bots는 호박과 멜론을 심지 않지만 씨앗을 심으면 수확합니다.
+bot_topia.farmBot.text00=Farm Bots는 많은 일을 할 수 있지만 도움이 필요합니다. Farm Bot에 충분한 작물이 있으면 §bHarvest Bot§r에게 제공하여 선택한 저장 시스템에 배치합니다. 봇에게 §b 농장 칩 §r을 주어 농장 봇을 만드세요.
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=수확 로봇
+howtoplay.harvestBot=§b 수확 봇
+harvestBot.header.title00=            수확 로봇은 순찰 할 농지를 검색하고 §b 농장 봇 §r이 작물을 적재 할 때까지 기다립니다. 때때로 Harvest 봇은화물을 내리기 위해 앉을 수있는 땅의 호퍼를 찾습니다. 이 봇은 점프 할 수 없으므로 아이템 호퍼를 바닥에 놓아서 그 위에 굴러 갈 수 있다는 것을 기억하십시오. 거기에서 호퍼를 선택한 저장소로 향하십시오. §b 수확 칩 §r을 봇에 제공하여 수확 봇을 만드십시오.
+
+
+howtoplay.hopperBot.title=호퍼 봇
+howtoplay.hopperBot=§b 호퍼 봇
+hopperBot.header.title00=         Hopper Bot은 경로를 가로 지르는 모든 것을 픽업합니다. 그들은 집을 물건을 찾아 돌아 다니며 때때로 내용물을 내리고 앉을 호퍼를 찾습니다.
+bot_topia.hopperBot.text00=         §b 호퍼 칩 §r을 봇에 제공하여 호퍼 봇을 만드십시오. 이 녀석들은 멍청한 아기처럼 뛰어 다닌다. 그들의 영역을 닫아야합니다. 그들은 모든 것을 집어 들고 ... 뭔가 빠진 것이 나오면 주머니를 확인하세요.
+
+
+howtoplay.guardBot.title=가드 봇
+howtoplay.guardBot=§bGuard 봇
+guardBot.header.title00=          가드 봇은 레드 스톤이나 § 브레드 스톤 플레이크 §r를 가지고 있지 않더라도 플레이어를 따라갑니다. 가드 봇이 따라가는 것을 멈추고 싶다면 가드 봇을 클릭하여 앉으세요. 가드 봇은 땅을 유지합니다. 가드 봇은 근처의 적이나 적이나 플레이어를 공격하는 몹을 공격합니다. Guard Bots는 또한 당신이 공격하는 모든 몹을 목표로 삼을 것입니다. 무기를 땅에 떨어 뜨리면 Guard Bot이 무기를 집어 장착합니다. 검이나 활을 줄 수 있습니다. 더 나은 무기를 집을 수있는 경우 보유하고있는 무기를 업그레이드합니다. 이것은 갑옷에도 효과가 있으며 그들이 입고있는 갑옷을 볼 수 없습니다.
+bot_topia.guardBot.text00=          안장이 필요없이 Guard Bots를 타고 전투에 참여할 수 있습니다. 손에 활을 들고 가드 봇의 방향을 제어 할 수 있습니다. Guard 봇을 타고있는 동안 인벤토리에 액세스 할 수 있습니다. §b 가드 칩 §r을 §b 워커 봇 §r에게 주어 가드 봇을 만드세요.
+bot_topia.guardBot.text01=Bot-Topia : 광부 봇
+
+howtoplay.minerBot.title=§b 광부 봇
+howtoplay.minerBot=          광부 봇은 대부분 동굴 탐험에 유용합니다. 레드 스톤이나 § 브레드 스톤 플레이크 §r를 들고 있지 않더라도 그들은 당신을 따라갈 것입니다. 광부 봇이 모든 작업을 수행하지는 않지만 도움이 될 것입니다. 그들은 채굴에서 떨어진 블록을 모으고 광석을 파는 곳에서 당신을 따라갈 것입니다. 어두운 곳에있는 경우 횃불을 내려 놓습니다.
+minerBot.header.title00=          광부 봇을 탈 때 컨트롤은 말을 타는 것과 동일합니다. Miner Bot을 타면 드릴 모드가됩니다. 벽으로 들어가서 뚫습니다. 이것이 하나 이상을 갖는 것이 좋은 생각입니다. 하나는 드릴 모드에있는 동안 토치를 배치 할 수 있습니다. 광부 봇은 에메랄드, 다이아몬드 또는 길드 블랙 스톤을 채굴하지 않습니다. 이것은 그들이 용암에 떨어지는 것을 방지하기위한 것입니다. Miner Bots는 용암을 걸을 수 있지만 용암을 타는 것은 좋은 생각이 아닙니다. 즐겨!
+
+bot_topia.minerBot.text01=§a 기타.
+
+howtoplay.category.misc=Bot-Topia : 레드 스톤 플레이크
+
+howtoplay.redstoneFlake.title=§b 레드 스톤 플레이크
+howtoplay.redstoneFlake=         레드 스톤 플레이크는 봇을 먹이는 더 저렴한 방법입니다. 레드 스톤 가루 1 개에 레드 스톤 조각 9 개를 얻습니다. 레드 스톤 플레이크는 Bot Crafter에서 만들 수 있습니다.
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+

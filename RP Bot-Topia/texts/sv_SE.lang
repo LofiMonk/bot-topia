@@ -1,0 +1,146 @@
+pack.name=RP Bot-Topia
+pack.description=Resurspaket för Bot-Topia Bot-Topia är ett tillägg som låter dig bygga robotar, skapa delar och lägga till dem i din bot. §E * Mob Greifing måste vridas §lON§r§e för att detta tillägg ska fungera. Om mob greifing är avstängda kan bots inte plantera grödor, plocka upp vapen etc.
+
+entity.lfm:bot.name=Bot
+item.spawn_egg.entity.lfm:bot.name=Bot
+entity.lfm:bot_crafter.name=Bot Crafter
+item.spawn_egg.entity.lfm:bot_crafter.name=Bot Crafter
+entity.lfm:bot_walker.name=Bot Walker
+item.spawn_egg.entity.lfm:bot_walker.name=Bot Walker
+item.lfm:basic_chip.name=Grundläggande chip
+item.lfm:farm_chip.name=Farm Chip
+item.lfm:harvest_chip.name=Harvest Chip
+item.lfm:hopper_chip.name=Hopper Chip
+item.lfm:bot_legs.name=Botben
+item.lfm:guard_chip.name=Guard Chip
+item.lfm:redstone_flake.name=Redstone Flake
+item.lfm:miner_chip.name=Miner Chip
+
+
+action.hint.exit.lfm:bot_walker=smyga för att gå ut
+
+tips.game.63=Du kan slå på robotar genom att mata dem damm av redstone.
+tips.game.64=§B Redstone Flakes§r är billigare att mata bots än redstone-damm.
+tips.game.65=Installera §bBot Legs§r på en bot innan du ger den en §bGuard Chip§r.
+tips.game.66=Bots utan ben kan inte hoppa så ibland är det lättare att använda en ledning för att flytta runt dem.
+
+menu.howToPlay=§BBot-Topia
+menu.howToPlay.generalMessage=§E * Mob Greifing måste vridas §lON§r§e för att detta tillägg ska fungera. Om mob greifing är avstängda kan bots inte plantera grödor, plocka upp vapen etc.
+
+
+howtoplay.category.whatsNew=§AWhats New
+
+howtoplay.whatsNew.title=Bot-Topia: Vad är nytt
+howtoplay.whatsnew= Ny
+whatsNew.header.title00=§BVad är nytt V1.0.4
+bot_topia.whatsNew.text00=Har lagt till en ny Miner Bot!
+bot_topia.whatsNew.text01=För att hålla dig uppdaterad med Bot-Topia, kolla in den officiella släppsidan. §BMCPEDL.com / bot-topia
+
+howtoplay.category.bot-topia=§AVälkommen till Bot-Topia
+
+howtoplay.welcome.title=Bot-Topia: Vad är Bot-Topia?
+howtoplay.welcome=Vad är Bot-Topia?
+
+welcome.header.title00=§BBot-Topia
+bot_topia.welcome.text00=               Välkommen! Bot-Topia är ett tillägg som låter dig bygga bots, skapa delar och lägga till dem i din bot. Du kan till och med skapa Bot Chips för att programmera dina bots för att göra jobb åt dig. Den här guiden hjälper dig med alla dina botbehov. Detta är mitt första tillägg och är ett pågående arbete. Kontrollera MCPEDL.com för uppdateringar. Njut av!
+bot_topia.welcome.text01=§E * Mob Greifing måste vridas §lON§r§e för att detta tillägg ska fungera. Om mob greifing är avstängda kan bots inte plantera grödor, plocka upp vapen etc.
+
+howtoplay.welcomeTwo.title=Bot-Topia: Vad är bots?
+howtoplay.welcomeTwo=Vad är bots?
+
+welcomeTwo.header.title00=§BBots
+bot_topia.welcomeTwo.text00=            Det här är en bot. De kan skapas i en §bBot Crafter§r. Bots Love Redstone. De kommer att följa dig om du håller redstone-damm eller §bredstone-flingor §rin din hand. §EDu kan också mata dem damm eller flingor för att läka dem om de är skadade. §R Att mata dem laddar dem typ. De får en liten hastighetsökning när de äter. Bots utan ben kan inte hoppa så ibland är det lättare att använda en ledning för att flytta runt dem.
+bot_topia.welcomeTwo.text01=Du kan öppna inventeringen av de flesta bots genom att interagera med dem när du inte har andra botrelaterade objekt i din hand. Du kan lägga saker i deras lager och ta ut saker. §EFör mer information, se avsnittet om att komma igång med botten.
+
+
+howtoplay.category.gettingStarted=§A Komma igång
+
+howtoplay.botCrafter.title=Bot-Topia: Bot Crafter
+howtoplay.botCrafter=Bot Crafter
+
+botCrafter.header.title00=§BBot Crafter
+bot_topia.botCrafter.text00=            För att göra det enkelt kan alla recept i detta tillägg göras med §bBot Crafter§r och det är utgångspunkten för detta tillägg. Rekommendationernas ordning är också en indikation på utvecklingen av botbyggprocessen. Så för att komma igång, öppna en hantverksbänk och släng dessa ingredienser i den för att skapa en.
+bot_topia.botCrafter.text01=            Du kan placera §bBot Crafter§r precis som alla andra block i spelet. Men det enklaste sättet att plocka upp det är att smyga att klicka på det. Det ska dyka upp direkt från marken för dig. Härifrån är det ganska enkelt men jag kommer att gå igenom hur du bygger och använder bots i nästa steg.
+
+howtoplay.bot.title=Bot-Topia: Bot
+howtoplay.bot=Bot
+
+bot.header.title00=§BBot
+bot_topia.bot.text00=            Det här är en bot. De kan skapas i en §bBot Crafter§r. Bots Love Redstone. De kommer att följa dig om du håller redstone-damm eller §bredstone-flingor §rin din hand. §EDu kan också mata dem damm eller flingor för att läka dem om de är skadade. §R Att mata dem laddar dem typ. De får en liten hastighetsökning när de äter. Bots utan ben kan inte hoppa så ibland är det lättare att använda en ledning för att flytta runt dem.
+bot_topia.bot.text03=           Du kan öppna inventeringen av de flesta bots genom att interagera med dem när du inte har andra botrelaterade objekt i din hand. Du kan lägga saker i deras lager och ta ut saker.
+
+bot.header.title01=§BCrafting din bot
+bot_topia.bot.text01=       Ingredienserna för att skapa en bot är en redstone-fackla och en jämförare. Använd en §bBot Crafter§r för att skapa en bot.
+
+bot.header.title02=§BSätta på din Bot
+bot_topia.bot.text02=           Du kommer att märka att när du först lägger ner din bot kommer den att vara avstängd. För att sätta på botten, mata den med en bit redstone-damm. Nu när din bot är på kommer du antagligen vilja ge den ett jobb som jordbruk till exempel. För att ge din bot ett jobb måste du använda §bBot Crafter§r för att skapa §bBot Chips§r. Ge din bot en §bBot Chip§r för att programmera den för att göra ett jobb. Nästa avsnitt kommer att täcka de olika typerna av botchips och jobb.
+
+howtoplay.botChip.title=Botchip
+
+
+botChip.header.title00=           Botchips är hur du programmerar din bot att göra jobb. Alla Botchips tillverkas med §bBot Crafter§r. När du slår på din bot med redstone-damm kan du installera en Bot Chip i den. Vissa marker kräver olika botuppgraderingar. Skyddskretsen till exempel kräver att din bot har §bBot Ben§r installerad innan du kan installera §bGuard Chip§r.
+
+
+botChip.header.title01=           Basic Chip är basen för alla andra Bot Chips. Det är det enda chipet som inte interagerar med robotarna, åtminstone inte ensamt. Kombinera andra material med en Basic Chip för att göra olika Bot Chips.
+
+
+botChip.header.title02=Kombinera en järnhack och en grundläggande flis för att göra en gårdchip. Ge en Farm Chip till en Bot för att installera chipet. När chipet är installerat har du en §bFarm Bot§r.
+
+
+botChip.header.title03=Kombinera en komposter och en baschip för att göra en skördechip. Ge Harvest Chip till en Bot för att installera chipet. När chipet är installerat har du en §bHarvest Bot§r.
+
+
+botChip.header.title04=Kombinera en Hopper och en Basic Chip för att göra en Hopper Chip. Ge Hopper Chip till en Bot för att installera chipet. När chipet är installerat har du en §bHopper Bot§r.
+
+
+botChip.header.title05=Kombinera ett järnsvärd och ett grundläggande chip för att göra ett Guard Chip. För att installera en Guard Chip måste botten ha §bBot Ben§r installerat först. Ge Guard Chip till en §bWalker Bot§r för att installera chipet. När chipet är installerat har du en §bGuard Bot§r.
+
+
+
+howtoplay.botLegs.title=Botben
+
+
+botLegs.header.title00=           Botben är en uppgradering till din bot som ... ger botbenen.
+bot_topia.botLegs.text00=         Interagera med din bot medan du håller Bot Ben för att installera dem och skapa en §bWalker Bot.
+
+
+howtoplay.farmBot.title=Farm Bot
+howtoplay.farmBot=§BFarm Bot
+farmBot.header.title00=           Farm Bots kan plantera och skörda grödor åt dig. Till lite smuts och släpp några frön på marken, eller ännu bättre öppna botten inventering genom att klicka på botten och placera grödan eller utsäde du vill växa i dess inventering. Bot ska omedelbart börja bryta och plantera grödor. Farm Bots planterar inte pumpor och meloner men de kommer att skörda dem åt dig om du planterar fröna.
+bot_topia.farmBot.text00=Farm Bots kan göra mycket arbete men de behöver hjälp. När en Farm Bot har tillräckligt med grödor kommer den att ge dem en §bHarvest Bot§r för att placeras i ditt lagringssystem. Ge en bot en §bFarm Chip§r för att göra en Farm-bot.
+bot_topia.farmBot.text01=           
+
+
+howtoplay.harvestBot.title=Harvest Bot
+howtoplay.harvestBot=§B Skörd Bot
+harvestBot.header.title00=            Skördrobotar söker efter jordbruksmark för att patrullera och väntar på att §bFarm Bots§r ska ladda dem med grödor. Ibland kommer Harvest-botten att leta efter en behållare i marken den kan sitta på för att lossa sin last. Kom ihåg att dessa bots inte kan hoppa så ställ en artikelbehållare i marken så att de kan rulla ovanpå den. Därifrån riktar du bara behållaren till din lagring efter eget val. Ge en §b Harvest Chip§r till en bot för att göra en Harvest Bot.
+
+
+howtoplay.hopperBot.title=Hopper Bot
+howtoplay.hopperBot=§BHopper Bot
+hopperBot.header.title00=         En Hopper Bot kommer att plocka upp allt som korsar sin väg. De rör sig runt och letar efter saker att plocka upp och då och då letar de efter en behållare att sitta på och lossa innehållet.
+bot_topia.hopperBot.text00=         Ge en §bHopper Chip§r till en bot för att skapa en Hopper Bot. Dessa killar springer runt som idiotiska barn. Se till att stänga av deras område. De plockar upp allt ... Om något dyker upp saknar du fickorna.
+
+
+howtoplay.guardBot.title=Guard Bot
+howtoplay.guardBot=§BGuard Bot
+guardBot.header.title00=          Guardbots följer spelare även om de inte har redstone eller §bredstone flakes§r. Om du vill att en Guard Bot ska sluta följa smyger du dig på Guard Bot för att få den att sitta. Guard bot kommer att hålla marken. Guard Bots kommer att attackera alla närliggande fiender eller någon mob som attackerar dem eller spelaren. Guard Bots kommer också att rikta sig mot alla mobbar som du attackerar. Du kan släppa vapen på marken och Guard Bot plockar upp dem och utrustar dem. Du kan ge det ett svärd eller en båge. De kommer att uppgradera vapnet de håller om det finns ett bättre för dem att plocka upp. Detta fungerar också för rustning, du kan bara inte se rustningen de bär.
+bot_topia.guardBot.text00=          Du kan rida Guard Bots i strid ingen sadel behövs. Du kan styra Guard Bots-riktningen genom att hålla en båge i handen. När du kör en Guard-bot kan du komma åt dess inventering. Ge en §bGuard Chip§r till en §bWalker Bot§r för att skapa en Guard bot.
+bot_topia.guardBot.text01=Bot-Topia: Miner Bot
+
+howtoplay.minerBot.title=§BMiner Bot
+howtoplay.minerBot=          Minerbots är mest användbara för grottforskning. De kommer att följa dig även om du inte håller redstone eller §bredstone flingor§r. Minerobots gör inte allt för dig men de hjälper. De kommer att följa dig runt och samla kvarter som släppts från gruvdrift och gräva upp malm. De placerar facklor om de befinner sig i ett mörkt område.
+minerBot.header.title00=          När du kör en Miner-bot är kontrollerna desamma som att rida på en häst. Att köra en gruvarbetare sätter det i borrläge. Gå in i en vägg för att borra igenom den. Det är här det är en bra idé att ha mer än en. Man kan placera facklor medan den andra är i borrläge. Miner Bots kommer inte att bryta smaragder, diamanter eller guilded blackstone. Detta för att förhindra att de tappas i lava. Även om Miner Bots kan gå i lava är det inte en bra idé att rida dem genom lava. Njut av!
+
+bot_topia.minerBot.text01=§AÖvrigt
+
+howtoplay.category.misc=Bot-Topia: Redstone Flake
+
+howtoplay.redstoneFlake.title=§B Redstone Flake
+howtoplay.redstoneFlake=         Redstone-flingor är ett billigare sätt att mata bots. Du får 9 delar Redstone Flake för 1 bit Redstone Dust. Redstone-flingor kan göras i Bot Crafter.
+
+bot_topia.redstoneFlake.text00=undefined
+
+
+
+
