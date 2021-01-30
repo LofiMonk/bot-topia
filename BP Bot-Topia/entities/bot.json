@@ -1,4 +1,4 @@
-//bridge-file-version: #315
+//bridge-file-version: #323
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -860,6 +860,14 @@
 				"minecraft:grows_crop": {
 					"charges": 20,
 					"chance": 0.03
+				},
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 45,
+						"max_wait_time": 400,
+						"spawn_sound": "plop",
+						"spawn_item": "bone_meal"
+					}
 				}
 			},
 			"harvest_bot_deliver": {
