@@ -1,4 +1,4 @@
-##bridge-file-version: #19
+##bridge-file-version: #30
 pack.name=RP Bot-Topia
 pack.description=Resource Pack for Bot-Topia     Bot-Topia is an addon that allows you to build bots, craft parts and add them to your bot.  §e*Mob Greifing must be turned §lON§r§e for this addon to work. If mob greifing is off the bots cannot plant crops, pick up weapons, etc.
 
@@ -33,9 +33,17 @@ howtoplay.category.whatsNew=§aWhats New
 
 howtoplay.whatsNew.title=Bot-Topia: What's New
 howtoplay.whatsnew= New
-whatsNew.header.title00=§bWhat's New V1.0.4
-bot_topia.whatsNew.text00=Added a new Miner Bot!
-bot_topia.whatsNew.text01=To Stay up to date with Bot-Topia check out the official release page.  §bMCPEDL.com/bot-topia
+whatsNew.header.title00=§bWhat's New V1.0.7
+bot_topia.whatsNew.text00=.
+bot_topia.whatsNew.text01=.
+bot_topia.whatsNew.text02=.
+bot_topia.whatsNew.text03=.
+whatsNew.header.title01=To Stay up to date with Bot-Topia check out the official release page.
+bot_topia.whatsNew.text04=§bMCPEDL.com/bot-topia§r
+whatsNew.header.title02=Join the Discord!!
+bot_topia.whatsNew.text05=§bhttps://discord.gg/q8RaDX7E§r
+bot_topia.whatsNew.text06=.
+bot_topia.whatsNew.text07=If you would like to contribute look for Bot-Topia on Github!
 
 howtoplay.category.bot-topia=§aWelcome to Bot-Topia
 
