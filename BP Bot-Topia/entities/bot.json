@@ -1,4 +1,4 @@
-//bridge-file-version: #314
+//bridge-file-version: #315
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -855,6 +855,11 @@
 				},
 				"minecraft:push_through": {
 					"value": 0.5
+				},
+				"minecraft:is_charged": {},
+				"minecraft:grows_crop": {
+					"charges": 20,
+					"chance": 0.03
 				}
 			},
 			"harvest_bot_deliver": {
