@@ -1,3 +1,4 @@
+##bridge-file-version: #0
 pack.name=RP Bot-Topia
 pack.description=Resource Pack for Bot-Topia     Bot-Topia is an addon that allows you to build bots, craft parts and add them to your bot.  §e*Mob Greifing must be turned §lON§r§e for this addon to work. If mob greifing is off the bots cannot plant crops, pick up weapons, etc.
 
@@ -76,7 +77,7 @@ bot.header.title02=§bTurning on your Bot
 bot_topia.bot.text02=           You'll notice that when you first put your bot down it will be off. To turn the bot on feed it a piece of redstone dust. Now that your bot is on you will probably want to give it a job like farming for example. To give your bot a job you will need to use the §bBot Crafter§r to make §bBot Chips§r. Give your bot a §bBot Chip§r to program it to do a job. The next section will cover the differnt types of bot chips and jobs.
 
 howtoplay.botChip.title=Bot Chip
-
+howtoplay.botChip=Bot Chip
 
 botChip.header.title00=           Bot Chips are how you program your bot to do jobs. All Bot Chips are made using the §bBot Crafter§r. After you turn your bot on with redstone dust you can install a Bot Chip in it. Some chips require different bot upgrades. The guard chip for example requires your bot to have §bBot Legs§r installed before you can install the §bGuard Chip§r.
 
