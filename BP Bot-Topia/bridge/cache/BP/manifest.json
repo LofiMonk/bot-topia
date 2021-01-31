@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\manifest.json",
 	"file_type": "manifest_bp",
 	"format_version": 1,
-	"file_uuid": "db1ee44b_d418_49e2_a0a4_c8c854fd56fa",
-	"file_version": 4,
+	"file_uuid": "151dc1ef_fbf4_463b_baf3_ca4c754a758f",
+	"file_version": 0,
 	"cache_content": {
 		"children": [
 			{
@@ -14,13 +14,13 @@
 				"open": {
 					"format_version": 2,
 					"header": {
-						"name": "pack.name",
-						"description": "pack.description",
+						"name": "Bot Topia",
+						"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
 						"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 						"version": [
 							1,
 							0,
-							5
+							8
 						],
 						"min_engine_version": [
 							1,
@@ -35,7 +35,7 @@
 							"version": [
 								1,
 								0,
-								5
+								8
 							]
 						}
 					],
@@ -44,7 +44,7 @@
 							"version": [
 								1,
 								0,
-								5
+								8
 							],
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 						}
@@ -53,11 +53,11 @@
 				"key": "header",
 				"children": [
 					{
-						"data": "pack.name",
+						"data": "Bot Topia",
 						"key": "name"
 					},
 					{
-						"data": "pack.description",
+						"data": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
 						"key": "description"
 					},
 					{
@@ -66,13 +66,13 @@
 					},
 					{
 						"open": {
-							"name": "pack.name",
-							"description": "pack.description",
+							"name": "Bot Topia",
+							"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
 							"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 							"version": [
 								1,
 								0,
-								5
+								8
 							],
 							"min_engine_version": [
 								1,
@@ -85,25 +85,10 @@
 						"children": [
 							1,
 							0,
-							5
+							8
 						]
 					},
 					{
-						"open": {
-							"name": "pack.name",
-							"description": "pack.description",
-							"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
-							"version": [
-								1,
-								0,
-								5
-							],
-							"min_engine_version": [
-								1,
-								13,
-								0
-							]
-						},
 						"key": "min_engine_version",
 						"is_minified": true,
 						"children": [
@@ -118,13 +103,13 @@
 				"open": {
 					"format_version": 2,
 					"header": {
-						"name": "pack.name",
-						"description": "pack.description",
+						"name": "Bot Topia",
+						"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
 						"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 						"version": [
 							1,
 							0,
-							5
+							8
 						],
 						"min_engine_version": [
 							1,
@@ -139,7 +124,7 @@
 							"version": [
 								1,
 								0,
-								5
+								8
 							]
 						}
 					],
@@ -148,7 +133,7 @@
 							"version": [
 								1,
 								0,
-								5
+								8
 							],
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 						}
@@ -164,7 +149,7 @@
 								"version": [
 									1,
 									0,
-									5
+									8
 								]
 							}
 						],
@@ -184,7 +169,7 @@
 									"version": [
 										1,
 										0,
-										5
+										8
 									]
 								},
 								"key": "version",
@@ -192,7 +177,7 @@
 								"children": [
 									1,
 									0,
-									5
+									8
 								]
 							}
 						]
@@ -203,13 +188,13 @@
 				"open": {
 					"format_version": 2,
 					"header": {
-						"name": "pack.name",
-						"description": "pack.description",
+						"name": "Bot Topia",
+						"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
 						"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 						"version": [
 							1,
 							0,
-							5
+							8
 						],
 						"min_engine_version": [
 							1,
@@ -224,7 +209,7 @@
 							"version": [
 								1,
 								0,
-								5
+								8
 							]
 						}
 					],
@@ -233,7 +218,7 @@
 							"version": [
 								1,
 								0,
-								5
+								8
 							],
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 						}
@@ -247,7 +232,7 @@
 								"version": [
 									1,
 									0,
-									5
+									8
 								],
 								"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 							}
@@ -258,7 +243,7 @@
 									"version": [
 										1,
 										0,
-										5
+										8
 									],
 									"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 								},
@@ -267,7 +252,7 @@
 								"children": [
 									1,
 									0,
-									5
+									8
 								]
 							},
 							{

@@ -1,18 +1,31 @@
+//bridge-file-version: #0
 {
-  "format_version": 2,
-  "header": {
-    "description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
-    "name": "Bot Topia",
-    "uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
-    "version": [1, 0, 7],
-    "min_engine_version": [1, 13, 0]
-  },
-  "modules": [
-    {
-      "description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
-      "type": "resources",
-      "uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
-      "version": [1, 0, 7]
-    }
-  ]
+	"format_version": 2,
+	"header": {
+		"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+		"name": "Bot Topia",
+		"uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
+		"version": [
+			1,
+			0,
+			8
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
+			"type": "resources",
+			"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
+			"version": [
+				1,
+				0,
+				8
+			]
+		}
+	]
 }
