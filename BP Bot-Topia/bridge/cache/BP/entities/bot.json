@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "089f1b17_f437_4100_a2e0_cd3fad982fbc",
-	"file_version": 327,
+	"file_version": 332,
 	"cache_content": {
 		"children": [
 			{
@@ -840,6 +840,14 @@
 								},
 								"minecraft:behavior.look_at_player": {
 									"look_distance": 5
+								},
+								"minecraft:spawn_entity": {
+									"entities": {
+										"min_wait_time": 45,
+										"max_wait_time": 120,
+										"spawn_sound": "plop",
+										"spawn_item": "bone_meal"
+									}
 								}
 							},
 							"harvest_bot_gather": {
@@ -872,14 +880,6 @@
 								"minecraft:grows_crop": {
 									"charges": 12,
 									"chance": 0.03
-								},
-								"minecraft:spawn_entity": {
-									"entities": {
-										"min_wait_time": 45,
-										"max_wait_time": 400,
-										"spawn_sound": "plop",
-										"spawn_item": "bone_meal"
-									}
 								}
 							},
 							"harvest_bot_deliver": {
@@ -2057,6 +2057,14 @@
 									},
 									"minecraft:behavior.look_at_player": {
 										"look_distance": 5
+									},
+									"minecraft:spawn_entity": {
+										"entities": {
+											"min_wait_time": 45,
+											"max_wait_time": 120,
+											"spawn_sound": "plop",
+											"spawn_item": "bone_meal"
+										}
 									}
 								},
 								"harvest_bot_gather": {
@@ -2089,14 +2097,6 @@
 									"minecraft:grows_crop": {
 										"charges": 12,
 										"chance": 0.03
-									},
-									"minecraft:spawn_entity": {
-										"entities": {
-											"min_wait_time": 45,
-											"max_wait_time": 400,
-											"spawn_sound": "plop",
-											"spawn_item": "bone_meal"
-										}
 									}
 								},
 								"harvest_bot_deliver": {
@@ -5983,6 +5983,14 @@
 										},
 										"minecraft:behavior.look_at_player": {
 											"look_distance": 5
+										},
+										"minecraft:spawn_entity": {
+											"entities": {
+												"min_wait_time": 45,
+												"max_wait_time": 120,
+												"spawn_sound": "plop",
+												"spawn_item": "bone_meal"
+											}
 										}
 									},
 									"harvest_bot_gather": {
@@ -6015,14 +6023,6 @@
 										"minecraft:grows_crop": {
 											"charges": 12,
 											"chance": 0.03
-										},
-										"minecraft:spawn_entity": {
-											"entities": {
-												"min_wait_time": 45,
-												"max_wait_time": 400,
-												"spawn_sound": "plop",
-												"spawn_item": "bone_meal"
-											}
 										}
 									},
 									"harvest_bot_deliver": {
@@ -6761,6 +6761,290 @@
 										"children": {
 											"look_distance": 5
 										}
+									},
+									{
+										"open": {
+											"minecraft:type_family": {
+												"family": [
+													"harvest_bot",
+													"bot",
+													"mob"
+												]
+											},
+											"minecraft:shareables": {
+												"items": [
+													{
+														"item": "minecraft:carrot",
+														"want_amount": 1600,
+														"surplus_amount": 5,
+														"stored_in_inventory": true,
+														"priority": 1
+													},
+													{
+														"item": "minecraft:potato",
+														"want_amount": 1600,
+														"surplus_amount": 5,
+														"stored_in_inventory": true,
+														"priority": 1,
+														"pickup_limit": 27
+													},
+													{
+														"item": "minecraft:wheat",
+														"want_amount": 1600,
+														"surplus_amount": 1,
+														"stored_in_inventory": true,
+														"priority": 1,
+														"pickup_limit": 27
+													},
+													{
+														"item": "minecraft:beetroot",
+														"want_amount": 1600,
+														"surplus_amount": 5,
+														"stored_in_inventory": true,
+														"priority": 1
+													},
+													{
+														"item": "minecraft:pumpkin",
+														"want_amount": 1600,
+														"surplus_amount": 1,
+														"stored_in_inventory": true,
+														"priority": 1
+													},
+													{
+														"item": "minecraft:melon",
+														"want_amount": 1600,
+														"surplus_amount": 1,
+														"stored_in_inventory": true,
+														"priority": 1
+													}
+												]
+											},
+											"minecraft:behavior.pickup_items": {
+												"priority": 2,
+												"max_dist": 16,
+												"goal_radius": 2,
+												"speed_multiplier": 1.3,
+												"can_pickup_to_hand_or_equipment": false,
+												"track_target": true
+											},
+											"minecraft:variant": {
+												"value": 1
+											},
+											"minecraft:skin_id": {
+												"value": 2
+											},
+											"minecraft:mark_variant": {
+												"value": 3
+											},
+											"minecraft:scheduler": {
+												"min_delay_secs": 0,
+												"max_delay_secs": 10,
+												"scheduled_events": [
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 0
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 8000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_gather_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 8000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 10000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_deliver_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 10000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 11000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_gather_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 11000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 12000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_deliver_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 12000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 14000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_gather_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 14000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 16000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_deliver_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 16000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 18000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_gather_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 16000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 20000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_deliver_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 20000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 22000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_gather_mode"
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "hourly_clock_time",
+																	"operator": ">=",
+																	"value": 22000
+																},
+																{
+																	"test": "hourly_clock_time",
+																	"operator": "<",
+																	"value": 24000
+																}
+															]
+														},
+														"event": "lfm:harvest_bot_deliver_mode"
+													}
+												]
+											},
+											"minecraft:behavior.look_at_player": {
+												"look_distance": 5
+											},
+											"minecraft:spawn_entity": {
+												"entities": {
+													"min_wait_time": 45,
+													"max_wait_time": 120,
+													"spawn_sound": "plop",
+													"spawn_item": "bone_meal"
+												}
+											}
+										},
+										"key": "minecraft:spawn_entity",
+										"children": [
+											{
+												"open": {
+													"entities": {
+														"min_wait_time": 45,
+														"max_wait_time": 120,
+														"spawn_sound": "plop",
+														"spawn_item": "bone_meal"
+													}
+												},
+												"key": "entities",
+												"is_minified": true,
+												"children": {
+													"min_wait_time": 45,
+													"max_wait_time": 120,
+													"spawn_sound": "plop",
+													"spawn_item": "bone_meal"
+												}
+											}
+										]
 									}
 								]
 							},
@@ -7584,6 +7868,14 @@
 										},
 										"minecraft:behavior.look_at_player": {
 											"look_distance": 5
+										},
+										"minecraft:spawn_entity": {
+											"entities": {
+												"min_wait_time": 45,
+												"max_wait_time": 120,
+												"spawn_sound": "plop",
+												"spawn_item": "bone_meal"
+											}
 										}
 									},
 									"harvest_bot_gather": {
@@ -7616,14 +7908,6 @@
 										"minecraft:grows_crop": {
 											"charges": 12,
 											"chance": 0.03
-										},
-										"minecraft:spawn_entity": {
-											"entities": {
-												"min_wait_time": 45,
-												"max_wait_time": 400,
-												"spawn_sound": "plop",
-												"spawn_item": "bone_meal"
-											}
 										}
 									},
 									"harvest_bot_deliver": {
@@ -7922,14 +8206,6 @@
 											"minecraft:grows_crop": {
 												"charges": 12,
 												"chance": 0.03
-											},
-											"minecraft:spawn_entity": {
-												"entities": {
-													"min_wait_time": 45,
-													"max_wait_time": 400,
-													"spawn_sound": "plop",
-													"spawn_item": "bone_meal"
-												}
 											}
 										},
 										"key": "minecraft:grows_crop",
@@ -7938,69 +8214,6 @@
 											"charges": 12,
 											"chance": 0.03
 										}
-									},
-									{
-										"open": {
-											"minecraft:behavior.move_to_block": {
-												"priority": 1,
-												"tick_interval": 30,
-												"start_chance": 1,
-												"search_range": 35,
-												"search_height": 4,
-												"goal_radius": 0,
-												"stay_duration": 0,
-												"target_selection_method": "random",
-												"target_offset": [
-													0,
-													0,
-													0
-												],
-												"target_blocks": [
-													"minecraft:farmland"
-												]
-											},
-											"minecraft:pushable": {
-												"is_pushable": true,
-												"is_pushable_by_piston": true
-											},
-											"minecraft:push_through": {
-												"value": 0.5
-											},
-											"minecraft:is_charged": {},
-											"minecraft:grows_crop": {
-												"charges": 12,
-												"chance": 0.03
-											},
-											"minecraft:spawn_entity": {
-												"entities": {
-													"min_wait_time": 45,
-													"max_wait_time": 400,
-													"spawn_sound": "plop",
-													"spawn_item": "bone_meal"
-												}
-											}
-										},
-										"key": "minecraft:spawn_entity",
-										"children": [
-											{
-												"open": {
-													"entities": {
-														"min_wait_time": 45,
-														"max_wait_time": 400,
-														"spawn_sound": "plop",
-														"spawn_item": "bone_meal"
-													}
-												},
-												"key": "entities",
-												"is_minified": true,
-												"children": {
-													"min_wait_time": 45,
-													"max_wait_time": 400,
-													"spawn_sound": "plop",
-													"spawn_item": "bone_meal"
-												}
-											}
-										]
 									}
 								]
 							},
@@ -8930,6 +9143,14 @@
 										},
 										"minecraft:behavior.look_at_player": {
 											"look_distance": 5
+										},
+										"minecraft:spawn_entity": {
+											"entities": {
+												"min_wait_time": 45,
+												"max_wait_time": 120,
+												"spawn_sound": "plop",
+												"spawn_item": "bone_meal"
+											}
 										}
 									},
 									"harvest_bot_gather": {
@@ -8962,14 +9183,6 @@
 										"minecraft:grows_crop": {
 											"charges": 12,
 											"chance": 0.03
-										},
-										"minecraft:spawn_entity": {
-											"entities": {
-												"min_wait_time": 45,
-												"max_wait_time": 400,
-												"spawn_sound": "plop",
-												"spawn_item": "bone_meal"
-											}
 										}
 									},
 									"harvest_bot_deliver": {
@@ -10746,6 +10959,14 @@
 									},
 									"minecraft:behavior.look_at_player": {
 										"look_distance": 5
+									},
+									"minecraft:spawn_entity": {
+										"entities": {
+											"min_wait_time": 45,
+											"max_wait_time": 120,
+											"spawn_sound": "plop",
+											"spawn_item": "bone_meal"
+										}
 									}
 								},
 								"harvest_bot_gather": {
@@ -10778,14 +10999,6 @@
 									"minecraft:grows_crop": {
 										"charges": 12,
 										"chance": 0.03
-									},
-									"minecraft:spawn_entity": {
-										"entities": {
-											"min_wait_time": 45,
-											"max_wait_time": 400,
-											"spawn_sound": "plop",
-											"spawn_item": "bone_meal"
-										}
 									}
 								},
 								"harvest_bot_deliver": {

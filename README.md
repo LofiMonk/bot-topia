@@ -8,6 +8,7 @@ Welcome! Bot-Topia is an addon that allows you to build bots, craft parts and ad
 
 - Removed broken language files temporarily.
 - Harvest Bot has some new features.
+- Bots can be name tagged
 
 ## Downloads
 

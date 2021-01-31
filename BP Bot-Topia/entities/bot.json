@@ -1,4 +1,4 @@
-//bridge-file-version: #327
+//bridge-file-version: #332
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -828,6 +828,14 @@
 				},
 				"minecraft:behavior.look_at_player": {
 					"look_distance": 5
+				},
+				"minecraft:spawn_entity": {
+					"entities": {
+						"min_wait_time": 45,
+						"max_wait_time": 120,
+						"spawn_sound": "plop",
+						"spawn_item": "bone_meal"
+					}
 				}
 			},
 			"harvest_bot_gather": {
@@ -860,14 +868,6 @@
 				"minecraft:grows_crop": {
 					"charges": 12,
 					"chance": 0.03
-				},
-				"minecraft:spawn_entity": {
-					"entities": {
-						"min_wait_time": 45,
-						"max_wait_time": 400,
-						"spawn_sound": "plop",
-						"spawn_item": "bone_meal"
-					}
 				}
 			},
 			"harvest_bot_deliver": {
