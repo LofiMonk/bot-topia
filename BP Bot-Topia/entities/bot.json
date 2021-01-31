@@ -1,4 +1,4 @@
-//bridge-file-version: #323
+//bridge-file-version: #325
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -858,13 +858,13 @@
 				},
 				"minecraft:is_charged": {},
 				"minecraft:grows_crop": {
-					"charges": 20,
+					"charges": 12,
 					"chance": 0.03
 				},
 				"minecraft:spawn_entity": {
 					"entities": {
-						"min_wait_time": 45,
-						"max_wait_time": 400,
+						"min_wait_time": 400,
+						"max_wait_time": 600,
 						"spawn_sound": "plop",
 						"spawn_item": "bone_meal"
 					}
