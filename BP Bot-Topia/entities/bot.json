@@ -1,4 +1,4 @@
-//bridge-file-version: #325
+//bridge-file-version: #326
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -863,8 +863,8 @@
 				},
 				"minecraft:spawn_entity": {
 					"entities": {
-						"min_wait_time": 400,
-						"max_wait_time": 600,
+						"min_wait_time": 90,
+						"max_wait_time": 400,
 						"spawn_sound": "plop",
 						"spawn_item": "bone_meal"
 					}

@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "089f1b17_f437_4100_a2e0_cd3fad982fbc",
-	"file_version": 325,
+	"file_version": 326,
 	"cache_content": {
 		"children": [
 			{
@@ -875,8 +875,8 @@
 								},
 								"minecraft:spawn_entity": {
 									"entities": {
-										"min_wait_time": 400,
-										"max_wait_time": 600,
+										"min_wait_time": 90,
+										"max_wait_time": 400,
 										"spawn_sound": "plop",
 										"spawn_item": "bone_meal"
 									}
@@ -2092,8 +2092,8 @@
 									},
 									"minecraft:spawn_entity": {
 										"entities": {
-											"min_wait_time": 400,
-											"max_wait_time": 600,
+											"min_wait_time": 90,
+											"max_wait_time": 400,
 											"spawn_sound": "plop",
 											"spawn_item": "bone_meal"
 										}
@@ -6018,8 +6018,8 @@
 										},
 										"minecraft:spawn_entity": {
 											"entities": {
-												"min_wait_time": 400,
-												"max_wait_time": 600,
+												"min_wait_time": 90,
+												"max_wait_time": 400,
 												"spawn_sound": "plop",
 												"spawn_item": "bone_meal"
 											}
@@ -7619,8 +7619,8 @@
 										},
 										"minecraft:spawn_entity": {
 											"entities": {
-												"min_wait_time": 400,
-												"max_wait_time": 600,
+												"min_wait_time": 90,
+												"max_wait_time": 400,
 												"spawn_sound": "plop",
 												"spawn_item": "bone_meal"
 											}
@@ -7925,8 +7925,8 @@
 											},
 											"minecraft:spawn_entity": {
 												"entities": {
-													"min_wait_time": 400,
-													"max_wait_time": 600,
+													"min_wait_time": 90,
+													"max_wait_time": 400,
 													"spawn_sound": "plop",
 													"spawn_item": "bone_meal"
 												}
@@ -7973,8 +7973,8 @@
 											},
 											"minecraft:spawn_entity": {
 												"entities": {
-													"min_wait_time": 400,
-													"max_wait_time": 600,
+													"min_wait_time": 90,
+													"max_wait_time": 400,
 													"spawn_sound": "plop",
 													"spawn_item": "bone_meal"
 												}
@@ -7985,8 +7985,8 @@
 											{
 												"open": {
 													"entities": {
-														"min_wait_time": 400,
-														"max_wait_time": 600,
+														"min_wait_time": 90,
+														"max_wait_time": 400,
 														"spawn_sound": "plop",
 														"spawn_item": "bone_meal"
 													}
@@ -7994,8 +7994,8 @@
 												"key": "entities",
 												"is_minified": true,
 												"children": {
-													"min_wait_time": 400,
-													"max_wait_time": 600,
+													"min_wait_time": 90,
+													"max_wait_time": 400,
 													"spawn_sound": "plop",
 													"spawn_item": "bone_meal"
 												}
@@ -8965,8 +8965,8 @@
 										},
 										"minecraft:spawn_entity": {
 											"entities": {
-												"min_wait_time": 400,
-												"max_wait_time": 600,
+												"min_wait_time": 90,
+												"max_wait_time": 400,
 												"spawn_sound": "plop",
 												"spawn_item": "bone_meal"
 											}
@@ -10781,8 +10781,8 @@
 									},
 									"minecraft:spawn_entity": {
 										"entities": {
-											"min_wait_time": 400,
-											"max_wait_time": 600,
+											"min_wait_time": 90,
+											"max_wait_time": 400,
 											"spawn_sound": "plop",
 											"spawn_item": "bone_meal"
 										}
