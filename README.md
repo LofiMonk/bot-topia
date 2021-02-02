@@ -2,7 +2,7 @@
 
 current version is 1.0.8
 
-Welcome! Bot-Topia is an addon that allows you to build bots, craft parts and add them to your bot. You can even craft Bot Chips to program your bots to do jobs for you. This guide will help you with all your bot needs. This is my first addon and is a work in progress. Enjoy!
+Welcome! Bot-Topia is an addon that allows you to build bots, craft parts and add them to your bot. You can even craft Bot Chips to program your bots to do jobs for you.This is my first addon and is a work in progress. Enjoy!
 
 ## Change Log
 
