@@ -1,0 +1,10 @@
+*.json
+*.text
+*.lang
+animation_controllers
+functions
+function
+items
+loot_tables
+recipes
+trading

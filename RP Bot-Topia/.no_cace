@@ -1,0 +1,12 @@
+*.json
+*.text
+*.lang
+animations
+entity
+items
+models
+render_controllers
+sounds
+texts
+textures
+ui
