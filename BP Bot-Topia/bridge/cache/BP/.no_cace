@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\.no_cace",
+	"file_type": "unknown",
+	"format_version": 0,
+	"file_uuid": "89902e10_1908_450b_8547_117a84a1b6da",
+	"file_version": 0,
+	"cache_content": "*.json\r\n*.text\r\n*.lang\r\nanimation_controllers\r\nentities\r\nfunctions\r\nitems\r\nloot_tables\r\nrecipes\r\ntexts\r\ntrading"
+}

@@ -3,7 +3,7 @@
 	"file_type": "manifest_rp",
 	"format_version": 1,
 	"file_uuid": "74c9a21a_1229_4aa5_a7ec_231065cdf41c",
-	"file_version": 0,
+	"file_version": 2,
 	"cache_content": {
 		"children": [
 			{
@@ -14,7 +14,7 @@
 				"open": {
 					"format_version": 2,
 					"header": {
-						"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+						"description": "rp beta v1.0.9",
 						"name": "Bot Topia",
 						"uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
 						"version": [
@@ -30,7 +30,7 @@
 					},
 					"modules": [
 						{
-							"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
+							"description": "rp beta v1.0.9",
 							"type": "resources",
 							"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
 							"version": [
@@ -44,7 +44,22 @@
 				"key": "header",
 				"children": [
 					{
-						"data": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+						"open": {
+							"description": "rp beta v1.0.9",
+							"name": "Bot Topia",
+							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
+							"version": [
+								1,
+								0,
+								8
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"data": "rp beta v1.0.9",
 						"key": "description"
 					},
 					{
@@ -57,7 +72,7 @@
 					},
 					{
 						"open": {
-							"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+							"description": "rp beta v1.0.9",
 							"name": "Bot Topia",
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
 							"version": [
@@ -94,7 +109,7 @@
 				"open": {
 					"format_version": 2,
 					"header": {
-						"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+						"description": "rp beta v1.0.9",
 						"name": "Bot Topia",
 						"uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
 						"version": [
@@ -110,7 +125,7 @@
 					},
 					"modules": [
 						{
-							"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
+							"description": "rp beta v1.0.9",
 							"type": "resources",
 							"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
 							"version": [
@@ -126,7 +141,7 @@
 					{
 						"open": [
 							{
-								"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
+								"description": "rp beta v1.0.9",
 								"type": "resources",
 								"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
 								"version": [
@@ -138,7 +153,17 @@
 						],
 						"children": [
 							{
-								"data": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
+								"open": {
+									"description": "rp beta v1.0.9",
+									"type": "resources",
+									"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
+									"version": [
+										1,
+										0,
+										8
+									]
+								},
+								"data": "rp beta v1.0.9",
 								"key": "description"
 							},
 							{
@@ -151,7 +176,7 @@
 							},
 							{
 								"open": {
-									"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you",
+									"description": "rp beta v1.0.9",
 									"type": "resources",
 									"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
 									"version": [

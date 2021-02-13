@@ -1,0 +1,283 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "151dc1ef_fbf4_463b_baf3_ca4c754a758f",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Bot Topia",
+						"description": "v1.0.9 beta",
+						"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+						"version": [
+							1,
+							0,
+							8
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
+							"version": [
+								1,
+								0,
+								8
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								8
+							],
+							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "Bot Topia",
+						"key": "name"
+					},
+					{
+						"open": {
+							"name": "Bot Topia",
+							"description": "v1.0.9 beta",
+							"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+							"version": [
+								1,
+								0,
+								8
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"data": "v1.0.9 beta",
+						"key": "description"
+					},
+					{
+						"data": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+						"key": "uuid"
+					},
+					{
+						"open": {
+							"name": "Bot Topia",
+							"description": "v1.0.9 beta",
+							"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+							"version": [
+								1,
+								0,
+								8
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							0,
+							8
+						]
+					},
+					{
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							13,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Bot Topia",
+						"description": "v1.0.9 beta",
+						"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+						"version": [
+							1,
+							0,
+							8
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
+							"version": [
+								1,
+								0,
+								8
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								8
+							],
+							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
+						}
+					]
+				},
+				"key": "modules",
+				"children": [
+					{
+						"open": [
+							{
+								"type": "data",
+								"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
+								"version": [
+									1,
+									0,
+									8
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "data",
+								"key": "type"
+							},
+							{
+								"data": "e451a114-9621-42a9-b52f-e9bf54449d90",
+								"key": "uuid"
+							},
+							{
+								"open": {
+									"type": "data",
+									"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
+									"version": [
+										1,
+										0,
+										8
+									]
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									8
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "Bot Topia",
+						"description": "v1.0.9 beta",
+						"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
+						"version": [
+							1,
+							0,
+							8
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
+							"version": [
+								1,
+								0,
+								8
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								8
+							],
+							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
+						}
+					]
+				},
+				"key": "dependencies",
+				"children": [
+					{
+						"open": [
+							{
+								"version": [
+									1,
+									0,
+									8
+								],
+								"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"version": [
+										1,
+										0,
+										8
+									],
+									"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
+								},
+								"key": "version",
+								"is_minified": true,
+								"children": [
+									1,
+									0,
+									8
+								]
+							},
+							{
+								"data": "61ee56da-98dc-497f-a32a-996045841bd9",
+								"key": "uuid"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

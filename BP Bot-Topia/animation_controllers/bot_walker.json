@@ -1,4 +1,4 @@
-//bridge-file-version: #47
+//bridge-file-version: #49
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
@@ -69,7 +69,24 @@
 						}
 					],
 					"on_entry": [
-						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy stone",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy coal_ore",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy gold_ore",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy diamond_ore",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy dirt",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy grass",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy Diorite",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy lapis_ore",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy gravel",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy granite",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy cobblestone",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy andesite",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy redstone_ore",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 destroy nether_gold_ore",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 replace water",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 replace bedrock",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 replace barrier",
+						"/execute @s ~~~ fill ~1~~-1 ~-1~2~1 air 0 replace lava",
 						"/particle minecraft:knockback_roar_particle ~~1~",
 						"@s execute_no_commands"
 					]

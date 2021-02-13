@@ -1,0 +1,278 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia/items/redstone_flake.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "71be3142_4e7d_4aa6_9548_56a5a833e184",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:redstone_flake"
+						},
+						"components": {
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:use_duration": 1.6,
+							"minecraft:foil": true,
+							"minecraft:food": {
+								"nutrition": 4,
+								"saturation_modifier": "normal",
+								"can_always_eat": true
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": true,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "normal",
+									"can_always_eat": true
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:redstone_flake"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake"
+							},
+							"components": {
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:use_duration": 1.6,
+								"minecraft:foil": true,
+								"minecraft:food": {
+									"nutrition": 4,
+									"saturation_modifier": "normal",
+									"can_always_eat": true
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"open": {
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:use_duration": 1.6,
+									"minecraft:foil": true,
+									"minecraft:food": {
+										"nutrition": 4,
+										"saturation_modifier": "normal",
+										"can_always_eat": true
+									}
+								},
+								"key": "minecraft:food",
+								"children": [
+									{
+										"data": "4",
+										"key": "nutrition"
+									},
+									{
+										"open": {
+											"nutrition": 4,
+											"saturation_modifier": "normal",
+											"can_always_eat": true
+										},
+										"data": "normal",
+										"key": "saturation_modifier"
+									},
+									{
+										"data": "true",
+										"key": "can_always_eat"
+									},
+									{
+										"key": "effects",
+										"is_active": false,
+										"children": [
+											{
+												"open": [
+													{
+														"name": "regeneration",
+														"chance": 1,
+														"duration": 30,
+														"amplifier": 4
+													},
+													{
+														"name": "absorption",
+														"chance": 1,
+														"duration": 120,
+														"amplifier": 3
+													},
+													{
+														"name": "resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													},
+													{
+														"name": "fire_resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "regeneration",
+													"chance": 1,
+													"duration": 30,
+													"amplifier": 4
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "regeneration",
+														"chance": 1,
+														"duration": 30,
+														"amplifier": 4
+													},
+													{
+														"name": "absorption",
+														"chance": 1,
+														"duration": 120,
+														"amplifier": 3
+													},
+													{
+														"name": "resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													},
+													{
+														"name": "fire_resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "absorption",
+													"chance": 1,
+													"duration": 120,
+													"amplifier": 3
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "regeneration",
+														"chance": 1,
+														"duration": 30,
+														"amplifier": 4
+													},
+													{
+														"name": "absorption",
+														"chance": 1,
+														"duration": 120,
+														"amplifier": 3
+													},
+													{
+														"name": "resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													},
+													{
+														"name": "fire_resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "resistance",
+													"chance": 1,
+													"duration": 300,
+													"amplifier": 0
+												}
+											},
+											{
+												"open": [
+													{
+														"name": "regeneration",
+														"chance": 1,
+														"duration": 30,
+														"amplifier": 4
+													},
+													{
+														"name": "absorption",
+														"chance": 1,
+														"duration": 120,
+														"amplifier": 3
+													},
+													{
+														"name": "resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													},
+													{
+														"name": "fire_resistance",
+														"chance": 1,
+														"duration": 300,
+														"amplifier": 0
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"name": "fire_resistance",
+													"chance": 1,
+													"duration": 300,
+													"amplifier": 0
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

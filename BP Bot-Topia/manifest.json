@@ -1,9 +1,9 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": 2,
 	"header": {
 		"name": "Bot Topia",
-		"description": "Bot-Topia is an addon that allows you to build Bots and program them with computer chips to do tasks for you 1.16.100 fix",
+		"description": "v1.0.9 beta",
 		"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 		"version": [
 			1,
