@@ -6,8 +6,8 @@ Welcome! Bot-Topia is an addon that allows you to build bots, craft parts and ad
 
 ## Change Log
 
-- Miner Bot no longer breaks bedrock
-- Small balance issues
+- Miner Bot no longer breaks bedrock or torches.
+- Players can only pick up bots they own.
 
 ## Downloads
 
