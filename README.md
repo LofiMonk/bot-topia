@@ -1,14 +1,13 @@
 # Bot-Topia
 
-current version is 1.0.8
+current version is 1.0.9
 
 Welcome! Bot-Topia is an addon that allows you to build bots, craft parts and add them to your bot. You can even craft Bot Chips to program your bots to do jobs for you.This is my first addon and is a work in progress. Enjoy!
 
 ## Change Log
 
-- Removed broken language files temporarily.
-- Harvest Bot has some new features.
-- Bots can be name tagged
+- Miner Bot no longer breaks bedrock
+- Small balance issues
 
 ## Downloads
 
@@ -16,6 +15,6 @@ Check the [release](https://github.com/drewcifer/bot-topia/releases/latest) page
 
 ## Special Thanks
 
-Dr.Sonic, otakonz
+Dr.Sonic, otakonz, GS.Dev
 
 This is an addon for Minecraft Bedrock made with [.Bridge](https://github.com/bridge-core/bridge.)
