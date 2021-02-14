@@ -1,4 +1,4 @@
-//bridge-file-version: #332
+//bridge-file-version: #336
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -217,6 +217,10 @@
 											"subject": "player"
 										},
 										{
+											"test": "is_owner",
+											"subject": "player"
+										},
+										{
 											"none_of": [
 												{
 													"test": "is_family",
@@ -243,6 +247,10 @@
 									"all_of": [
 										{
 											"test": "is_sneaking",
+											"subject": "player"
+										},
+										{
+											"test": "is_owner",
 											"subject": "player"
 										},
 										{
@@ -891,9 +899,7 @@
 				},
 				"minecraft:pushable": {
 					"is_pushable": false,
-					"is_pushable_by_piston": {
-						"lfm:harvest_bot_deliver_mode": {}
-					}
+					"is_pushable_by_piston": true
 				},
 				"minecraft:push_through": {
 					"value": 1

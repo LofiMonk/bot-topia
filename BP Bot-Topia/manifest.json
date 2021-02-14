@@ -1,14 +1,14 @@
-//bridge-file-version: #1
+//bridge-file-version: #2
 {
 	"format_version": 2,
 	"header": {
 		"name": "Bot Topia",
-		"description": "v1.0.9 beta",
+		"description": "pack.description",
 		"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 		"version": [
 			1,
 			0,
-			8
+			9
 		],
 		"min_engine_version": [
 			1,
@@ -23,7 +23,7 @@
 			"version": [
 				1,
 				0,
-				8
+				9
 			]
 		}
 	],
