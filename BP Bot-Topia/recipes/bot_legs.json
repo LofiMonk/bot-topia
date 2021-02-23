@@ -1,0 +1,28 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lfm:bot_legs"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "lfm:basic_chip",
+				"count": 1
+			},
+			{
+				"item": "minecraft:iron_leggings",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "lfm:bot_legs",
+				"count": 1
+			}
+		]
+	}
+}

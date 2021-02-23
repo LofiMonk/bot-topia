@@ -1,4 +1,4 @@
-//bridge-file-version: #26
+//bridge-file-version: #28
 {
 	"format_version": "1.8.0",
 	"render_controllers": {
@@ -13,8 +13,9 @@
 				},
 				"textures": {
 					"Array.bots": [
+						"Texture.bot_off",
 						"Texture.bot_on",
-						"Texture.bot_off"
+						"Texture.waterproofed"
 					]
 				}
 			},
@@ -25,7 +26,7 @@
 				}
 			],
 			"textures": [
-				"Array.bots[query.is_baby]"
+				"Array.bots[query.mark_variant]"
 			]
 		},
 		"controller.render.jobs": {

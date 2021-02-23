@@ -1,0 +1,29 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bot_crafter": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flare": "query.skin_id == 1"
+						}
+					]
+				},
+				"flare": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 1"
+						}
+					],
+					"on_entry": [
+						"/particle minecraft:end_chest ~~1~",
+						"@s execute_no_commands"
+					]
+				}
+			}
+		}
+	}
+}

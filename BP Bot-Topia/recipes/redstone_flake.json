@@ -1,0 +1,24 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lfm:redstone_flake"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:redstone",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "lfm:redstone_flake",
+				"count": 9
+			}
+		]
+	}
+}

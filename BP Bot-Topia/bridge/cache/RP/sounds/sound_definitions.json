@@ -1,0 +1,109 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\sounds\\sound_definitions.json",
+	"file_type": "sound_definition",
+	"format_version": 1,
+	"file_uuid": "300766c4_2a58_41a0_bcdf_20ed2588ace4",
+	"file_version": 33,
+	"cache_content": {
+		"is_minified": true,
+		"children": {
+			"format_version": "1.16.0",
+			"sound_definitions": {
+				"bot.idle": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/bot/boop1",
+						"sounds/bot/boop2",
+						"sounds/bot/boop3",
+						"sounds/bot/boop4",
+						"sounds/bot/boop5",
+						"sounds/bot/boop6",
+						"sounds/bot/bot_talk"
+					]
+				},
+				"bot.death": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/bot/bot_power_down",
+						"sounds/walker_bot/death"
+					]
+				},
+				"bot.hurt": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/bot/bot_hit",
+						"sounds/bot/shut_down2",
+						"sounds/walker_bot/hurt1"
+					]
+				},
+				"bot.yes": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/bot/bot_agree"
+					]
+				},
+				"bot.talk": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/bot/bot_talk",
+						"sounds/bot/bot_agree",
+						"sounds/bot/bot_disagree",
+						"sounds/bot/bot_scream"
+					]
+				},
+				"crafter.idle": {
+					"category": "neutral",
+					"min_distance": 2,
+					"sounds": [
+						"sounds/bot_crafter/crafter_idle"
+					]
+				},
+				"bot.transform": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/walker_bot/transform1",
+						"sounds/walker_bot/transform2"
+					]
+				},
+				"walker.bot.steps": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/walker_bot/footstep1",
+						"sounds/walker_bot/footstep2",
+						"sounds/walker_bot/footstep3"
+					]
+				},
+				"walker.bot.idle": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/walker_bot/ambient1",
+						"sounds/walker_bot/ambient2",
+						"sounds/walker_bot/ambient3",
+						"sounds/walker_bot/talk1",
+						"sounds/bot/bot_talk",
+						"sounds/bot/bot_agree",
+						"sounds/bot/bot_disagree"
+					]
+				},
+				"walker.bot.hurt": {
+					"category": "neutral",
+					"min_distance": 5,
+					"sounds": [
+						"sounds/walker_bot/hurt2",
+						"sounds/walker_bot/hurt3",
+						"sounds/walker_bot/hurt4",
+						"sounds/walker_bot/hurt5"
+					]
+				}
+			}
+		}
+	}
+}

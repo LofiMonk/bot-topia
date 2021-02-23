@@ -1,0 +1,229 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\animation_controllers\\bot_crafter.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "86cc8864_9510_4401_9648_166a1f536034",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.bot_crafter": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"flare": "query.skin_id == 1"
+										}
+									]
+								},
+								"flare": {
+									"transitions": [
+										{
+											"default": "query.skin_id != 1"
+										}
+									],
+									"on_entry": [
+										"/particle minecraft:end_chest ~~1~",
+										"@s execute_no_commands"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.bot_crafter": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"flare": "query.skin_id == 1"
+											}
+										]
+									},
+									"flare": {
+										"transitions": [
+											{
+												"default": "query.skin_id != 1"
+											}
+										],
+										"on_entry": [
+											"/particle minecraft:end_chest ~~1~",
+											"@s execute_no_commands"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.bot_crafter",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"flare": "query.skin_id == 1"
+												}
+											]
+										},
+										"flare": {
+											"transitions": [
+												{
+													"default": "query.skin_id != 1"
+												}
+											],
+											"on_entry": [
+												"/particle minecraft:end_chest ~~1~",
+												"@s execute_no_commands"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"flare": "query.skin_id == 1"
+													}
+												]
+											},
+											"flare": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/particle minecraft:end_chest ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"flare": "query.skin_id == 1"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"flare": "query.skin_id == 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"flare": "query.skin_id == 1"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"flare": "query.skin_id == 1"
+													}
+												]
+											},
+											"flare": {
+												"transitions": [
+													{
+														"default": "query.skin_id != 1"
+													}
+												],
+												"on_entry": [
+													"/particle minecraft:end_chest ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										},
+										"key": "flare",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 1"
+														}
+													],
+													"on_entry": [
+														"/particle minecraft:end_chest ~~1~",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.skin_id != 1"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.skin_id != 1"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.skin_id != 1"
+														}
+													],
+													"on_entry": [
+														"/particle minecraft:end_chest ~~1~",
+														"@s execute_no_commands"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/particle minecraft:end_chest ~~1~",
+													"@s execute_no_commands"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

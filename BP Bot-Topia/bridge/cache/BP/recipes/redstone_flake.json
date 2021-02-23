@@ -1,0 +1,173 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\recipes\\redstone_flake.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "d2a657cd_8fed_4de7_8773_60f02f70ade9",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "lfm:redstone_flake"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:redstone",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "lfm:redstone_flake",
+								"count": 9
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "lfm:redstone_flake",
+									"count": 9
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:redstone_flake"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "lfm:redstone_flake",
+									"count": 9
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "lfm:redstone_flake",
+									"count": 9
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:redstone",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:redstone",
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:redstone_flake"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "lfm:redstone_flake",
+									"count": 9
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "lfm:redstone_flake",
+										"count": 9
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "lfm:redstone_flake",
+									"count": 9
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

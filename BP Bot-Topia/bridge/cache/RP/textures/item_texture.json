@@ -1,0 +1,484 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "777dc4bc_2329_47e5_b84c_2633ac5d8a6c",
+	"file_version": 15,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"resource_pack_name": "Bot -Topia",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"basic_chip": {
+							"textures": [
+								"textures/items/basic_chip"
+							]
+						},
+						"farm_chip": {
+							"textures": [
+								"textures/items/farm_chip"
+							]
+						},
+						"harvest_chip": {
+							"textures": [
+								"textures/items/harvest_chip"
+							]
+						},
+						"hopper_chip": {
+							"textures": [
+								"textures/items/hopper_chip"
+							]
+						},
+						"guard_chip": {
+							"textures": [
+								"textures/items/guard_chip"
+							]
+						},
+						"miner_chip": {
+							"textures": [
+								"textures/items/miner_chip"
+							]
+						},
+						"redstone_flake": {
+							"textures": [
+								"textures/items/redstone_flake"
+							]
+						},
+						"bot_legs": {
+							"textures": [
+								"textures/items/bot_legs"
+							]
+						},
+						"bot": {
+							"textures": [
+								"textures/items/bot_egg"
+							]
+						},
+						"bot_crafter": {
+							"textures": [
+								"textures/items/bot_crafter"
+							]
+						},
+						"waterproof": {
+							"textures": [
+								"textures/items/waterproof"
+							]
+						},
+						"lumber_chip": {
+							"textures": [
+								"textures/items/lumber_chip"
+							]
+						}
+					}
+				},
+				"data": "Bot -Topia",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "Bot -Topia",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"basic_chip": {
+							"textures": [
+								"textures/items/basic_chip"
+							]
+						},
+						"farm_chip": {
+							"textures": [
+								"textures/items/farm_chip"
+							]
+						},
+						"harvest_chip": {
+							"textures": [
+								"textures/items/harvest_chip"
+							]
+						},
+						"hopper_chip": {
+							"textures": [
+								"textures/items/hopper_chip"
+							]
+						},
+						"guard_chip": {
+							"textures": [
+								"textures/items/guard_chip"
+							]
+						},
+						"miner_chip": {
+							"textures": [
+								"textures/items/miner_chip"
+							]
+						},
+						"redstone_flake": {
+							"textures": [
+								"textures/items/redstone_flake"
+							]
+						},
+						"bot_legs": {
+							"textures": [
+								"textures/items/bot_legs"
+							]
+						},
+						"bot": {
+							"textures": [
+								"textures/items/bot_egg"
+							]
+						},
+						"bot_crafter": {
+							"textures": [
+								"textures/items/bot_crafter"
+							]
+						},
+						"waterproof": {
+							"textures": [
+								"textures/items/waterproof"
+							]
+						},
+						"lumber_chip": {
+							"textures": [
+								"textures/items/lumber_chip"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "basic_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/basic_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/basic_chip"
+								]
+							}
+						]
+					},
+					{
+						"key": "farm_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/farm_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/farm_chip"
+								]
+							}
+						]
+					},
+					{
+						"key": "harvest_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/harvest_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/harvest_chip"
+								]
+							}
+						]
+					},
+					{
+						"key": "hopper_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/hopper_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/hopper_chip"
+								]
+							}
+						]
+					},
+					{
+						"key": "guard_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/guard_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/guard_chip"
+								]
+							}
+						]
+					},
+					{
+						"key": "miner_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/miner_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/miner_chip"
+								]
+							}
+						]
+					},
+					{
+						"key": "redstone_flake",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/redstone_flake"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/redstone_flake"
+								]
+							}
+						]
+					},
+					{
+						"key": "bot_legs",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bot_legs"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bot_legs"
+								]
+							}
+						]
+					},
+					{
+						"key": "bot",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bot_egg"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bot_egg"
+								]
+							}
+						]
+					},
+					{
+						"key": "bot_crafter",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bot_crafter"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bot_crafter"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"basic_chip": {
+								"textures": [
+									"textures/items/basic_chip"
+								]
+							},
+							"farm_chip": {
+								"textures": [
+									"textures/items/farm_chip"
+								]
+							},
+							"harvest_chip": {
+								"textures": [
+									"textures/items/harvest_chip"
+								]
+							},
+							"hopper_chip": {
+								"textures": [
+									"textures/items/hopper_chip"
+								]
+							},
+							"guard_chip": {
+								"textures": [
+									"textures/items/guard_chip"
+								]
+							},
+							"miner_chip": {
+								"textures": [
+									"textures/items/miner_chip"
+								]
+							},
+							"redstone_flake": {
+								"textures": [
+									"textures/items/redstone_flake"
+								]
+							},
+							"bot_legs": {
+								"textures": [
+									"textures/items/bot_legs"
+								]
+							},
+							"bot": {
+								"textures": [
+									"textures/items/bot_egg"
+								]
+							},
+							"bot_crafter": {
+								"textures": [
+									"textures/items/bot_crafter"
+								]
+							},
+							"waterproof": {
+								"textures": [
+									"textures/items/waterproof"
+								]
+							},
+							"lumber_chip": {
+								"textures": [
+									"textures/items/lumber_chip"
+								]
+							}
+						},
+						"key": "waterproof",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/waterproof"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/waterproof"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"basic_chip": {
+								"textures": [
+									"textures/items/basic_chip"
+								]
+							},
+							"farm_chip": {
+								"textures": [
+									"textures/items/farm_chip"
+								]
+							},
+							"harvest_chip": {
+								"textures": [
+									"textures/items/harvest_chip"
+								]
+							},
+							"hopper_chip": {
+								"textures": [
+									"textures/items/hopper_chip"
+								]
+							},
+							"guard_chip": {
+								"textures": [
+									"textures/items/guard_chip"
+								]
+							},
+							"miner_chip": {
+								"textures": [
+									"textures/items/miner_chip"
+								]
+							},
+							"redstone_flake": {
+								"textures": [
+									"textures/items/redstone_flake"
+								]
+							},
+							"bot_legs": {
+								"textures": [
+									"textures/items/bot_legs"
+								]
+							},
+							"bot": {
+								"textures": [
+									"textures/items/bot_egg"
+								]
+							},
+							"bot_crafter": {
+								"textures": [
+									"textures/items/bot_crafter"
+								]
+							},
+							"waterproof": {
+								"textures": [
+									"textures/items/waterproof"
+								]
+							},
+							"lumber_chip": {
+								"textures": [
+									"textures/items/lumber_chip"
+								]
+							}
+						},
+						"key": "lumber_chip",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/lumber_chip"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/lumber_chip"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

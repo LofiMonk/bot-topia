@@ -1,0 +1,196 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\loot_tables\\farmer.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "1954defc_6ce2_479c_83f9_aa52ef071988",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:spawn_egg",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_actor_id",
+											"id": "lfm:bot"
+										}
+									]
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "lfm:farm_chip",
+									"weight": 1
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:spawn_egg",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_actor_id",
+												"id": "lfm:bot"
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:farm_chip",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:spawn_egg",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_actor_id",
+													"id": "lfm:bot"
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:spawn_egg",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_actor_id",
+														"id": "lfm:bot"
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:spawn_egg",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_actor_id",
+													"id": "lfm:bot"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:spawn_egg",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_actor_id",
+												"id": "lfm:bot"
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:farm_chip",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "lfm:farm_chip",
+											"weight": 1
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "lfm:farm_chip",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "lfm:farm_chip",
+											"weight": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

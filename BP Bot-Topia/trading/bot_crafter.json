@@ -1,4 +1,4 @@
-//bridge-file-version: #16
+//bridge-file-version: #20
 {
 	"tiers": [
 		{
@@ -124,6 +124,27 @@
 					"gives": [
 						{
 							"item": "lfm:farm_chip",
+							"quantity": 1
+						}
+					],
+					"reward_exp": false,
+					"trader_exp": 0,
+					"max_uses": -1
+				},
+				{
+					"wants": [
+						{
+							"item": "minecraft:slime_ball",
+							"quantity": 4
+						},
+						{
+							"item": "minecraft:iron_ingot",
+							"quantity": 1
+						}
+					],
+					"gives": [
+						{
+							"item": "lfm:waterproof_module",
 							"quantity": 1
 						}
 					],

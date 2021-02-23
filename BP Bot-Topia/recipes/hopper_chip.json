@@ -1,0 +1,28 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lfm:hopper_chip"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:hopper",
+				"count": 1
+			},
+			{
+				"item": "lfm:basic_chip",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "lfm:hopper_chip",
+				"count": 1
+			}
+		]
+	}
+}

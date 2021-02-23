@@ -1,0 +1,1480 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\entities\\bot_crafter.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "eb5564d7_03a2_41c9_970d_12201f7405b9",
+	"file_version": 43,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "lfm:bot_crafter",
+							"is_summonable": true,
+							"is_spawnable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:shulker",
+							"scripts": {
+								"animate": [
+									"bot_crafter"
+								]
+							},
+							"animations": {
+								"bot_crafter": "controller.animation.bot_crafter"
+							}
+						},
+						"component_groups": {
+							"trade": {
+								"minecraft:trade_table": {
+									"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+									"new_screen": true,
+									"table": "trading/bot_crafter.json"
+								},
+								"minecraft:persistent": {}
+							},
+							"do_despawn": {
+								"minecraft:instant_despawn": {}
+							},
+							"execute_no_commands": {
+								"minecraft:skin_id": {
+									"value": 0
+								}
+							},
+							"spark": {
+								"minecraft:timer": {
+									"randomInterval": true,
+									"time": [
+										0.3,
+										0.6
+									],
+									"time_down_event": {
+										"event": "lfm:sparkle",
+										"target": "self"
+									}
+								}
+							},
+							"bot_sparkle": {
+								"minecraft:skin_id": {
+									"value": 1
+								},
+								"minecraft:timer": {
+									"randomInterval": false,
+									"time": [
+										0.3,
+										0.6
+									],
+									"time_down_event": {
+										"event": "lfm:spark",
+										"target": "self"
+									}
+								}
+							}
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"bot_crafter",
+									"inanimate"
+								]
+							},
+							"minecraft:physics": {},
+							"minecraft:behavior.trade_with_player": {},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:push_through": {
+								"value": 1
+							},
+							"minecraft:pushable": {
+								"is_pushable": false,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/entities/bot_crafter.json"
+							},
+							"minecraft:interact": {
+								"interactions": [
+									{
+										"hurt_item": 0,
+										"interact_text": "Pick Up",
+										"on_interact": {
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_sneaking",
+														"subject": "player"
+													}
+												]
+											},
+											"event": "lfm:do_despawn",
+											"target": "self"
+										},
+										"play_sounds": "pop",
+										"swing": true,
+										"use_item": false,
+										"spawn_items": {
+											"table": "loot_tables/entities/bot_crafter.json"
+										}
+									}
+								]
+							},
+							"minecraft:ambient_sound_interval": {
+								"range": 45,
+								"value": 40
+							}
+						},
+						"events": {
+							"minecraft:entity_spawned": {
+								"add": {
+									"component_groups": [
+										"trade",
+										"spark"
+									]
+								}
+							},
+							"lfm:do_despawn": {
+								"sequence": [
+									{
+										"remove": {
+											"component_groups": [
+												"trade"
+											]
+										}
+									},
+									{
+										"add": {
+											"component_groups": [
+												"do_despawn"
+											]
+										}
+									}
+								]
+							},
+							"execute_no_commands": {
+								"add": {
+									"component_groups": [
+										"execute_no_commands"
+									]
+								}
+							},
+							"lfm:sparkle": {
+								"remove": {
+									"component_groups": [
+										"spark"
+									]
+								},
+								"add": {
+									"component_groups": [
+										"bot_sparkle"
+									]
+								}
+							},
+							"lfm:spark": {
+								"remove": {
+									"component_groups": [
+										"bot_sparkle"
+									]
+								},
+								"add": {
+									"component_groups": [
+										"spark"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"children": [
+							{
+								"data": "lfm:bot_crafter",
+								"key": "identifier"
+							},
+							{
+								"data": "true",
+								"key": "is_summonable"
+							},
+							{
+								"data": "true",
+								"key": "is_spawnable"
+							},
+							{
+								"data": "false",
+								"key": "is_experimental"
+							},
+							{
+								"data": "minecraft:shulker",
+								"key": "runtime_identifier"
+							},
+							{
+								"open": {
+									"identifier": "lfm:bot_crafter",
+									"is_summonable": true,
+									"is_spawnable": true,
+									"is_experimental": false,
+									"runtime_identifier": "minecraft:shulker",
+									"scripts": {
+										"animate": [
+											"bot_crafter"
+										]
+									},
+									"animations": {
+										"bot_crafter": "controller.animation.bot_crafter"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"bot_crafter"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"bot_crafter"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "lfm:bot_crafter",
+									"is_summonable": true,
+									"is_spawnable": true,
+									"is_experimental": false,
+									"runtime_identifier": "minecraft:shulker",
+									"scripts": {
+										"animate": [
+											"bot_crafter"
+										]
+									},
+									"animations": {
+										"bot_crafter": "controller.animation.bot_crafter"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"bot_crafter": "controller.animation.bot_crafter"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:shulker",
+								"scripts": {
+									"animate": [
+										"bot_crafter"
+									]
+								},
+								"animations": {
+									"bot_crafter": "controller.animation.bot_crafter"
+								}
+							},
+							"component_groups": {
+								"trade": {
+									"minecraft:trade_table": {
+										"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+										"new_screen": true,
+										"table": "trading/bot_crafter.json"
+									},
+									"minecraft:persistent": {}
+								},
+								"do_despawn": {
+									"minecraft:instant_despawn": {}
+								},
+								"execute_no_commands": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								},
+								"spark": {
+									"minecraft:timer": {
+										"randomInterval": true,
+										"time": [
+											0.3,
+											0.6
+										],
+										"time_down_event": {
+											"event": "lfm:sparkle",
+											"target": "self"
+										}
+									}
+								},
+								"bot_sparkle": {
+									"minecraft:skin_id": {
+										"value": 1
+									},
+									"minecraft:timer": {
+										"randomInterval": false,
+										"time": [
+											0.3,
+											0.6
+										],
+										"time_down_event": {
+											"event": "lfm:spark",
+											"target": "self"
+										}
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"bot_crafter",
+										"inanimate"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:behavior.trade_with_player": {},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:push_through": {
+									"value": 1
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/bot_crafter.json"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"hurt_item": 0,
+											"interact_text": "Pick Up",
+											"on_interact": {
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_sneaking",
+															"subject": "player"
+														}
+													]
+												},
+												"event": "lfm:do_despawn",
+												"target": "self"
+											},
+											"play_sounds": "pop",
+											"swing": true,
+											"use_item": false,
+											"spawn_items": {
+												"table": "loot_tables/entities/bot_crafter.json"
+											}
+										}
+									]
+								},
+								"minecraft:ambient_sound_interval": {
+									"range": 45,
+									"value": 40
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"trade",
+											"spark"
+										]
+									}
+								},
+								"lfm:do_despawn": {
+									"sequence": [
+										{
+											"remove": {
+												"component_groups": [
+													"trade"
+												]
+											}
+										},
+										{
+											"add": {
+												"component_groups": [
+													"do_despawn"
+												]
+											}
+										}
+									]
+								},
+								"execute_no_commands": {
+									"add": {
+										"component_groups": [
+											"execute_no_commands"
+										]
+									}
+								},
+								"lfm:sparkle": {
+									"remove": {
+										"component_groups": [
+											"spark"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									}
+								},
+								"lfm:spark": {
+									"remove": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"spark"
+										]
+									}
+								}
+							}
+						},
+						"key": "component_groups",
+						"children": [
+							{
+								"key": "trade",
+								"is_minified": true,
+								"children": {
+									"minecraft:trade_table": {
+										"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+										"new_screen": true,
+										"table": "trading/bot_crafter.json"
+									},
+									"minecraft:persistent": {}
+								}
+							},
+							{
+								"key": "do_despawn",
+								"is_minified": true,
+								"children": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							{
+								"open": {
+									"trade": {
+										"minecraft:trade_table": {
+											"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+											"new_screen": true,
+											"table": "trading/bot_crafter.json"
+										},
+										"minecraft:persistent": {}
+									},
+									"do_despawn": {
+										"minecraft:instant_despawn": {}
+									},
+									"execute_no_commands": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									},
+									"spark": {
+										"minecraft:timer": {
+											"randomInterval": true,
+											"time": [
+												0.3,
+												0.6
+											],
+											"time_down_event": {
+												"event": "lfm:sparkle",
+												"target": "self"
+											}
+										}
+									},
+									"bot_sparkle": {
+										"minecraft:skin_id": {
+											"value": 1
+										},
+										"minecraft:timer": {
+											"randomInterval": false,
+											"time": [
+												0.3,
+												0.6
+											],
+											"time_down_event": {
+												"event": "lfm:spark",
+												"target": "self"
+											}
+										}
+									}
+								},
+								"key": "execute_no_commands",
+								"children": [
+									{
+										"open": {
+											"minecraft:skin_id": {
+												"value": 0
+											}
+										},
+										"key": "minecraft:skin_id",
+										"is_minified": true,
+										"children": {
+											"value": 0
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"trade": {
+										"minecraft:trade_table": {
+											"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+											"new_screen": true,
+											"table": "trading/bot_crafter.json"
+										},
+										"minecraft:persistent": {}
+									},
+									"do_despawn": {
+										"minecraft:instant_despawn": {}
+									},
+									"execute_no_commands": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									},
+									"spark": {
+										"minecraft:timer": {
+											"randomInterval": true,
+											"time": [
+												0.3,
+												0.6
+											],
+											"time_down_event": {
+												"event": "lfm:sparkle",
+												"target": "self"
+											}
+										}
+									},
+									"bot_sparkle": {
+										"minecraft:skin_id": {
+											"value": 1
+										},
+										"minecraft:timer": {
+											"randomInterval": false,
+											"time": [
+												0.3,
+												0.6
+											],
+											"time_down_event": {
+												"event": "lfm:spark",
+												"target": "self"
+											}
+										}
+									}
+								},
+								"key": "spark",
+								"children": [
+									{
+										"open": {
+											"minecraft:timer": {
+												"randomInterval": true,
+												"time": [
+													0.3,
+													0.6
+												],
+												"time_down_event": {
+													"event": "lfm:sparkle",
+													"target": "self"
+												}
+											}
+										},
+										"key": "minecraft:timer",
+										"children": [
+											{
+												"data": "true",
+												"key": "randomInterval"
+											},
+											{
+												"open": {
+													"randomInterval": true,
+													"time": [
+														0.3,
+														0.6
+													],
+													"time_down_event": {
+														"event": "lfm:sparkle",
+														"target": "self"
+													}
+												},
+												"key": "time",
+												"is_minified": true,
+												"children": [
+													0.3,
+													0.6
+												]
+											},
+											{
+												"key": "time_down_event",
+												"is_minified": true,
+												"children": {
+													"event": "lfm:sparkle",
+													"target": "self"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"trade": {
+										"minecraft:trade_table": {
+											"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+											"new_screen": true,
+											"table": "trading/bot_crafter.json"
+										},
+										"minecraft:persistent": {}
+									},
+									"do_despawn": {
+										"minecraft:instant_despawn": {}
+									},
+									"execute_no_commands": {
+										"minecraft:skin_id": {
+											"value": 0
+										}
+									},
+									"spark": {
+										"minecraft:timer": {
+											"randomInterval": true,
+											"time": [
+												0.3,
+												0.6
+											],
+											"time_down_event": {
+												"event": "lfm:sparkle",
+												"target": "self"
+											}
+										}
+									},
+									"bot_sparkle": {
+										"minecraft:skin_id": {
+											"value": 1
+										},
+										"minecraft:timer": {
+											"randomInterval": false,
+											"time": [
+												0.3,
+												0.6
+											],
+											"time_down_event": {
+												"event": "lfm:spark",
+												"target": "self"
+											}
+										}
+									}
+								},
+								"key": "bot_sparkle",
+								"children": [
+									{
+										"open": {
+											"minecraft:skin_id": {
+												"value": 1
+											},
+											"minecraft:timer": {
+												"randomInterval": false,
+												"time": [
+													0.3,
+													0.6
+												],
+												"time_down_event": {
+													"event": "lfm:spark",
+													"target": "self"
+												}
+											}
+										},
+										"key": "minecraft:skin_id",
+										"is_minified": true,
+										"children": {
+											"value": 1
+										}
+									},
+									{
+										"open": {
+											"minecraft:skin_id": {
+												"value": 1
+											},
+											"minecraft:timer": {
+												"randomInterval": false,
+												"time": [
+													0.3,
+													0.6
+												],
+												"time_down_event": {
+													"event": "lfm:spark",
+													"target": "self"
+												}
+											}
+										},
+										"key": "minecraft:timer",
+										"children": [
+											{
+												"data": "false",
+												"key": "randomInterval"
+											},
+											{
+												"open": {
+													"randomInterval": false,
+													"time": [
+														0.3,
+														0.6
+													],
+													"time_down_event": {
+														"event": "lfm:spark",
+														"target": "self"
+													}
+												},
+												"key": "time",
+												"is_minified": true,
+												"children": [
+													0.3,
+													0.6
+												]
+											},
+											{
+												"key": "time_down_event",
+												"is_minified": true,
+												"children": {
+													"event": "lfm:spark",
+													"target": "self"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:shulker",
+								"scripts": {
+									"animate": [
+										"bot_crafter"
+									]
+								},
+								"animations": {
+									"bot_crafter": "controller.animation.bot_crafter"
+								}
+							},
+							"component_groups": {
+								"trade": {
+									"minecraft:trade_table": {
+										"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+										"new_screen": true,
+										"table": "trading/bot_crafter.json"
+									},
+									"minecraft:persistent": {}
+								},
+								"do_despawn": {
+									"minecraft:instant_despawn": {}
+								},
+								"execute_no_commands": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								},
+								"spark": {
+									"minecraft:timer": {
+										"randomInterval": true,
+										"time": [
+											0.3,
+											0.6
+										],
+										"time_down_event": {
+											"event": "lfm:sparkle",
+											"target": "self"
+										}
+									}
+								},
+								"bot_sparkle": {
+									"minecraft:skin_id": {
+										"value": 1
+									},
+									"minecraft:timer": {
+										"randomInterval": false,
+										"time": [
+											0.3,
+											0.6
+										],
+										"time_down_event": {
+											"event": "lfm:spark",
+											"target": "self"
+										}
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"bot_crafter",
+										"inanimate"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:behavior.trade_with_player": {},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:push_through": {
+									"value": 1
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/bot_crafter.json"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"hurt_item": 0,
+											"interact_text": "Pick Up",
+											"on_interact": {
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_sneaking",
+															"subject": "player"
+														}
+													]
+												},
+												"event": "lfm:do_despawn",
+												"target": "self"
+											},
+											"play_sounds": "pop",
+											"swing": true,
+											"use_item": false,
+											"spawn_items": {
+												"table": "loot_tables/entities/bot_crafter.json"
+											}
+										}
+									]
+								},
+								"minecraft:ambient_sound_interval": {
+									"range": 45,
+									"value": 40
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"trade",
+											"spark"
+										]
+									}
+								},
+								"lfm:do_despawn": {
+									"sequence": [
+										{
+											"remove": {
+												"component_groups": [
+													"trade"
+												]
+											}
+										},
+										{
+											"add": {
+												"component_groups": [
+													"do_despawn"
+												]
+											}
+										}
+									]
+								},
+								"execute_no_commands": {
+									"add": {
+										"component_groups": [
+											"execute_no_commands"
+										]
+									}
+								},
+								"lfm:sparkle": {
+									"remove": {
+										"component_groups": [
+											"spark"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									}
+								},
+								"lfm:spark": {
+									"remove": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"spark"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:type_family",
+								"is_minified": true,
+								"children": {
+									"family": [
+										"bot_crafter",
+										"inanimate"
+									]
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:behavior.trade_with_player",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 1,
+									"max": 1
+								}
+							},
+							{
+								"key": "minecraft:push_through",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/entities/bot_crafter.json"
+								}
+							},
+							{
+								"key": "minecraft:interact",
+								"is_minified": true,
+								"children": {
+									"interactions": [
+										{
+											"hurt_item": 0,
+											"interact_text": "Pick Up",
+											"on_interact": {
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_sneaking",
+															"subject": "player"
+														}
+													]
+												},
+												"event": "lfm:do_despawn",
+												"target": "self"
+											},
+											"play_sounds": "pop",
+											"swing": true,
+											"use_item": false,
+											"spawn_items": {
+												"table": "loot_tables/entities/bot_crafter.json"
+											}
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"bot_crafter",
+											"inanimate"
+										]
+									},
+									"minecraft:physics": {},
+									"minecraft:behavior.trade_with_player": {},
+									"minecraft:health": {
+										"value": 1,
+										"max": 1
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/entities/bot_crafter.json"
+									},
+									"minecraft:interact": {
+										"interactions": [
+											{
+												"hurt_item": 0,
+												"interact_text": "Pick Up",
+												"on_interact": {
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_sneaking",
+																"subject": "player"
+															}
+														]
+													},
+													"event": "lfm:do_despawn",
+													"target": "self"
+												},
+												"play_sounds": "pop",
+												"swing": true,
+												"use_item": false,
+												"spawn_items": {
+													"table": "loot_tables/entities/bot_crafter.json"
+												}
+											}
+										]
+									},
+									"minecraft:ambient_sound_interval": {
+										"range": 45,
+										"value": 40
+									}
+								},
+								"key": "minecraft:ambient_sound_interval",
+								"is_minified": true,
+								"children": {
+									"range": 45,
+									"value": 40
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter",
+								"is_summonable": true,
+								"is_spawnable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:shulker",
+								"scripts": {
+									"animate": [
+										"bot_crafter"
+									]
+								},
+								"animations": {
+									"bot_crafter": "controller.animation.bot_crafter"
+								}
+							},
+							"component_groups": {
+								"trade": {
+									"minecraft:trade_table": {
+										"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
+										"new_screen": true,
+										"table": "trading/bot_crafter.json"
+									},
+									"minecraft:persistent": {}
+								},
+								"do_despawn": {
+									"minecraft:instant_despawn": {}
+								},
+								"execute_no_commands": {
+									"minecraft:skin_id": {
+										"value": 0
+									}
+								},
+								"spark": {
+									"minecraft:timer": {
+										"randomInterval": true,
+										"time": [
+											0.3,
+											0.6
+										],
+										"time_down_event": {
+											"event": "lfm:sparkle",
+											"target": "self"
+										}
+									}
+								},
+								"bot_sparkle": {
+									"minecraft:skin_id": {
+										"value": 1
+									},
+									"minecraft:timer": {
+										"randomInterval": false,
+										"time": [
+											0.3,
+											0.6
+										],
+										"time_down_event": {
+											"event": "lfm:spark",
+											"target": "self"
+										}
+									}
+								}
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"bot_crafter",
+										"inanimate"
+									]
+								},
+								"minecraft:physics": {},
+								"minecraft:behavior.trade_with_player": {},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:push_through": {
+									"value": 1
+								},
+								"minecraft:pushable": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/entities/bot_crafter.json"
+								},
+								"minecraft:interact": {
+									"interactions": [
+										{
+											"hurt_item": 0,
+											"interact_text": "Pick Up",
+											"on_interact": {
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_sneaking",
+															"subject": "player"
+														}
+													]
+												},
+												"event": "lfm:do_despawn",
+												"target": "self"
+											},
+											"play_sounds": "pop",
+											"swing": true,
+											"use_item": false,
+											"spawn_items": {
+												"table": "loot_tables/entities/bot_crafter.json"
+											}
+										}
+									]
+								},
+								"minecraft:ambient_sound_interval": {
+									"range": 45,
+									"value": 40
+								}
+							},
+							"events": {
+								"minecraft:entity_spawned": {
+									"add": {
+										"component_groups": [
+											"trade",
+											"spark"
+										]
+									}
+								},
+								"lfm:do_despawn": {
+									"sequence": [
+										{
+											"remove": {
+												"component_groups": [
+													"trade"
+												]
+											}
+										},
+										{
+											"add": {
+												"component_groups": [
+													"do_despawn"
+												]
+											}
+										}
+									]
+								},
+								"execute_no_commands": {
+									"add": {
+										"component_groups": [
+											"execute_no_commands"
+										]
+									}
+								},
+								"lfm:sparkle": {
+									"remove": {
+										"component_groups": [
+											"spark"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									}
+								},
+								"lfm:spark": {
+									"remove": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"spark"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"minecraft:entity_spawned": {
+										"add": {
+											"component_groups": [
+												"trade",
+												"spark"
+											]
+										}
+									},
+									"lfm:do_despawn": {
+										"sequence": [
+											{
+												"remove": {
+													"component_groups": [
+														"trade"
+													]
+												}
+											},
+											{
+												"add": {
+													"component_groups": [
+														"do_despawn"
+													]
+												}
+											}
+										]
+									},
+									"execute_no_commands": {
+										"add": {
+											"component_groups": [
+												"execute_no_commands"
+											]
+										}
+									},
+									"lfm:sparkle": {
+										"remove": {
+											"component_groups": [
+												"spark"
+											]
+										},
+										"add": {
+											"component_groups": [
+												"bot_sparkle"
+											]
+										}
+									},
+									"lfm:spark": {
+										"remove": {
+											"component_groups": [
+												"bot_sparkle"
+											]
+										},
+										"add": {
+											"component_groups": [
+												"spark"
+											]
+										}
+									}
+								},
+								"key": "minecraft:entity_spawned",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"trade",
+													"spark"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"trade",
+														"spark"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"trade",
+													"spark"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "lfm:do_despawn",
+								"is_minified": true,
+								"children": {
+									"sequence": [
+										{
+											"remove": {
+												"component_groups": [
+													"trade"
+												]
+											}
+										},
+										{
+											"add": {
+												"component_groups": [
+													"do_despawn"
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"key": "execute_no_commands",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"execute_no_commands"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"execute_no_commands"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"execute_no_commands"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "lfm:sparkle",
+								"is_minified": true,
+								"children": {
+									"remove": {
+										"component_groups": [
+											"spark"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									}
+								}
+							},
+							{
+								"key": "lfm:spark",
+								"is_minified": true,
+								"children": {
+									"remove": {
+										"component_groups": [
+											"bot_sparkle"
+										]
+									},
+									"add": {
+										"component_groups": [
+											"spark"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

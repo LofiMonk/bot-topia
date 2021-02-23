@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\items\\bot_legs.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "e1d37211_d055_4440_a196_7cfb88d7009c",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:bot_legs"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": true
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_legs"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": true
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:bot_legs"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_legs"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": true
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": true
+						}
+					}
+				]
+			}
+		]
+	}
+}

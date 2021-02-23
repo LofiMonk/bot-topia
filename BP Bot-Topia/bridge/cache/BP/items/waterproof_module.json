@@ -1,0 +1,73 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\items\\waterproof_module.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "af9a219e_5ed6_4a3b_a832_13fd528156bd",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:waterproof_module"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:waterproof_module"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:waterproof_module"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:waterproof_module"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": false
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": false
+						}
+					}
+				]
+			}
+		]
+	}
+}

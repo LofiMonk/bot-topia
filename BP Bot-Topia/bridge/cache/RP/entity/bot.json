@@ -1,0 +1,161 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\entity\\bot.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "692d2529_aba3_49ff_b9cf_91c265a1069f",
+	"file_version": 35,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lfm:bot",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"bot_off": "textures/entity/bot/bot_off",
+								"bot_on": "textures/entity/bot/bot_on",
+								"unskilled": "textures/entity/professions/unskilled",
+								"farm_bot": "textures/entity/professions/farm_bot",
+								"share_bot": "textures/entity/professions/share_bot",
+								"hopper_bot": "textures/entity/professions/hopper_bot",
+								"waterproofed": "textures/entity/bot/waterproofed"
+							},
+							"geometry": {
+								"default": "geometry.bot",
+								"topper": "geometry.bot_topper",
+								"hat": "geometry.bot_hat"
+							},
+							"render_controllers": [
+								"controller.render.bot",
+								"controller.render.jobs"
+							],
+							"spawn_egg": {
+								"texture": "bot"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"bot_off": "textures/entity/bot/bot_off",
+									"bot_on": "textures/entity/bot/bot_on",
+									"unskilled": "textures/entity/professions/unskilled",
+									"farm_bot": "textures/entity/professions/farm_bot",
+									"share_bot": "textures/entity/professions/share_bot",
+									"hopper_bot": "textures/entity/professions/hopper_bot",
+									"waterproofed": "textures/entity/bot/waterproofed"
+								},
+								"geometry": {
+									"default": "geometry.bot",
+									"topper": "geometry.bot_topper",
+									"hat": "geometry.bot_hat"
+								},
+								"render_controllers": [
+									"controller.render.bot",
+									"controller.render.jobs"
+								],
+								"spawn_egg": {
+									"texture": "bot"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "lfm:bot",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lfm:bot",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"bot_off": "textures/entity/bot/bot_off",
+										"bot_on": "textures/entity/bot/bot_on",
+										"unskilled": "textures/entity/professions/unskilled",
+										"farm_bot": "textures/entity/professions/farm_bot",
+										"share_bot": "textures/entity/professions/share_bot",
+										"hopper_bot": "textures/entity/professions/hopper_bot",
+										"waterproofed": "textures/entity/bot/waterproofed"
+									},
+									"geometry": {
+										"default": "geometry.bot",
+										"topper": "geometry.bot_topper",
+										"hat": "geometry.bot_hat"
+									},
+									"render_controllers": [
+										"controller.render.bot",
+										"controller.render.jobs"
+									],
+									"spawn_egg": {
+										"texture": "bot"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"bot_off": "textures/entity/bot/bot_off",
+									"bot_on": "textures/entity/bot/bot_on",
+									"unskilled": "textures/entity/professions/unskilled",
+									"farm_bot": "textures/entity/professions/farm_bot",
+									"share_bot": "textures/entity/professions/share_bot",
+									"hopper_bot": "textures/entity/professions/hopper_bot",
+									"waterproofed": "textures/entity/bot/waterproofed"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.bot",
+									"topper": "geometry.bot_topper",
+									"hat": "geometry.bot_hat"
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.bot",
+									"controller.render.jobs"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "bot"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

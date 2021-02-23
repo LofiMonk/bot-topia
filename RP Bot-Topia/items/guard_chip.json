@@ -1,10 +1,10 @@
-//bridge-file-version: #2
+//bridge-file-version: #0
 {
-	"format_version": 1.1,
+	"format_version": "1.16.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lfm:guard_chip",
-			"category": "item"
+			"category": "items"
 		},
 		"components": {
 			"minecraft:icon": "guard_chip",

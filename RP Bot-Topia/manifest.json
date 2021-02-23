@@ -1,14 +1,14 @@
-//bridge-file-version: #4
+//bridge-file-version: #1
 {
 	"format_version": 2,
 	"header": {
+		"name": "pack.name",
 		"description": "pack.description",
-		"name": "Bot Topia",
 		"uuid": "61ee56da-98dc-497f-a32a-996045841bd9",
 		"version": [
 			1,
 			0,
-			9
+			10
 		],
 		"min_engine_version": [
 			1,
@@ -18,13 +18,12 @@
 	},
 	"modules": [
 		{
-			"description": "pack.description",
 			"type": "resources",
 			"uuid": "b92632db-9ee2-4a67-8831-bc584a5d2882",
 			"version": [
 				1,
 				0,
-				9
+				10
 			]
 		}
 	]

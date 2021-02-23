@@ -1,0 +1,301 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\render_controllers\\controller.bot.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "e0d3d076_c19a_44eb_bae6_bb7ce23b95e0",
+	"file_version": 28,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.bot": {
+							"arrays": {
+								"geometries": {
+									"Array.geos": [
+										"Geometry.default",
+										"Geometry.topper",
+										"Geometry.hat"
+									]
+								},
+								"textures": {
+									"Array.bots": [
+										"Texture.bot_off",
+										"Texture.bot_on",
+										"Texture.waterproofed"
+									]
+								}
+							},
+							"geometry": "Array.geos[query.variant]",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.bots[query.mark_variant]"
+							]
+						},
+						"controller.render.jobs": {
+							"arrays": {
+								"textures": {
+									"Array.jobs": [
+										"Texture.unskilled",
+										"Texture.farm_bot",
+										"Texture.share_bot",
+										"Texture.hopper_bot"
+									]
+								},
+								"geometries": {
+									"Array.geos": [
+										"Geometry.default",
+										"Geometry.topper",
+										"Geometry.hat"
+									]
+								}
+							},
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.jobs[query.skin_id]"
+							],
+							"geometry": "Array.geos[query.variant]"
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.bot": {
+								"arrays": {
+									"geometries": {
+										"Array.geos": [
+											"Geometry.default",
+											"Geometry.topper",
+											"Geometry.hat"
+										]
+									},
+									"textures": {
+										"Array.bots": [
+											"Texture.bot_off",
+											"Texture.bot_on",
+											"Texture.waterproofed"
+										]
+									}
+								},
+								"geometry": "Array.geos[query.variant]",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.bots[query.mark_variant]"
+								]
+							},
+							"controller.render.jobs": {
+								"arrays": {
+									"textures": {
+										"Array.jobs": [
+											"Texture.unskilled",
+											"Texture.farm_bot",
+											"Texture.share_bot",
+											"Texture.hopper_bot"
+										]
+									},
+									"geometries": {
+										"Array.geos": [
+											"Geometry.default",
+											"Geometry.topper",
+											"Geometry.hat"
+										]
+									}
+								},
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.jobs[query.skin_id]"
+								],
+								"geometry": "Array.geos[query.variant]"
+							}
+						},
+						"key": "controller.render.bot",
+						"children": [
+							{
+								"open": {
+									"arrays": {
+										"geometries": {
+											"Array.geos": [
+												"Geometry.default",
+												"Geometry.topper",
+												"Geometry.hat"
+											]
+										},
+										"textures": {
+											"Array.bots": [
+												"Texture.bot_off",
+												"Texture.bot_on",
+												"Texture.waterproofed"
+											]
+										}
+									},
+									"geometry": "Array.geos[query.variant]",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.bots[query.mark_variant]"
+									]
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"key": "geometries",
+										"is_minified": true,
+										"children": {
+											"Array.geos": [
+												"Geometry.default",
+												"Geometry.topper",
+												"Geometry.hat"
+											]
+										}
+									},
+									{
+										"open": {
+											"geometries": {
+												"Array.geos": [
+													"Geometry.default",
+													"Geometry.topper",
+													"Geometry.hat"
+												]
+											},
+											"textures": {
+												"Array.bots": [
+													"Texture.bot_off",
+													"Texture.bot_on",
+													"Texture.waterproofed"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.bots": [
+														"Texture.bot_off",
+														"Texture.bot_on",
+														"Texture.waterproofed"
+													]
+												},
+												"key": "Array.bots",
+												"is_minified": true,
+												"children": [
+													"Texture.bot_off",
+													"Texture.bot_on",
+													"Texture.waterproofed"
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"data": "Array.geos[query.variant]",
+								"key": "geometry"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": [
+									{
+										"*": "Material.default"
+									}
+								]
+							},
+							{
+								"open": {
+									"arrays": {
+										"geometries": {
+											"Array.geos": [
+												"Geometry.default",
+												"Geometry.topper",
+												"Geometry.hat"
+											]
+										},
+										"textures": {
+											"Array.bots": [
+												"Texture.bot_off",
+												"Texture.bot_on",
+												"Texture.waterproofed"
+											]
+										}
+									},
+									"geometry": "Array.geos[query.variant]",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.bots[query.mark_variant]"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.bots[query.mark_variant]"
+								]
+							}
+						]
+					},
+					{
+						"key": "controller.render.jobs",
+						"is_minified": true,
+						"children": {
+							"arrays": {
+								"textures": {
+									"Array.jobs": [
+										"Texture.unskilled",
+										"Texture.farm_bot",
+										"Texture.share_bot",
+										"Texture.hopper_bot"
+									]
+								},
+								"geometries": {
+									"Array.geos": [
+										"Geometry.default",
+										"Geometry.topper",
+										"Geometry.hat"
+									]
+								}
+							},
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.jobs[query.skin_id]"
+							],
+							"geometry": "Array.geos[query.variant]"
+						}
+					}
+				]
+			}
+		]
+	}
+}

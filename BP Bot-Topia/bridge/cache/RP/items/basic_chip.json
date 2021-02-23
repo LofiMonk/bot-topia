@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\items\\basic_chip.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "a91f713e_7b28_4556_8cf1_28da8d40a8f8",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:basic_chip",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:icon": "basic_chip",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:basic_chip",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:icon": "basic_chip",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:basic_chip",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:basic_chip",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:icon": "basic_chip",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "basic_chip",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

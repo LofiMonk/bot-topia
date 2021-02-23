@@ -1,4 +1,4 @@
-//bridge-file-version: #32
+//bridge-file-version: #35
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -13,7 +13,8 @@
 				"unskilled": "textures/entity/professions/unskilled",
 				"farm_bot": "textures/entity/professions/farm_bot",
 				"share_bot": "textures/entity/professions/share_bot",
-				"hopper_bot": "textures/entity/professions/hopper_bot"
+				"hopper_bot": "textures/entity/professions/hopper_bot",
+				"waterproofed": "textures/entity/bot/waterproofed"
 			},
 			"geometry": {
 				"default": "geometry.bot",

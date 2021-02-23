@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lfm:basic_chip"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:ender_pearl",
+				"count": 1
+			},
+			{
+				"item": "minecraft:comparator",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "lfm:basic_chip",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,15 +1,16 @@
-//bridge-file-version: #6
+//bridge-file-version: #0
 {
-	"format_version": 1.1,
+	"format_version": "1.16.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "lfm:hopper_chip"
 		},
 		"components": {
+			"minecraft:stacked_by_data": true,
 			"minecraft:max_stack_size": 16,
 			"minecraft:hand_equipped": false,
-			"minecraft:foil": true,
-			"minecraft:stacked_by_data": true
-		}
+			"minecraft:foil": true
+		},
+		"events": {}
 	}
 }

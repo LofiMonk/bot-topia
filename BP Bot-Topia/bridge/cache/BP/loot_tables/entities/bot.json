@@ -1,0 +1,489 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\loot_tables\\entities\\bot.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "0380469b_5930_4024_b4a3_98cff5fd972e",
+	"file_version": 16,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "minecraft:spawn_egg",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_actor_id",
+											"id": "lfm:bot"
+										}
+									]
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"conditions": [
+								{
+									"condition": "has_mark_variant",
+									"value": 2
+								}
+							],
+							"entries": [
+								{
+									"type": "item",
+									"name": "lfm:farm_chip",
+									"weight": 1
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"conditions": [
+								{
+									"condition": "has_mark_variant",
+									"value": 3
+								}
+							],
+							"entries": [
+								{
+									"type": "item",
+									"name": "lfm:harvest_chip",
+									"weight": 1
+								}
+							]
+						},
+						{
+							"rolls": 1,
+							"conditions": [
+								{
+									"condition": "has_mark_variant",
+									"value": 4
+								}
+							],
+							"entries": [
+								{
+									"type": "item",
+									"name": "lfm:hopper_chip",
+									"weight": 1
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:spawn_egg",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_actor_id",
+												"id": "lfm:bot"
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 2
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:farm_chip",
+										"weight": 1
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 3
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:harvest_chip",
+										"weight": 1
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 4
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:hopper_chip",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "minecraft:spawn_egg",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_actor_id",
+													"id": "lfm:bot"
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "minecraft:spawn_egg",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_actor_id",
+														"id": "lfm:bot"
+													}
+												]
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "minecraft:spawn_egg",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_actor_id",
+													"id": "lfm:bot"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:spawn_egg",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_actor_id",
+												"id": "lfm:bot"
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 2
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:farm_chip",
+										"weight": 1
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 3
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:harvest_chip",
+										"weight": 1
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 4
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:hopper_chip",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"conditions": [
+										{
+											"condition": "has_mark_variant",
+											"value": 2
+										}
+									],
+									"entries": [
+										{
+											"type": "item",
+											"name": "lfm:farm_chip",
+											"weight": 1
+										}
+									]
+								},
+								"key": "conditions",
+								"children": [
+									{
+										"open": [
+											{
+												"condition": "has_mark_variant",
+												"value": 2
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"condition": "has_mark_variant",
+											"value": 2
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"conditions": [
+										{
+											"condition": "has_mark_variant",
+											"value": 2
+										}
+									],
+									"entries": [
+										{
+											"type": "item",
+											"name": "lfm:farm_chip",
+											"weight": 1
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "lfm:farm_chip",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "lfm:farm_chip",
+											"weight": 1
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "minecraft:spawn_egg",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_actor_id",
+												"id": "lfm:bot"
+											}
+										]
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 2
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:farm_chip",
+										"weight": 1
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 3
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:harvest_chip",
+										"weight": 1
+									}
+								]
+							},
+							{
+								"rolls": 1,
+								"conditions": [
+									{
+										"condition": "has_mark_variant",
+										"value": 4
+									}
+								],
+								"entries": [
+									{
+										"type": "item",
+										"name": "lfm:hopper_chip",
+										"weight": 1
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"key": "conditions",
+								"is_minified": true,
+								"children": [
+									{
+										"condition": "has_mark_variant",
+										"value": 3
+									}
+								]
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"conditions": [
+										{
+											"condition": "has_mark_variant",
+											"value": 3
+										}
+									],
+									"entries": [
+										{
+											"type": "item",
+											"name": "lfm:harvest_chip",
+											"weight": 1
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "lfm:harvest_chip",
+												"weight": 1
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"type": "item",
+											"name": "lfm:harvest_chip",
+											"weight": 1
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"is_minified": true,
+						"children": {
+							"rolls": 1,
+							"conditions": [
+								{
+									"condition": "has_mark_variant",
+									"value": 4
+								}
+							],
+							"entries": [
+								{
+									"type": "item",
+									"name": "lfm:hopper_chip",
+									"weight": 1
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

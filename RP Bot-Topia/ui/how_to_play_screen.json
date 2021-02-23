@@ -1,4 +1,3 @@
-//bridge-file-version: #6
 {
   "namespace": "how_to_play",
   "how_to_play_screen@how_to_play_common.screen_base": {
@@ -32,7 +31,7 @@
             },
             {
               "whatsNew_button@how_to_play.whatsNew_button": {
-                "$toggle_group_forced_index": 0
+                "$toggle_group_forced_index": 1
               }
             },
             {
@@ -47,12 +46,12 @@
             },
             {
               "welcome_button@how_to_play.welcome_button": {
-                "$toggle_group_forced_index": 0
+                "$toggle_group_forced_index": 2
               }
             },
             {
               "welcomeTwo_button@how_to_play.welcomeTwo_button": {
-                "$toggle_group_forced_index": 1
+                "$toggle_group_forced_index": 3
               }
             },
             {
@@ -67,47 +66,52 @@
             },
             {
               "botCrafter_button@how_to_play.botCrafter_button": {
-                "$toggle_group_forced_index": 0
-              }
-            },
-            {
-              "bot_button@how_to_play.bot_button": {
-                "$toggle_group_forced_index": 1
-              }
-            },
-            {
-              "botChip_button@how_to_play.botChip_button": {
-                "$toggle_group_forced_index": 2
-              }
-            },
-            {
-              "botLegs_button@how_to_play.botLegs_button": {
-                "$toggle_group_forced_index": 3
-              }
-            },
-            {
-              "farmBot_button@how_to_play.farmBot_button": {
                 "$toggle_group_forced_index": 4
               }
             },
             {
-              "harvestBot_button@how_to_play.harvestBot_button": {
+              "bot_button@how_to_play.bot_button": {
                 "$toggle_group_forced_index": 5
               }
             },
             {
-              "hopperBot_button@how_to_play.hopperBot_button": {
+              "botChip_button@how_to_play.botChip_button": {
                 "$toggle_group_forced_index": 6
               }
             },
             {
-              "guardBot_button@how_to_play.guardBot_button": {
+              "botLegs_button@how_to_play.botLegs_button": {
                 "$toggle_group_forced_index": 7
               }
             },
             {
-              "minerBot_button@how_to_play.minerBot_button": {
+              "farmBot_button@how_to_play.farmBot_button": {
                 "$toggle_group_forced_index": 8
+              }
+            },
+            {
+              "harvestBot_button@how_to_play.harvestBot_button": {
+                "$toggle_group_forced_index": 9
+              }
+            },
+            {
+              "hopperBot_button@how_to_play.hopperBot_button": {
+                "$toggle_group_forced_index": 10
+              }
+            },
+            {
+              "guardBot_button@how_to_play.guardBot_button": {
+                "$toggle_group_forced_index": 11
+              }
+            },
+            {
+              "minerBot_button@how_to_play.minerBot_button": {
+                "$toggle_group_forced_index": 12
+              }
+            },
+            {
+              "lumberBot_button@how_to_play.lumberBot_button": {
+                "$toggle_group_forced_index": 13
               }
             },
             {
@@ -122,7 +126,12 @@
             },
             {
               "redstoneFlake_button@how_to_play.redstoneFlake_button": {
-                "$toggle_group_forced_index": 0
+                "$toggle_group_forced_index": 14
+              }
+            },
+            {
+              "waterproof_button@how_to_play.waterproof_button": {
+                "$toggle_group_forced_index": 15
               }
             },
             {
@@ -186,7 +195,13 @@
               "minerBot_section@how_to_play.minerBot_section": {}
             },
             {
+              "lumberBot_section@how_to_play.lumberBot_section": {}
+            },
+            {
               "redstoneFlake_section@how_to_play.redstoneFlake_section": {}
+            },
+            {
+              "waterproof_section@how_to_play.waterproof_section": {}
             },
             {
               "section_contents_footer@how_to_play_common.section_contents_footer": {}
@@ -900,6 +915,44 @@
       }
     ]
   },
+
+  "lumberBot_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "lumberBot"
+  },
+  "lumberBot_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "lumbererBot_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_0@how_to_play_common.header": {
+          "$text": "lumberBot.header.title00"
+        }
+      },
+      {
+        "padding_0@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_0@how_to_play_common.paragraph": {
+          "$text": "bot_topia.lumberBot.text00"
+        }
+      },
+      {
+        "padding_1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_1@how_to_play_common.paragraph": {
+          "$text": "bot_topia.lumberBot.text01"
+        }
+      }
+    ]
+  },
+
   "redstoneFlake_button@how_to_play_common.section_toggle_button": {
     "$section_topic": "redstoneFlake"
   },
@@ -932,6 +985,42 @@
       {
         "paragraph_0@how_to_play_common.paragraph": {
           "$text": "bot_topia.redstoneFlake.text00"
+        }
+      }
+    ]
+  },
+  "waterproof_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "waterproof"
+  },
+  "waterproof_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "waterproof_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "header_0@how_to_play_common.header": {
+          "$text": "waterproof.header.title00"
+        }
+      },
+      {
+        "padding_0@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_0@how_to_play_common.paragraph": {
+          "$text": "bot_topia.waterproof.text00"
+        }
+      },
+      {
+        "padding_1@how_to_play_common.padding": {}
+      },
+      {
+        "paragraph_1@how_to_play_common.paragraph": {
+          "$text": "bot_topia.waterproof.text01"
         }
       }
     ]

@@ -1,0 +1,62 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\items\\lumber_chip.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "d583b05f_da31_48c4_93fb_591867e89894",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:lumber_chip"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": true
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:lumber_chip"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": true
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:lumber_chip"
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": true
+						}
+					}
+				]
+			}
+		]
+	}
+}

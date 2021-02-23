@@ -1,0 +1,62 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\items\\hopper_chip.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5934c6a0_9706_409e_84b1_ae834a31dda3",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lfm:hopper_chip"
+						},
+						"components": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": true
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:hopper_chip"
+							},
+							"components": {
+								"minecraft:stacked_by_data": true,
+								"minecraft:max_stack_size": 16,
+								"minecraft:hand_equipped": false,
+								"minecraft:foil": true
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:hopper_chip"
+						}
+					},
+					{
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:stacked_by_data": true,
+							"minecraft:max_stack_size": 16,
+							"minecraft:hand_equipped": false,
+							"minecraft:foil": true
+						}
+					}
+				]
+			}
+		]
+	}
+}
