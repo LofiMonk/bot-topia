@@ -20,6 +20,6 @@ Check the [release](https://github.com/drewcifer/bot-topia/releases/latest) page
 
 ## Special Thanks
 
-Dr.Sonic, otakonz, GS.Dev, freeHellfire
+Dr.Sonic @otakonz @gsdev215 @FreedHellFire
 
 This is an addon for Minecraft Bedrock made with [Bridge.](https://github.com/bridge-core/bridge.)
