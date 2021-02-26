@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "674c8ce9_e888_4e5b_8d53_fe4055f5963c",
-	"file_version": 124,
+	"file_version": 125,
 	"cache_content": {
 		"children": [
 			{
@@ -18,7 +18,8 @@
 							"identifier": "lfm:bot",
 							"runtime_identifier": "minecraft:villager_v2",
 							"is_summonable": true,
-							"is_spawnable": true
+							"is_spawnable": true,
+							"is_experimental": false
 						},
 						"component_groups": {
 							"pick_up": {
@@ -1253,7 +1254,8 @@
 								"identifier": "lfm:bot",
 								"runtime_identifier": "minecraft:villager_v2",
 								"is_summonable": true,
-								"is_spawnable": true
+								"is_spawnable": true,
+								"is_experimental": false
 							},
 							"component_groups": {
 								"pick_up": {
@@ -2485,7 +2487,8 @@
 							"identifier": "lfm:bot",
 							"runtime_identifier": "minecraft:villager_v2",
 							"is_summonable": true,
-							"is_spawnable": true
+							"is_spawnable": true,
+							"is_experimental": false
 						}
 					},
 					{
@@ -2494,7 +2497,8 @@
 								"identifier": "lfm:bot",
 								"runtime_identifier": "minecraft:villager_v2",
 								"is_summonable": true,
-								"is_spawnable": true
+								"is_spawnable": true,
+								"is_experimental": false
 							},
 							"component_groups": {
 								"pick_up": {
@@ -12754,7 +12758,8 @@
 								"identifier": "lfm:bot",
 								"runtime_identifier": "minecraft:villager_v2",
 								"is_summonable": true,
-								"is_spawnable": true
+								"is_spawnable": true,
+								"is_experimental": false
 							},
 							"component_groups": {
 								"pick_up": {

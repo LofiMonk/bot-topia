@@ -1,0 +1,214 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\recipes\\bot_crafter.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "56596904_b9dc_4a36_a378_cb414896e84a",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.0",
+					"minecraft:recipe_shapeless": {
+						"description": {
+							"identifier": "lfm:bot_crafter"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"ingredients": [
+							{
+								"item": "minecraft:redstone",
+								"count": 1
+							},
+							{
+								"item": "minecraft:crafting_table",
+								"count": 1
+							}
+						],
+						"result": [
+							{
+								"item": "spawn_egg",
+								"data": "query.get_actor_info_id('lfm:bot_crafter')"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shapeless",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								},
+								{
+									"item": "minecraft:crafting_table",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "spawn_egg",
+									"data": "query.get_actor_info_id('lfm:bot_crafter')"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lfm:bot_crafter"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								},
+								{
+									"item": "minecraft:crafting_table",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "spawn_egg",
+									"data": "query.get_actor_info_id('lfm:bot_crafter')"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								},
+								{
+									"item": "minecraft:crafting_table",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "spawn_egg",
+									"data": "query.get_actor_info_id('lfm:bot_crafter')"
+								}
+							]
+						},
+						"key": "ingredients",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "minecraft:redstone",
+										"count": 1
+									},
+									{
+										"item": "minecraft:crafting_table",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:redstone",
+									"count": 1
+								}
+							},
+							{
+								"open": [
+									{
+										"item": "minecraft:redstone",
+										"count": 1
+									},
+									{
+										"item": "minecraft:crafting_table",
+										"count": 1
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:crafting_table",
+									"count": 1
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lfm:bot_crafter"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"ingredients": [
+								{
+									"item": "minecraft:redstone",
+									"count": 1
+								},
+								{
+									"item": "minecraft:crafting_table",
+									"count": 1
+								}
+							],
+							"result": [
+								{
+									"item": "spawn_egg",
+									"data": "query.get_actor_info_id('lfm:bot_crafter')"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "spawn_egg",
+										"data": "query.get_actor_info_id('lfm:bot_crafter')"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "spawn_egg",
+									"data": "query.get_actor_info_id('lfm:bot_crafter')"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -237,5 +237,8 @@
 	},
 	"RP/manifest.json": {
 		"data": {}
+	},
+	"BP/recipes/bot_crafter.json": {
+		"data": {}
 	}
 }

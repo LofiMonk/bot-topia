@@ -1,4 +1,4 @@
-//bridge-file-version: #124
+//bridge-file-version: #125
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -6,7 +6,8 @@
 			"identifier": "lfm:bot",
 			"runtime_identifier": "minecraft:villager_v2",
 			"is_summonable": true,
-			"is_spawnable": true
+			"is_spawnable": true,
+			"is_experimental": false
 		},
 		"component_groups": {
 			"pick_up": {

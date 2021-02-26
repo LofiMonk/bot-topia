@@ -1,0 +1,28 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "lfm:bot_crafter"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:redstone",
+				"count": 1
+			},
+			{
+				"item": "minecraft:crafting_table",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "spawn_egg",
+				"data": "query.get_actor_info_id('lfm:bot_crafter')"
+			}
+		]
+	}
+}

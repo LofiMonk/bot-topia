@@ -242,6 +242,11 @@
 			"tags": [
 				"crafting_table"
 			]
+		},
+		"BP/recipes/bot_crafter.json": {
+			"tags": [
+				"crafting_table"
+			]
 		}
 	},
 	"client_entity": {
