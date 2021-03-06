@@ -19,10 +19,8 @@ Check the [release](https://github.com/drewcifer/bot-topia/releases/latest) page
 
 ## Special Thanks
 
-<<<<<<< HEAD
-Dr.Sonic @otakonz @gsdev215 @FreedHellFire
-=======
+
 Dr.Sonic, otakonz, GS.Dev, freeHellfire, kradarak
->>>>>>> working
+
 
 This is an addon for Minecraft Bedrock made with [Bridge.](https://github.com/bridge-core/bridge.)
