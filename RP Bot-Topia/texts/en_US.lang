@@ -1,6 +1,6 @@
-##bridge-file-version: #55
+##bridge-file-version: #57
 pack.name=RP Bot-Topia
-pack.description=v1.0.11 Bot-Topia resource pack §e*Mob Greifing must be turned §lON§r§e for this addon to work.
+pack.description=v1.0.12 Bot-Topia resource pack §e*Mob Greifing must be turned §lON§r§e for this addon to work.
 
 ## items
 item.lfm:basic_chip.name=Basic Chip
@@ -35,8 +35,8 @@ howtoplay.category.whatsNew=§aWhats New
 ##version update info
 howtoplay.whatsNew.title=Bot-Topia: What's New
 howtoplay.whatsnew= New
-whatsNew.header.title00=§bWhat's New V1.0.11
-bot_topia.whatsNew.text00=-Bot Crafter recipe is fixed
+whatsNew.header.title00=§bWhat's New V1.0.12
+bot_topia.whatsNew.text00=-added Lumber Chip to the Bot Crafters trades
 bot_topia.whatsNew.text01=-
 bot_topia.whatsNew.text02=§bNEW!§r Lumber Jack Bot!!
 bot_topia.whatsNew.text03=§bNEW!§r Waterproof Module!!
@@ -44,7 +44,7 @@ whatsNew.header.title01=To Stay up to date with Bot-Topia check out the official
 bot_topia.whatsNew.text04=§bMCPEDL.com/bot-topia§r
 whatsNew.header.title02=Join the Discord!!
 bot_topia.whatsNew.text05=§bhttps://discord.gg/q8RaDX7E§r
-bot_topia.whatsNew.text06=.
+bot_topia.whatsNew.text06=§bhttps://www.patreon.com/lofistudios§r
 bot_topia.whatsNew.text07=If you would like to contribute look for Bot-Topia on Github!
 
 ##welcome category

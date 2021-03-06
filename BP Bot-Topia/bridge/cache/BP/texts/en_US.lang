@@ -3,6 +3,6 @@
 	"file_type": "lang",
 	"format_version": 0,
 	"file_uuid": "983c59eb_6c17_4224_8fcb_09215b81881c",
-	"file_version": 5,
-	"cache_content": "pack.name=BP Bot-Topia\r\npack.description=v1.0.10 Bot-Topia behavior pack §e*Mob Greifing must be turned §lON§r§e for this addon to work.\r\n\r\n"
+	"file_version": 7,
+	"cache_content": "pack.name=BP Bot-Topia\r\npack.description=v1.0.12 Bot-Topia behavior pack §e*Mob Greifing must be turned §lON§r§e for this addon to work.\r\n\r\n"
 }
