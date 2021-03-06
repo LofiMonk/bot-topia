@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP Bot-Topia\\manifest.json",
 	"file_type": "manifest_bp",
 	"format_version": 1,
-	"file_uuid": "c0326798_cc0e_435b_b79b_d0e181c111cc",
-	"file_version": 2,
+	"file_uuid": "d5fb7872_ca05_4753_b881_01f8d7cd0947",
+	"file_version": 0,
 	"cache_content": {
 		"children": [
 			{
@@ -20,7 +20,7 @@
 						"version": [
 							1,
 							0,
-							11
+							12
 						],
 						"min_engine_version": [
 							1,
@@ -35,7 +35,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							]
 						}
 					],
@@ -44,7 +44,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							],
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 						}
@@ -61,21 +61,6 @@
 						"key": "description"
 					},
 					{
-						"open": {
-							"name": "pack.name",
-							"description": "pack.description",
-							"uuid": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
-							"version": [
-								1,
-								0,
-								11
-							],
-							"min_engine_version": [
-								1,
-								13,
-								0
-							]
-						},
 						"data": "c716c6a6-bc8a-458f-8672-ed51c518eb04",
 						"key": "uuid"
 					},
@@ -87,7 +72,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							],
 							"min_engine_version": [
 								1,
@@ -100,7 +85,7 @@
 						"children": [
 							1,
 							0,
-							11
+							12
 						]
 					},
 					{
@@ -124,7 +109,7 @@
 						"version": [
 							1,
 							0,
-							11
+							12
 						],
 						"min_engine_version": [
 							1,
@@ -139,7 +124,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							]
 						}
 					],
@@ -148,7 +133,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							],
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 						}
@@ -164,7 +149,7 @@
 								"version": [
 									1,
 									0,
-									11
+									12
 								]
 							}
 						],
@@ -174,15 +159,6 @@
 								"key": "type"
 							},
 							{
-								"open": {
-									"type": "data",
-									"uuid": "e451a114-9621-42a9-b52f-e9bf54449d90",
-									"version": [
-										1,
-										0,
-										11
-									]
-								},
 								"data": "e451a114-9621-42a9-b52f-e9bf54449d90",
 								"key": "uuid"
 							},
@@ -193,7 +169,7 @@
 									"version": [
 										1,
 										0,
-										11
+										12
 									]
 								},
 								"key": "version",
@@ -201,7 +177,7 @@
 								"children": [
 									1,
 									0,
-									11
+									12
 								]
 							}
 						]
@@ -218,7 +194,7 @@
 						"version": [
 							1,
 							0,
-							11
+							12
 						],
 						"min_engine_version": [
 							1,
@@ -233,7 +209,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							]
 						}
 					],
@@ -242,7 +218,7 @@
 							"version": [
 								1,
 								0,
-								11
+								12
 							],
 							"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 						}
@@ -256,7 +232,7 @@
 								"version": [
 									1,
 									0,
-									11
+									12
 								],
 								"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 							}
@@ -267,7 +243,7 @@
 									"version": [
 										1,
 										0,
-										11
+										12
 									],
 									"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
 								},
@@ -276,18 +252,10 @@
 								"children": [
 									1,
 									0,
-									11
+									12
 								]
 							},
 							{
-								"open": {
-									"version": [
-										1,
-										0,
-										11
-									],
-									"uuid": "61ee56da-98dc-497f-a32a-996045841bd9"
-								},
 								"data": "61ee56da-98dc-497f-a32a-996045841bd9",
 								"key": "uuid"
 							}

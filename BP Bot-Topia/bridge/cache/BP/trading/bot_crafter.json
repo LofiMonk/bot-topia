@@ -3,15 +3,15 @@
 	"file_type": "trade_table",
 	"format_version": 1,
 	"file_uuid": "4c1e5c97_a604_432f_9061_c0784508371f",
-	"file_version": 20,
+	"file_version": 21,
 	"cache_content": {
 		"children": [
 			{
 				"open": {
 					"tiers": [
 						{
-							"trades": [
-								{
+							"trades": {
+								"0": {
 									"wants": [
 										{
 											"item": "minecraft:redstone",
@@ -28,7 +28,7 @@
 									"max_uses": -1,
 									"reward_exp": false
 								},
-								{
+								"1": {
 									"wants": [
 										{
 											"item": "minecraft:redstone_torch",
@@ -55,7 +55,7 @@
 									"max_uses": -1,
 									"reward_exp": false
 								},
-								{
+								"2": {
 									"wants": [
 										{
 											"item": "minecraft:ender_pearl",
@@ -76,7 +76,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								{
+								"3": {
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -97,7 +97,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								{
+								"4": {
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -118,7 +118,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								{
+								"5": {
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -139,7 +139,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								{
+								"6": {
 									"wants": [
 										{
 											"item": "minecraft:slime_ball",
@@ -160,7 +160,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								{
+								"7": {
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -181,7 +181,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								{
+								"8": {
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -202,7 +202,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								{
+								"9": {
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -222,8 +222,29 @@
 									"reward_exp": false,
 									"trader_exp": 0,
 									"max_uses": -1
+								},
+								"9_copy": {
+									"wants": [
+										{
+											"item": "lfm:basic_chip",
+											"quantity": 1
+										},
+										{
+											"item": "minecraft:iron_axe",
+											"quantity": 1
+										}
+									],
+									"gives": [
+										{
+											"item": "lfm:lumber_chip",
+											"quantity": 1
+										}
+									],
+									"reward_exp": false,
+									"trader_exp": 0,
+									"max_uses": -1
 								}
-							]
+							}
 						}
 					]
 				},
@@ -232,8 +253,8 @@
 					{
 						"open": [
 							{
-								"trades": [
-									{
+								"trades": {
+									"0": {
 										"wants": [
 											{
 												"item": "minecraft:redstone",
@@ -250,7 +271,7 @@
 										"max_uses": -1,
 										"reward_exp": false
 									},
-									{
+									"1": {
 										"wants": [
 											{
 												"item": "minecraft:redstone_torch",
@@ -277,7 +298,7 @@
 										"max_uses": -1,
 										"reward_exp": false
 									},
-									{
+									"2": {
 										"wants": [
 											{
 												"item": "minecraft:ender_pearl",
@@ -298,7 +319,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									{
+									"3": {
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -319,7 +340,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									{
+									"4": {
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -340,7 +361,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									{
+									"5": {
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -361,7 +382,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									{
+									"6": {
 										"wants": [
 											{
 												"item": "minecraft:slime_ball",
@@ -382,7 +403,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									{
+									"7": {
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -403,7 +424,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									{
+									"8": {
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -424,7 +445,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									{
+									"9": {
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -444,15 +465,36 @@
 										"reward_exp": false,
 										"trader_exp": 0,
 										"max_uses": -1
+									},
+									"9_copy": {
+										"wants": [
+											{
+												"item": "lfm:basic_chip",
+												"quantity": 1
+											},
+											{
+												"item": "minecraft:iron_axe",
+												"quantity": 1
+											}
+										],
+										"gives": [
+											{
+												"item": "lfm:lumber_chip",
+												"quantity": 1
+											}
+										],
+										"reward_exp": false,
+										"trader_exp": 0,
+										"max_uses": -1
 									}
-								]
+								}
 							}
 						],
 						"children": [
 							{
 								"open": {
-									"trades": [
-										{
+									"trades": {
+										"0": {
 											"wants": [
 												{
 													"item": "minecraft:redstone",
@@ -469,7 +511,7 @@
 											"max_uses": -1,
 											"reward_exp": false
 										},
-										{
+										"1": {
 											"wants": [
 												{
 													"item": "minecraft:redstone_torch",
@@ -496,7 +538,7 @@
 											"max_uses": -1,
 											"reward_exp": false
 										},
-										{
+										"2": {
 											"wants": [
 												{
 													"item": "minecraft:ender_pearl",
@@ -517,7 +559,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										{
+										"3": {
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -538,7 +580,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										{
+										"4": {
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -559,7 +601,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										{
+										"5": {
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -580,7 +622,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										{
+										"6": {
 											"wants": [
 												{
 													"item": "minecraft:slime_ball",
@@ -601,7 +643,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										{
+										"7": {
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -622,7 +664,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										{
+										"8": {
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -643,7 +685,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										{
+										"9": {
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -663,12 +705,34 @@
 											"reward_exp": false,
 											"trader_exp": 0,
 											"max_uses": -1
+										},
+										"9_copy": {
+											"wants": [
+												{
+													"item": "lfm:basic_chip",
+													"quantity": 1
+												},
+												{
+													"item": "minecraft:iron_axe",
+													"quantity": 1
+												}
+											],
+											"gives": [
+												{
+													"item": "lfm:lumber_chip",
+													"quantity": 1
+												}
+											],
+											"reward_exp": false,
+											"trader_exp": 0,
+											"max_uses": -1
 										}
-									]
+									}
 								},
 								"key": "trades",
 								"children": [
 									{
+										"key": "0",
 										"children": [
 											{
 												"key": "wants",
@@ -730,6 +794,7 @@
 										]
 									},
 									{
+										"key": "1",
 										"children": [
 											{
 												"key": "wants",
@@ -817,6 +882,7 @@
 										]
 									},
 									{
+										"key": "2",
 										"children": [
 											{
 												"key": "wants",
@@ -886,6 +952,7 @@
 										]
 									},
 									{
+										"key": "3",
 										"children": [
 											{
 												"key": "wants",
@@ -955,6 +1022,7 @@
 										]
 									},
 									{
+										"key": "4",
 										"children": [
 											{
 												"key": "wants",
@@ -1024,6 +1092,7 @@
 										]
 									},
 									{
+										"key": "5",
 										"children": [
 											{
 												"key": "wants",
@@ -1093,8 +1162,8 @@
 										]
 									},
 									{
-										"open": [
-											{
+										"open": {
+											"0": {
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -1111,7 +1180,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											{
+											"1": {
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -1138,7 +1207,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											{
+											"2": {
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -1159,7 +1228,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"3": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1180,7 +1249,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"4": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1201,7 +1270,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											{
+											"5": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1222,7 +1291,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											{
+											"6": {
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -1243,7 +1312,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											{
+											"7": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1264,7 +1333,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"8": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1285,7 +1354,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"9": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1305,8 +1374,30 @@
 												"reward_exp": false,
 												"trader_exp": 0,
 												"max_uses": -1
+											},
+											"9_copy": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_axe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:lumber_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
 											}
-										],
+										},
+										"key": "6",
 										"children": [
 											{
 												"open": {
@@ -1422,8 +1513,8 @@
 										]
 									},
 									{
-										"open": [
-											{
+										"open": {
+											"0": {
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -1440,7 +1531,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											{
+											"1": {
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -1467,7 +1558,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											{
+											"2": {
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -1488,7 +1579,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"3": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1509,7 +1600,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"4": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1530,7 +1621,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											{
+											"5": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1551,7 +1642,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											{
+											"6": {
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -1572,7 +1663,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											{
+											"7": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1593,7 +1684,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"8": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1614,7 +1705,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											{
+											"9": {
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1634,8 +1725,30 @@
 												"reward_exp": false,
 												"trader_exp": 0,
 												"max_uses": -1
+											},
+											"9_copy": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_axe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:lumber_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
 											}
-										],
+										},
+										"key": "7",
 										"children": [
 											{
 												"key": "wants",
@@ -1705,30 +1818,547 @@
 										]
 									},
 									{
-										"is_minified": true,
-										"children": {
-											"wants": [
-												{
-													"item": "lfm:basic_chip",
-													"quantity": 1
+										"open": {
+											"0": {
+												"wants": [
+													{
+														"item": "minecraft:redstone",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:redstone_flake",
+														"quantity": 9
+													}
+												],
+												"trader_exp": 0,
+												"max_uses": -1,
+												"reward_exp": false
+											},
+											"1": {
+												"wants": [
+													{
+														"item": "minecraft:redstone_torch",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:observer",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:spawn_egg",
+														"quantity": 1,
+														"functions": [
+															{
+																"function": "set_actor_id",
+																"id": "lfm:bot"
+															}
+														]
+													}
+												],
+												"trader_exp": 0,
+												"max_uses": -1,
+												"reward_exp": false
+											},
+											"2": {
+												"wants": [
+													{
+														"item": "minecraft:ender_pearl",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:comparator",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"3": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:hopper",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:hopper_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"4": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:composter",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:harvest_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"5": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_hoe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:farm_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"6": {
+												"wants": [
+													{
+														"item": "minecraft:slime_ball",
+														"quantity": 4
+													},
+													{
+														"item": "minecraft:iron_ingot",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:waterproof_module",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"7": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_leggings",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:bot_legs",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"8": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_sword",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:guard_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"9": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_pickaxe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:miner_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"9_copy": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_axe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:lumber_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											}
+										},
+										"key": "8",
+										"children": [
+											{
+												"key": "wants",
+												"is_minified": true,
+												"children": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_sword",
+														"quantity": 1
+													}
+												]
+											},
+											{
+												"open": {
+													"wants": [
+														{
+															"item": "lfm:basic_chip",
+															"quantity": 1
+														},
+														{
+															"item": "minecraft:iron_sword",
+															"quantity": 1
+														}
+													],
+													"gives": [
+														{
+															"item": "lfm:guard_chip",
+															"quantity": 1
+														}
+													],
+													"reward_exp": false,
+													"max_uses": -1,
+													"trader_exp": 0
 												},
-												{
-													"item": "minecraft:iron_sword",
-													"quantity": 1
-												}
-											],
-											"gives": [
-												{
-													"item": "lfm:guard_chip",
-													"quantity": 1
-												}
-											],
-											"reward_exp": false,
-											"max_uses": -1,
-											"trader_exp": 0
-										}
+												"key": "gives",
+												"children": [
+													{
+														"open": [
+															{
+																"item": "lfm:guard_chip",
+																"quantity": 1
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "lfm:guard_chip",
+															"quantity": 1
+														}
+													}
+												]
+											},
+											{
+												"data": "false",
+												"key": "reward_exp"
+											},
+											{
+												"data": "-1",
+												"key": "max_uses"
+											},
+											{
+												"data": "0",
+												"key": "trader_exp"
+											}
+										]
 									},
 									{
+										"open": {
+											"0": {
+												"wants": [
+													{
+														"item": "minecraft:redstone",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:redstone_flake",
+														"quantity": 9
+													}
+												],
+												"trader_exp": 0,
+												"max_uses": -1,
+												"reward_exp": false
+											},
+											"1": {
+												"wants": [
+													{
+														"item": "minecraft:redstone_torch",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:observer",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:spawn_egg",
+														"quantity": 1,
+														"functions": [
+															{
+																"function": "set_actor_id",
+																"id": "lfm:bot"
+															}
+														]
+													}
+												],
+												"trader_exp": 0,
+												"max_uses": -1,
+												"reward_exp": false
+											},
+											"2": {
+												"wants": [
+													{
+														"item": "minecraft:ender_pearl",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:comparator",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"3": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:hopper",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:hopper_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"4": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:composter",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:harvest_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"5": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_hoe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:farm_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"6": {
+												"wants": [
+													{
+														"item": "minecraft:slime_ball",
+														"quantity": 4
+													},
+													{
+														"item": "minecraft:iron_ingot",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:waterproof_module",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"7": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_leggings",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:bot_legs",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"8": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_sword",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:guard_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"9": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_pickaxe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:miner_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"9_copy": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_axe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:lumber_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											}
+										},
+										"key": "9",
 										"children": [
 											{
 												"open": {
@@ -1824,6 +2454,357 @@
 														"is_minified": true,
 														"children": {
 															"item": "lfm:miner_chip",
+															"quantity": 1
+														}
+													}
+												]
+											},
+											{
+												"data": "false",
+												"key": "reward_exp"
+											},
+											{
+												"data": "0",
+												"key": "trader_exp"
+											},
+											{
+												"data": "-1",
+												"key": "max_uses"
+											}
+										]
+									},
+									{
+										"open": {
+											"0": {
+												"wants": [
+													{
+														"item": "minecraft:redstone",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:redstone_flake",
+														"quantity": 9
+													}
+												],
+												"trader_exp": 0,
+												"max_uses": -1,
+												"reward_exp": false
+											},
+											"1": {
+												"wants": [
+													{
+														"item": "minecraft:redstone_torch",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:observer",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "minecraft:spawn_egg",
+														"quantity": 1,
+														"functions": [
+															{
+																"function": "set_actor_id",
+																"id": "lfm:bot"
+															}
+														]
+													}
+												],
+												"trader_exp": 0,
+												"max_uses": -1,
+												"reward_exp": false
+											},
+											"2": {
+												"wants": [
+													{
+														"item": "minecraft:ender_pearl",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:comparator",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"3": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:hopper",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:hopper_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"4": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:composter",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:harvest_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"5": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_hoe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:farm_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"6": {
+												"wants": [
+													{
+														"item": "minecraft:slime_ball",
+														"quantity": 4
+													},
+													{
+														"item": "minecraft:iron_ingot",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:waterproof_module",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"7": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_leggings",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:bot_legs",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"8": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_sword",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:guard_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"max_uses": -1,
+												"trader_exp": 0
+											},
+											"9": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_pickaxe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:miner_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											},
+											"9_copy": {
+												"wants": [
+													{
+														"item": "lfm:basic_chip",
+														"quantity": 1
+													},
+													{
+														"item": "minecraft:iron_axe",
+														"quantity": 1
+													}
+												],
+												"gives": [
+													{
+														"item": "lfm:lumber_chip",
+														"quantity": 1
+													}
+												],
+												"reward_exp": false,
+												"trader_exp": 0,
+												"max_uses": -1
+											}
+										},
+										"key": "9_copy",
+										"children": [
+											{
+												"open": {
+													"wants": [
+														{
+															"item": "lfm:basic_chip",
+															"quantity": 1
+														},
+														{
+															"item": "minecraft:iron_axe",
+															"quantity": 1
+														}
+													],
+													"gives": [
+														{
+															"item": "lfm:lumber_chip",
+															"quantity": 1
+														}
+													],
+													"reward_exp": false,
+													"trader_exp": 0,
+													"max_uses": -1
+												},
+												"key": "wants",
+												"children": [
+													{
+														"open": [
+															{
+																"item": "lfm:basic_chip",
+																"quantity": 1
+															},
+															{
+																"item": "minecraft:iron_axe",
+																"quantity": 1
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "lfm:basic_chip",
+															"quantity": 1
+														}
+													},
+													{
+														"open": [
+															{
+																"item": "lfm:basic_chip",
+																"quantity": 1
+															},
+															{
+																"item": "minecraft:iron_axe",
+																"quantity": 1
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "minecraft:iron_axe",
+															"quantity": 1
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"wants": [
+														{
+															"item": "lfm:basic_chip",
+															"quantity": 1
+														},
+														{
+															"item": "minecraft:iron_axe",
+															"quantity": 1
+														}
+													],
+													"gives": [
+														{
+															"item": "lfm:lumber_chip",
+															"quantity": 1
+														}
+													],
+													"reward_exp": false,
+													"trader_exp": 0,
+													"max_uses": -1
+												},
+												"key": "gives",
+												"children": [
+													{
+														"open": [
+															{
+																"item": "lfm:lumber_chip",
+																"quantity": 1
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"item": "lfm:lumber_chip",
 															"quantity": 1
 														}
 													}
