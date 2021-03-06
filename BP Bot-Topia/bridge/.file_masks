@@ -240,5 +240,8 @@
 	},
 	"BP/recipes/bot_crafter.json": {
 		"data": {}
+	},
+	"RP/sounds.json": {
+		"data": {}
 	}
 }

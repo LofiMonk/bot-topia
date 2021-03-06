@@ -3,15 +3,15 @@
 	"file_type": "trade_table",
 	"format_version": 1,
 	"file_uuid": "4c1e5c97_a604_432f_9061_c0784508371f",
-	"file_version": 21,
+	"file_version": 22,
 	"cache_content": {
 		"children": [
 			{
 				"open": {
 					"tiers": [
 						{
-							"trades": {
-								"0": {
+							"trades": [
+								{
 									"wants": [
 										{
 											"item": "minecraft:redstone",
@@ -28,7 +28,7 @@
 									"max_uses": -1,
 									"reward_exp": false
 								},
-								"1": {
+								{
 									"wants": [
 										{
 											"item": "minecraft:redstone_torch",
@@ -55,7 +55,7 @@
 									"max_uses": -1,
 									"reward_exp": false
 								},
-								"2": {
+								{
 									"wants": [
 										{
 											"item": "minecraft:ender_pearl",
@@ -76,7 +76,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								"3": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -97,7 +97,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								"4": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -118,7 +118,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								"5": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -139,7 +139,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								"6": {
+								{
 									"wants": [
 										{
 											"item": "minecraft:slime_ball",
@@ -160,7 +160,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								"7": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -181,7 +181,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								"8": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -202,7 +202,7 @@
 									"max_uses": -1,
 									"trader_exp": 0
 								},
-								"9": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -223,7 +223,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								},
-								"9_copy": {
+								{
 									"wants": [
 										{
 											"item": "lfm:basic_chip",
@@ -244,7 +244,7 @@
 									"trader_exp": 0,
 									"max_uses": -1
 								}
-							}
+							]
 						}
 					]
 				},
@@ -253,8 +253,8 @@
 					{
 						"open": [
 							{
-								"trades": {
-									"0": {
+								"trades": [
+									{
 										"wants": [
 											{
 												"item": "minecraft:redstone",
@@ -271,7 +271,7 @@
 										"max_uses": -1,
 										"reward_exp": false
 									},
-									"1": {
+									{
 										"wants": [
 											{
 												"item": "minecraft:redstone_torch",
@@ -298,7 +298,7 @@
 										"max_uses": -1,
 										"reward_exp": false
 									},
-									"2": {
+									{
 										"wants": [
 											{
 												"item": "minecraft:ender_pearl",
@@ -319,7 +319,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									"3": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -340,7 +340,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									"4": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -361,7 +361,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									"5": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -382,7 +382,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									"6": {
+									{
 										"wants": [
 											{
 												"item": "minecraft:slime_ball",
@@ -403,7 +403,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									"7": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -424,7 +424,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									"8": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -445,7 +445,7 @@
 										"max_uses": -1,
 										"trader_exp": 0
 									},
-									"9": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -466,7 +466,7 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									},
-									"9_copy": {
+									{
 										"wants": [
 											{
 												"item": "lfm:basic_chip",
@@ -487,14 +487,14 @@
 										"trader_exp": 0,
 										"max_uses": -1
 									}
-								}
+								]
 							}
 						],
 						"children": [
 							{
 								"open": {
-									"trades": {
-										"0": {
+									"trades": [
+										{
 											"wants": [
 												{
 													"item": "minecraft:redstone",
@@ -511,7 +511,7 @@
 											"max_uses": -1,
 											"reward_exp": false
 										},
-										"1": {
+										{
 											"wants": [
 												{
 													"item": "minecraft:redstone_torch",
@@ -538,7 +538,7 @@
 											"max_uses": -1,
 											"reward_exp": false
 										},
-										"2": {
+										{
 											"wants": [
 												{
 													"item": "minecraft:ender_pearl",
@@ -559,7 +559,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										"3": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -580,7 +580,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										"4": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -601,7 +601,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										"5": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -622,7 +622,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										"6": {
+										{
 											"wants": [
 												{
 													"item": "minecraft:slime_ball",
@@ -643,7 +643,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										"7": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -664,7 +664,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										"8": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -685,7 +685,7 @@
 											"max_uses": -1,
 											"trader_exp": 0
 										},
-										"9": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -706,7 +706,7 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										},
-										"9_copy": {
+										{
 											"wants": [
 												{
 													"item": "lfm:basic_chip",
@@ -727,12 +727,11 @@
 											"trader_exp": 0,
 											"max_uses": -1
 										}
-									}
+									]
 								},
 								"key": "trades",
 								"children": [
 									{
-										"key": "0",
 										"children": [
 											{
 												"key": "wants",
@@ -794,7 +793,6 @@
 										]
 									},
 									{
-										"key": "1",
 										"children": [
 											{
 												"key": "wants",
@@ -882,7 +880,6 @@
 										]
 									},
 									{
-										"key": "2",
 										"children": [
 											{
 												"key": "wants",
@@ -952,7 +949,6 @@
 										]
 									},
 									{
-										"key": "3",
 										"children": [
 											{
 												"key": "wants",
@@ -1022,7 +1018,6 @@
 										]
 									},
 									{
-										"key": "4",
 										"children": [
 											{
 												"key": "wants",
@@ -1092,7 +1087,6 @@
 										]
 									},
 									{
-										"key": "5",
 										"children": [
 											{
 												"key": "wants",
@@ -1162,8 +1156,8 @@
 										]
 									},
 									{
-										"open": {
-											"0": {
+										"open": [
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -1180,7 +1174,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"1": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -1207,7 +1201,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"2": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -1228,7 +1222,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"3": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1249,7 +1243,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"4": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1270,7 +1264,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"5": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1291,7 +1285,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"6": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -1312,7 +1306,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"7": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1333,7 +1327,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"8": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1354,7 +1348,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"9": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1375,7 +1369,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"9_copy": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1396,8 +1390,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											}
-										},
-										"key": "6",
+										],
 										"children": [
 											{
 												"open": {
@@ -1513,8 +1506,8 @@
 										]
 									},
 									{
-										"open": {
-											"0": {
+										"open": [
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -1531,7 +1524,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"1": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -1558,7 +1551,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"2": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -1579,7 +1572,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"3": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1600,7 +1593,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"4": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1621,7 +1614,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"5": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1642,7 +1635,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"6": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -1663,7 +1656,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"7": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1684,7 +1677,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"8": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1705,7 +1698,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"9": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1726,7 +1719,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"9_copy": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1747,8 +1740,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											}
-										},
-										"key": "7",
+										],
 										"children": [
 											{
 												"key": "wants",
@@ -1818,8 +1810,8 @@
 										]
 									},
 									{
-										"open": {
-											"0": {
+										"open": [
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -1836,7 +1828,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"1": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -1863,7 +1855,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"2": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -1884,7 +1876,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"3": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1905,7 +1897,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"4": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1926,7 +1918,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"5": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1947,7 +1939,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"6": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -1968,7 +1960,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"7": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -1989,7 +1981,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"8": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2010,7 +2002,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"9": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2031,7 +2023,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"9_copy": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2052,8 +2044,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											}
-										},
-										"key": "8",
+										],
 										"children": [
 											{
 												"key": "wants",
@@ -2123,8 +2114,8 @@
 										]
 									},
 									{
-										"open": {
-											"0": {
+										"open": [
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -2141,7 +2132,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"1": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -2168,7 +2159,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"2": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -2189,7 +2180,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"3": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2210,7 +2201,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"4": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2231,7 +2222,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"5": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2252,7 +2243,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"6": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -2273,7 +2264,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"7": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2294,7 +2285,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"8": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2315,7 +2306,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"9": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2336,7 +2327,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"9_copy": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2357,8 +2348,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											}
-										},
-										"key": "9",
+										],
 										"children": [
 											{
 												"open": {
@@ -2474,8 +2464,8 @@
 										]
 									},
 									{
-										"open": {
-											"0": {
+										"open": [
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone",
@@ -2492,7 +2482,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"1": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:redstone_torch",
@@ -2519,7 +2509,7 @@
 												"max_uses": -1,
 												"reward_exp": false
 											},
-											"2": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:ender_pearl",
@@ -2540,7 +2530,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"3": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2561,7 +2551,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"4": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2582,7 +2572,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"5": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2603,7 +2593,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"6": {
+											{
 												"wants": [
 													{
 														"item": "minecraft:slime_ball",
@@ -2624,7 +2614,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"7": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2645,7 +2635,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"8": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2666,7 +2656,7 @@
 												"max_uses": -1,
 												"trader_exp": 0
 											},
-											"9": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2687,7 +2677,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											},
-											"9_copy": {
+											{
 												"wants": [
 													{
 														"item": "lfm:basic_chip",
@@ -2708,8 +2698,7 @@
 												"trader_exp": 0,
 												"max_uses": -1
 											}
-										},
-										"key": "9_copy",
+										],
 										"children": [
 											{
 												"open": {

@@ -1,4 +1,4 @@
-//bridge-file-version: #51
+//bridge-file-version: #53
 {
 	"individual_event_sounds": {
 		"events": {
@@ -152,7 +152,7 @@
 				],
 				"volume": [
 					0.01,
-					0.6
+					0.09
 				]
 			},
 			"lfm:bot_walker": {

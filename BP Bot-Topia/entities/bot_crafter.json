@@ -1,4 +1,4 @@
-//bridge-file-version: #43
+//bridge-file-version: #45
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -118,8 +118,8 @@
 				]
 			},
 			"minecraft:ambient_sound_interval": {
-				"range": 45,
-				"value": 40
+				"range": 120,
+				"value": 80
 			}
 		},
 		"events": {

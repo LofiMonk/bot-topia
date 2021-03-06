@@ -3,7 +3,7 @@
 	"file_type": "entity",
 	"format_version": 1,
 	"file_uuid": "eb5564d7_03a2_41c9_970d_12201f7405b9",
-	"file_version": 43,
+	"file_version": 45,
 	"cache_content": {
 		"children": [
 			{
@@ -130,8 +130,8 @@
 								]
 							},
 							"minecraft:ambient_sound_interval": {
-								"range": 45,
-								"value": 40
+								"range": 120,
+								"value": 80
 							}
 						},
 						"events": {
@@ -394,8 +394,8 @@
 									]
 								},
 								"minecraft:ambient_sound_interval": {
-									"range": 45,
-									"value": 40
+									"range": 120,
+									"value": 80
 								}
 							},
 							"events": {
@@ -480,53 +480,6 @@
 								}
 							},
 							{
-								"open": {
-									"trade": {
-										"minecraft:trade_table": {
-											"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
-											"new_screen": true,
-											"table": "trading/bot_crafter.json"
-										},
-										"minecraft:persistent": {}
-									},
-									"do_despawn": {
-										"minecraft:instant_despawn": {}
-									},
-									"execute_no_commands": {
-										"minecraft:skin_id": {
-											"value": 0
-										}
-									},
-									"spark": {
-										"minecraft:timer": {
-											"randomInterval": true,
-											"time": [
-												0.3,
-												0.6
-											],
-											"time_down_event": {
-												"event": "lfm:sparkle",
-												"target": "self"
-											}
-										}
-									},
-									"bot_sparkle": {
-										"minecraft:skin_id": {
-											"value": 1
-										},
-										"minecraft:timer": {
-											"randomInterval": false,
-											"time": [
-												0.3,
-												0.6
-											],
-											"time_down_event": {
-												"event": "lfm:spark",
-												"target": "self"
-											}
-										}
-									}
-								},
 								"key": "execute_no_commands",
 								"children": [
 									{
@@ -544,53 +497,6 @@
 								]
 							},
 							{
-								"open": {
-									"trade": {
-										"minecraft:trade_table": {
-											"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
-											"new_screen": true,
-											"table": "trading/bot_crafter.json"
-										},
-										"minecraft:persistent": {}
-									},
-									"do_despawn": {
-										"minecraft:instant_despawn": {}
-									},
-									"execute_no_commands": {
-										"minecraft:skin_id": {
-											"value": 0
-										}
-									},
-									"spark": {
-										"minecraft:timer": {
-											"randomInterval": true,
-											"time": [
-												0.3,
-												0.6
-											],
-											"time_down_event": {
-												"event": "lfm:sparkle",
-												"target": "self"
-											}
-										}
-									},
-									"bot_sparkle": {
-										"minecraft:skin_id": {
-											"value": 1
-										},
-										"minecraft:timer": {
-											"randomInterval": false,
-											"time": [
-												0.3,
-												0.6
-											],
-											"time_down_event": {
-												"event": "lfm:spark",
-												"target": "self"
-											}
-										}
-									}
-								},
 								"key": "spark",
 								"children": [
 									{
@@ -645,53 +551,6 @@
 								]
 							},
 							{
-								"open": {
-									"trade": {
-										"minecraft:trade_table": {
-											"display_name": "§b§kLoFi§rBot Crafter§b§kMonk",
-											"new_screen": true,
-											"table": "trading/bot_crafter.json"
-										},
-										"minecraft:persistent": {}
-									},
-									"do_despawn": {
-										"minecraft:instant_despawn": {}
-									},
-									"execute_no_commands": {
-										"minecraft:skin_id": {
-											"value": 0
-										}
-									},
-									"spark": {
-										"minecraft:timer": {
-											"randomInterval": true,
-											"time": [
-												0.3,
-												0.6
-											],
-											"time_down_event": {
-												"event": "lfm:sparkle",
-												"target": "self"
-											}
-										}
-									},
-									"bot_sparkle": {
-										"minecraft:skin_id": {
-											"value": 1
-										},
-										"minecraft:timer": {
-											"randomInterval": false,
-											"time": [
-												0.3,
-												0.6
-											],
-											"time_down_event": {
-												"event": "lfm:spark",
-												"target": "self"
-											}
-										}
-									}
-								},
 								"key": "bot_sparkle",
 								"children": [
 									{
@@ -891,8 +750,8 @@
 									]
 								},
 								"minecraft:ambient_sound_interval": {
-									"range": 45,
-									"value": 40
+									"range": 120,
+									"value": 80
 								}
 							},
 							"events": {
@@ -1100,15 +959,15 @@
 										]
 									},
 									"minecraft:ambient_sound_interval": {
-										"range": 45,
-										"value": 40
+										"range": 120,
+										"value": 80
 									}
 								},
 								"key": "minecraft:ambient_sound_interval",
 								"is_minified": true,
 								"children": {
-									"range": 45,
-									"value": 40
+									"range": 120,
+									"value": 80
 								}
 							}
 						]
@@ -1231,8 +1090,8 @@
 									]
 								},
 								"minecraft:ambient_sound_interval": {
-									"range": 45,
-									"value": 40
+									"range": 120,
+									"value": 80
 								}
 							},
 							"events": {

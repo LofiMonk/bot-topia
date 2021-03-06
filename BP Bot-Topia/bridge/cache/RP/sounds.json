@@ -1,0 +1,816 @@
+{
+	"file_path": "C:\\Users\\awage\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP Bot-Topia\\sounds.json",
+	"file_type": "client_sound",
+	"format_version": 1,
+	"file_uuid": "b5235e05_cf0c_4a65_9378_87fe41696e07",
+	"file_version": 53,
+	"cache_content": {
+		"children": [
+			{
+				"key": "individual_event_sounds",
+				"is_minified": true,
+				"children": {
+					"events": {
+						"bot.transform": {
+							"sound": "bot.transform",
+							"volume": [
+								1,
+								1.5
+							],
+							"pitch": [
+								1,
+								1
+							]
+						}
+					}
+				}
+			},
+			{
+				"key": "block_sounds",
+				"is_minified": true,
+				"children": {}
+			},
+			{
+				"open": {
+					"individual_event_sounds": {
+						"events": {
+							"bot.transform": {
+								"sound": "bot.transform",
+								"volume": [
+									1,
+									1.5
+								],
+								"pitch": [
+									1,
+									1
+								]
+							}
+						}
+					},
+					"block_sounds": {},
+					"entity_sounds": {
+						"defaults": {
+							"volume": 1,
+							"pitch": [
+								0.8,
+								1.2
+							],
+							"events": {
+								"fall.big": {
+									"sound": "damage.fallbig",
+									"volume": 0.75,
+									"pitch": 1
+								},
+								"fall.small": {
+									"sound": "damage.fallsmall",
+									"volume": 0.75,
+									"pitch": 1
+								},
+								"splash": {
+									"sound": "random.splash",
+									"pitch": [
+										0.6,
+										1.4
+									]
+								},
+								"swim": {
+									"sound": "random.swim",
+									"pitch": [
+										0.6,
+										1.4
+									]
+								},
+								"fizz": {
+									"sound": "random.fizz",
+									"volume": 0.7,
+									"pitch": [
+										1.2,
+										2
+									]
+								},
+								"drink": {
+									"sound": "random.drink",
+									"volume": 0.5,
+									"pitch": [
+										0.9,
+										1
+									]
+								},
+								"eat": {
+									"sound": "random.eat",
+									"volume": [
+										0.5,
+										1.5
+									],
+									"pitch": [
+										0.8,
+										1.2
+									]
+								},
+								"ambient": {},
+								"flop": {},
+								"hurt": "game.player.hurt",
+								"death": "game.player.die",
+								"ambient.in.water": {},
+								"hurt.in.water": {},
+								"death.in.water": {},
+								"ambient.in.raid": {}
+							}
+						},
+						"entities": {
+							"lfm:bot": {
+								"events": {
+									"ambient": {
+										"sound": "bot.idle",
+										"volume": [
+											1,
+											0.4
+										],
+										"pitch": [
+											1.3,
+											0.9
+										]
+									},
+									"haggle.yes": "bot.yes",
+									"haggle": "bot.talk",
+									"death": {
+										"sound": "bot.death",
+										"volume": 1,
+										"pitch": [
+											1,
+											1
+										]
+									},
+									"hurt": {
+										"sound": "bot.hurt",
+										"volume": [
+											0.7,
+											0.4
+										],
+										"pitch": [
+											1,
+											1.2
+										]
+									},
+									"ambient.in.water": {
+										"sound": "bot.transform",
+										"volume": 0.7,
+										"pitch": [
+											1,
+											1
+										]
+									}
+								},
+								"volume": 1,
+								"pitch": [
+									1,
+									1
+								]
+							},
+							"lfm:bot_crafter": {
+								"events": {
+									"ambient": {
+										"sound": "crafter.idle",
+										"volume": 0.2,
+										"pitch": [
+											1.2,
+											0.7
+										]
+									}
+								},
+								"pitch": [
+									1,
+									0.1
+								],
+								"volume": [
+									0.01,
+									0.09
+								]
+							},
+							"lfm:bot_walker": {
+								"events": {
+									"ambient": {
+										"sound": "walker.bot.idle",
+										"volume": [
+											0.7,
+											0.3
+										],
+										"pitch": [
+											1,
+											0.7
+										]
+									},
+									"hurt": {
+										"sound": "walker.bot.hurt",
+										"volume": [
+											1.1,
+											0.6
+										],
+										"pitch": [
+											1.4,
+											0.5
+										]
+									},
+									"death": "bot.death",
+									"step": {
+										"sound": "walker.bot.steps",
+										"volume": [
+											1.3,
+											0.8
+										],
+										"pitch": [
+											1,
+											0.5
+										]
+									},
+									"hurt.in.water": {
+										"sound": "bot.hurt",
+										"volume": [
+											0.7,
+											0.4
+										],
+										"pitch": [
+											0.9,
+											0.7
+										]
+									}
+								},
+								"volume": 1,
+								"pitch": [
+									1,
+									1
+								]
+							}
+						}
+					}
+				},
+				"key": "entity_sounds",
+				"children": [
+					{
+						"key": "defaults",
+						"is_minified": true,
+						"children": {
+							"volume": 1,
+							"pitch": [
+								0.8,
+								1.2
+							],
+							"events": {
+								"fall.big": {
+									"sound": "damage.fallbig",
+									"volume": 0.75,
+									"pitch": 1
+								},
+								"fall.small": {
+									"sound": "damage.fallsmall",
+									"volume": 0.75,
+									"pitch": 1
+								},
+								"splash": {
+									"sound": "random.splash",
+									"pitch": [
+										0.6,
+										1.4
+									]
+								},
+								"swim": {
+									"sound": "random.swim",
+									"pitch": [
+										0.6,
+										1.4
+									]
+								},
+								"fizz": {
+									"sound": "random.fizz",
+									"volume": 0.7,
+									"pitch": [
+										1.2,
+										2
+									]
+								},
+								"drink": {
+									"sound": "random.drink",
+									"volume": 0.5,
+									"pitch": [
+										0.9,
+										1
+									]
+								},
+								"eat": {
+									"sound": "random.eat",
+									"volume": [
+										0.5,
+										1.5
+									],
+									"pitch": [
+										0.8,
+										1.2
+									]
+								},
+								"ambient": {},
+								"flop": {},
+								"hurt": "game.player.hurt",
+								"death": "game.player.die",
+								"ambient.in.water": {},
+								"hurt.in.water": {},
+								"death.in.water": {},
+								"ambient.in.raid": {}
+							}
+						}
+					},
+					{
+						"open": {
+							"defaults": {
+								"volume": 1,
+								"pitch": [
+									0.8,
+									1.2
+								],
+								"events": {
+									"fall.big": {
+										"sound": "damage.fallbig",
+										"volume": 0.75,
+										"pitch": 1
+									},
+									"fall.small": {
+										"sound": "damage.fallsmall",
+										"volume": 0.75,
+										"pitch": 1
+									},
+									"splash": {
+										"sound": "random.splash",
+										"pitch": [
+											0.6,
+											1.4
+										]
+									},
+									"swim": {
+										"sound": "random.swim",
+										"pitch": [
+											0.6,
+											1.4
+										]
+									},
+									"fizz": {
+										"sound": "random.fizz",
+										"volume": 0.7,
+										"pitch": [
+											1.2,
+											2
+										]
+									},
+									"drink": {
+										"sound": "random.drink",
+										"volume": 0.5,
+										"pitch": [
+											0.9,
+											1
+										]
+									},
+									"eat": {
+										"sound": "random.eat",
+										"volume": [
+											0.5,
+											1.5
+										],
+										"pitch": [
+											0.8,
+											1.2
+										]
+									},
+									"ambient": {},
+									"flop": {},
+									"hurt": "game.player.hurt",
+									"death": "game.player.die",
+									"ambient.in.water": {},
+									"hurt.in.water": {},
+									"death.in.water": {},
+									"ambient.in.raid": {}
+								}
+							},
+							"entities": {
+								"lfm:bot": {
+									"events": {
+										"ambient": {
+											"sound": "bot.idle",
+											"volume": [
+												1,
+												0.4
+											],
+											"pitch": [
+												1.3,
+												0.9
+											]
+										},
+										"haggle.yes": "bot.yes",
+										"haggle": "bot.talk",
+										"death": {
+											"sound": "bot.death",
+											"volume": 1,
+											"pitch": [
+												1,
+												1
+											]
+										},
+										"hurt": {
+											"sound": "bot.hurt",
+											"volume": [
+												0.7,
+												0.4
+											],
+											"pitch": [
+												1,
+												1.2
+											]
+										},
+										"ambient.in.water": {
+											"sound": "bot.transform",
+											"volume": 0.7,
+											"pitch": [
+												1,
+												1
+											]
+										}
+									},
+									"volume": 1,
+									"pitch": [
+										1,
+										1
+									]
+								},
+								"lfm:bot_crafter": {
+									"events": {
+										"ambient": {
+											"sound": "crafter.idle",
+											"volume": 0.2,
+											"pitch": [
+												1.2,
+												0.7
+											]
+										}
+									},
+									"pitch": [
+										1,
+										0.1
+									],
+									"volume": [
+										0.01,
+										0.09
+									]
+								},
+								"lfm:bot_walker": {
+									"events": {
+										"ambient": {
+											"sound": "walker.bot.idle",
+											"volume": [
+												0.7,
+												0.3
+											],
+											"pitch": [
+												1,
+												0.7
+											]
+										},
+										"hurt": {
+											"sound": "walker.bot.hurt",
+											"volume": [
+												1.1,
+												0.6
+											],
+											"pitch": [
+												1.4,
+												0.5
+											]
+										},
+										"death": "bot.death",
+										"step": {
+											"sound": "walker.bot.steps",
+											"volume": [
+												1.3,
+												0.8
+											],
+											"pitch": [
+												1,
+												0.5
+											]
+										},
+										"hurt.in.water": {
+											"sound": "bot.hurt",
+											"volume": [
+												0.7,
+												0.4
+											],
+											"pitch": [
+												0.9,
+												0.7
+											]
+										}
+									},
+									"volume": 1,
+									"pitch": [
+										1,
+										1
+									]
+								}
+							}
+						},
+						"key": "entities",
+						"children": [
+							{
+								"key": "lfm:bot",
+								"is_minified": true,
+								"children": {
+									"events": {
+										"ambient": {
+											"sound": "bot.idle",
+											"volume": [
+												1,
+												0.4
+											],
+											"pitch": [
+												1.3,
+												0.9
+											]
+										},
+										"haggle.yes": "bot.yes",
+										"haggle": "bot.talk",
+										"death": {
+											"sound": "bot.death",
+											"volume": 1,
+											"pitch": [
+												1,
+												1
+											]
+										},
+										"hurt": {
+											"sound": "bot.hurt",
+											"volume": [
+												0.7,
+												0.4
+											],
+											"pitch": [
+												1,
+												1.2
+											]
+										},
+										"ambient.in.water": {
+											"sound": "bot.transform",
+											"volume": 0.7,
+											"pitch": [
+												1,
+												1
+											]
+										}
+									},
+									"volume": 1,
+									"pitch": [
+										1,
+										1
+									]
+								}
+							},
+							{
+								"open": {
+									"lfm:bot": {
+										"events": {
+											"ambient": {
+												"sound": "bot.idle",
+												"volume": [
+													1,
+													0.4
+												],
+												"pitch": [
+													1.3,
+													0.9
+												]
+											},
+											"haggle.yes": "bot.yes",
+											"haggle": "bot.talk",
+											"death": {
+												"sound": "bot.death",
+												"volume": 1,
+												"pitch": [
+													1,
+													1
+												]
+											},
+											"hurt": {
+												"sound": "bot.hurt",
+												"volume": [
+													0.7,
+													0.4
+												],
+												"pitch": [
+													1,
+													1.2
+												]
+											},
+											"ambient.in.water": {
+												"sound": "bot.transform",
+												"volume": 0.7,
+												"pitch": [
+													1,
+													1
+												]
+											}
+										},
+										"volume": 1,
+										"pitch": [
+											1,
+											1
+										]
+									},
+									"lfm:bot_crafter": {
+										"events": {
+											"ambient": {
+												"sound": "crafter.idle",
+												"volume": 0.2,
+												"pitch": [
+													1.2,
+													0.7
+												]
+											}
+										},
+										"pitch": [
+											1,
+											0.1
+										],
+										"volume": [
+											0.01,
+											0.09
+										]
+									},
+									"lfm:bot_walker": {
+										"events": {
+											"ambient": {
+												"sound": "walker.bot.idle",
+												"volume": [
+													0.7,
+													0.3
+												],
+												"pitch": [
+													1,
+													0.7
+												]
+											},
+											"hurt": {
+												"sound": "walker.bot.hurt",
+												"volume": [
+													1.1,
+													0.6
+												],
+												"pitch": [
+													1.4,
+													0.5
+												]
+											},
+											"death": "bot.death",
+											"step": {
+												"sound": "walker.bot.steps",
+												"volume": [
+													1.3,
+													0.8
+												],
+												"pitch": [
+													1,
+													0.5
+												]
+											},
+											"hurt.in.water": {
+												"sound": "bot.hurt",
+												"volume": [
+													0.7,
+													0.4
+												],
+												"pitch": [
+													0.9,
+													0.7
+												]
+											}
+										},
+										"volume": 1,
+										"pitch": [
+											1,
+											1
+										]
+									}
+								},
+								"key": "lfm:bot_crafter",
+								"children": [
+									{
+										"key": "events",
+										"is_minified": true,
+										"children": {
+											"ambient": {
+												"sound": "crafter.idle",
+												"volume": 0.2,
+												"pitch": [
+													1.2,
+													0.7
+												]
+											}
+										}
+									},
+									{
+										"key": "pitch",
+										"is_minified": true,
+										"children": [
+											1,
+											0.1
+										]
+									},
+									{
+										"open": {
+											"events": {
+												"ambient": {
+													"sound": "crafter.idle",
+													"volume": 0.2,
+													"pitch": [
+														1.2,
+														0.7
+													]
+												}
+											},
+											"pitch": [
+												1,
+												0.1
+											],
+											"volume": [
+												0.01,
+												0.09
+											]
+										},
+										"key": "volume",
+										"is_minified": true,
+										"children": [
+											0.01,
+											0.09
+										]
+									}
+								]
+							},
+							{
+								"key": "lfm:bot_walker",
+								"is_minified": true,
+								"children": {
+									"events": {
+										"ambient": {
+											"sound": "walker.bot.idle",
+											"volume": [
+												0.7,
+												0.3
+											],
+											"pitch": [
+												1,
+												0.7
+											]
+										},
+										"hurt": {
+											"sound": "walker.bot.hurt",
+											"volume": [
+												1.1,
+												0.6
+											],
+											"pitch": [
+												1.4,
+												0.5
+											]
+										},
+										"death": "bot.death",
+										"step": {
+											"sound": "walker.bot.steps",
+											"volume": [
+												1.3,
+												0.8
+											],
+											"pitch": [
+												1,
+												0.5
+											]
+										},
+										"hurt.in.water": {
+											"sound": "bot.hurt",
+											"volume": [
+												0.7,
+												0.4
+											],
+											"pitch": [
+												0.9,
+												0.7
+											]
+										}
+									},
+									"volume": 1,
+									"pitch": [
+										1,
+										1
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
