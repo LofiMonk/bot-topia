@@ -20,7 +20,7 @@ Check the [release](https://github.com/drewcifer/bot-topia/releases/latest) page
 ## Special Thanks
 
 
-Dr.Sonic, otakonz, [GS.Dev](https://github.com/gsdev215), freeHellfire, kradarak
+Dr.Sonic, otakonz, [GS.Dev](https://github.com/gsdev215), [freeHellfire](https://github.com/FreedHellFire), kradarak
 
 
 This is an addon for Minecraft Bedrock made with [Bridge.](https://github.com/bridge-core/bridge.)
