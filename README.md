@@ -1,7 +1,6 @@
-<p align="center">
-    <a href="https://github.com/gsdev215/bot-topia/graphs/contributors" alt="Contributors">
-    </a>
-</p>
+[![Build Status](https://img.shields.io/github/stars/LofiMonk/bot-topia.svg)](https://github.com/LofiMonk/bot-topia)
+[![License](https://img.shields.io/github/license/LofiMonk/bot-topia.svg)](https://github.com/LofiMonk/bot-topia)
+[![Dependency Status](https://www.versioneye.com/user/projects/LofiMonk/bot-topia/badge.svg)](https://www.versioneye.com/user/projects/LofiMonk/bot-topia)
 # Bot-Topia
 
 current version is 1.0.12
