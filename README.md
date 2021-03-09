@@ -1,3 +1,6 @@
+<p align="center">
+    <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+        <img 
 # Bot-Topia
 
 current version is 1.0.12
