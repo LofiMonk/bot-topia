@@ -1,3 +1,6 @@
+[![Build Status](https://img.shields.io/github/stars/LofiMonk/bot-topia.svg)](https://github.com/LofiMonk/bot-topia)
+[![License](https://img.shields.io/github/license/LofiMonk/bot-topia.svg)](https://github.com/LofiMonk/bot-topia)
+[![Dependency Status](https://www.versioneye.com/user/projects/LofiMonk/bot-topia/badge.svg)](https://www.versioneye.com/user/projects/LofiMonk/bot-topia)
 # Bot-Topia
 
 current version is 1.0.12
@@ -20,7 +23,7 @@ Check the [release](https://github.com/drewcifer/bot-topia/releases/latest) page
 ## Special Thanks
 
 
-Dr.Sonic, otakonz, GS.Dev, freeHellfire, kradarak
+Dr.Sonic, otakonz, [GS.Dev](https://github.com/gsdev215), [freeHellfire](https://github.com/FreedHellFire), kradarak
 
 
 This is an addon for Minecraft Bedrock made with [Bridge.](https://github.com/bridge-core/bridge.)
