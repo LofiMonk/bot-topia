@@ -1,7 +1,12 @@
-[![Build Status](https://img.shields.io/github/stars/LofiMonk/bot-topia.svg)](https://github.com/LofiMonk/bot-topia)
-[![License](https://img.shields.io/github/license/LofiMonk/bot-topia.svg)](https://github.com/LofiMonk/bot-topia)
-[![Dependency Status](https://www.versioneye.com/user/projects/LofiMonk/bot-topia/badge.svg)](https://www.versioneye.com/user/projects/LofiMonk/bot-topia)
-# Bot-Topia
+![stars](https://img.shields.io/github/stars/LofiMonk/bot-topia?style=for-the-badge) 
+![activity](https://img.shields.io/github/commit-activity/y/LofiMonk/bot-topia?style=for-the-badge) 
+![version](https://img.shields.io/github/v/release/LofiMonk/bot-topia?style=for-the-badge)
+![file size](https://img.shields.io/github/repo-size/LofiMonk/bot-topia?style=for-the-badge)
+![license](https://img.shields.io/github/license/LofiMonk/bot-topia?style=for-the-badge) <br>
+
+[![discord](https://img.shields.io/discord/766333259466276874?color=%237C14AD&label=Discord&style=for-the-badge)](https://discord.gg/Rg27wUy)
+
+# Bot-Topia   [![downloads](https://img.shields.io/github/downloads/LofiMonk/bot-topia/latest/total?style=for-the-badge)](https://github.com/LofiMonk/bot-topia/releases)
 
 current version is 1.0.12
 
